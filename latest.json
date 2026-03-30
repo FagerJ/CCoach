@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-03-30T22:25:54.049502",
+    "last_updated": "2026-03-30T23:01:46.302214",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.95"
@@ -128,9 +128,11 @@
     "alarm_refs": []
   },
   "history": {
-    "available": false,
-    "history_confidence": "low",
-    "note": "No history.json available. Longitudinal analysis limited to current 28-day window."
+    "available": true,
+    "last_generated": "2026-03-30",
+    "age_days": 0,
+    "total_months": 34,
+    "history_confidence": "high"
   },
   "summary": {
     "period_description": "Last 7 days of training (including today)",
@@ -542,12 +544,14 @@
     },
     "phase_detection": {
       "phase": "Build",
-      "confidence": "medium",
-      "reason_codes": [],
+      "confidence": "low",
+      "reason_codes": [
+        "BUILD_RESUMING_AFTER_DELOAD_TENTATIVE"
+      ],
       "basis": {
         "stream_1": {
-          "ctl_slope": null,
-          "acwr_trend": null,
+          "ctl_slope": 0.95,
+          "acwr_trend": "falling",
           "hard_day_pattern": 2.5,
           "weeks_available": 4
         },
@@ -562,13 +566,15 @@
         "data_quality": "good",
         "stream_agreement": null
       },
-      "previous_phase": null,
+      "previous_phase": "Deload",
       "phase_duration_weeks": 1,
       "dossier_declared": null,
       "dossier_agreement": null
     },
     "phase_detected": "Build",
-    "phase_triggers": [],
+    "phase_triggers": [
+      "BUILD_RESUMING_AFTER_DELOAD_TENTATIVE"
+    ],
     "seasonal_context": "Late Base / Build",
     "benchmark_indoor": {
       "current_ftp": 273,
@@ -590,7 +596,7 @@
     "p_max": 1330,
     "power_model_source": "wellness.sportInfo",
     "vo2max": 52.0,
-    "calculation_timestamp": "2026-03-30T22:25:52.698826",
+    "calculation_timestamp": "2026-03-30T23:01:46.300746",
     "data_quality": {
       "hrv_data_points": 3,
       "rhr_data_points": 5,
