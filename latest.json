@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-04-03T10:01:14.783817",
+    "last_updated": "2026-04-03T11:01:50.454857",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.95"
@@ -225,7 +225,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 21116,
+      "steps": 22062,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -601,7 +601,7 @@
     "p_max": 1325,
     "power_model_source": "wellness.sportInfo",
     "vo2max": 52.0,
-    "calculation_timestamp": "2026-04-03T10:01:14.407614",
+    "calculation_timestamp": "2026-04-03T11:01:50.453387",
     "data_quality": {
       "hrv_data_points": 1,
       "rhr_data_points": 4,
@@ -658,7 +658,8 @@
           "z7_time": 0
         }
       },
-      "has_intervals": true
+      "has_intervals": true,
+      "description": "Otroligt osugen p\u00e5 att ta ett varv till!"
     },
     {
       "id": "i136691879",
@@ -2085,7 +2086,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 21116,
+      "steps": 22062,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
