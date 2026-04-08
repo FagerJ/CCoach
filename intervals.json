@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-08T06:54:54.292357",
+  "generated_at": "2026-04-08T08:06:43.297521",
   "version": "3.95",
   "script_hash": "ec09283a7a09",
   "scan_hours": 72,
@@ -587,6 +587,32 @@
           "zone": 1,
           "training_load": 6.1989946,
           "decoupling": -38.072224
+        }
+      ]
+    },
+    {
+      "activity_id": "i138024331",
+      "date": "2026-04-08",
+      "type": "Ride",
+      "name": "Morgonpendling",
+      "interval_summary": [
+        "1x 1h 146bpm"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "3609s@146bpm",
+          "duration_secs": 3609,
+          "avg_hr": 146,
+          "max_hr": 168,
+          "zone": 1
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 1,
+          "avg_hr": 119,
+          "max_hr": 119,
+          "zone": 1
         }
       ]
     }
