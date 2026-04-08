@@ -1,38 +1,10 @@
 {
-  "generated_at": "2026-04-07T23:32:45.041978",
+  "generated_at": "2026-04-08T00:06:57.317489",
   "version": "3.95",
   "script_hash": "ec09283a7a09",
   "scan_hours": 72,
   "retention_days": 8,
   "activities": [
-    {
-      "activity_id": "i135983891",
-      "date": "2026-03-30",
-      "type": "Run",
-      "name": "Kungsbacka Running",
-      "interval_summary": [
-        "1x 31m9s 5:26"
-      ],
-      "intervals": [
-        {
-          "type": "WORK",
-          "label": "1869s@148bpm78rpm",
-          "duration_secs": 1869,
-          "avg_hr": 148,
-          "max_hr": 164,
-          "avg_cadence": 78.48383,
-          "zone": 1
-        },
-        {
-          "type": "RECOVERY",
-          "duration_secs": 4,
-          "avg_hr": 159,
-          "max_hr": 160,
-          "avg_cadence": 79.0,
-          "zone": 2
-        }
-      ]
-    },
     {
       "activity_id": "i136691879",
       "date": "2026-04-02",
