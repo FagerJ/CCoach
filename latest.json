@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-04-12T11:53:33.718571",
+    "last_updated": "2026-04-12T12:38:07.841042",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.95"
@@ -606,7 +606,7 @@
     "p_max": 1318,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-04-12T11:53:33.407432",
+    "calculation_timestamp": "2026-04-12T12:38:07.839703",
     "data_quality": {
       "hrv_data_points": 1,
       "rhr_data_points": 2,
@@ -624,7 +624,7 @@
       "id": "i139122347",
       "date": "2026-04-12T11:48:29",
       "type": "VirtualRide",
-      "name": "SRC March #3",
+      "name": "SRC - Men Qualifier Race 2. Got dropped \ud83d\ude2d",
       "duration_hours": 1.55,
       "distance_km": 60.42,
       "tss": 170,
@@ -672,7 +672,8 @@
           "z7_time": 1264
         }
       },
-      "has_intervals": true
+      "has_intervals": true,
+      "description": "Tough! Fun! But tough!"
     },
     {
       "id": "i138163863",
