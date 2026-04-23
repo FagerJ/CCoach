@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-04-23T20:36:31.470546",
+    "last_updated": "2026-04-23T21:27:43.716738",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.95"
@@ -614,7 +614,7 @@
     "p_max": 1305,
     "power_model_source": "wellness.sportInfo",
     "vo2max": 52.0,
-    "calculation_timestamp": "2026-04-23T20:36:31.045290",
+    "calculation_timestamp": "2026-04-23T21:27:43.715363",
     "data_quality": {
       "hrv_data_points": 3,
       "rhr_data_points": 5,
@@ -671,7 +671,8 @@
           "z7_time": 0
         }
       },
-      "has_intervals": true
+      "has_intervals": true,
+      "description": "Hade jag vetat hur n\u00e4ra pers jag va s\u00e5 hade jag tagit i. Tog redan i. Men mer.\n\n-- Intervals icu --\nWind: NW 5 - 6 km/h Gusts 10 - 16\nHeadwind: 44% 19m7s\nTailwind: 40% 17m25s\nTemp: 9.0 to 10.1 \u00b0C avg 9.7\nFeels like: 7.3 to 8.2 \u00b0C avg 7.8\nClouds: 5%"
     },
     {
       "id": "i142255045",
