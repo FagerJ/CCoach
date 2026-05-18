@@ -1,49 +1,10 @@
 {
-  "generated_at": "2026-05-17T23:39:22.197580",
+  "generated_at": "2026-05-18T01:33:15.107409",
   "version": "3.95",
   "script_hash": "ec09283a7a09",
   "scan_hours": 72,
   "retention_days": 8,
   "activities": [
-    {
-      "activity_id": "i146765709",
-      "date": "2026-05-09",
-      "type": "Run",
-      "name": "Copenhagen Running",
-      "interval_summary": [
-        "2x 5m27s 5:25",
-        "1x 2m25s 4:52"
-      ],
-      "intervals": [
-        {
-          "type": "WORK",
-          "label": "327s@133bpm77rpm",
-          "duration_secs": 314,
-          "avg_hr": 130,
-          "max_hr": 144,
-          "avg_cadence": 77.42357,
-          "zone": 1
-        },
-        {
-          "type": "WORK",
-          "label": "327s@133bpm77rpm",
-          "duration_secs": 340,
-          "avg_hr": 136,
-          "max_hr": 144,
-          "avg_cadence": 77.26765,
-          "zone": 1
-        },
-        {
-          "type": "WORK",
-          "label": "145s@142bpm77rpm",
-          "duration_secs": 145,
-          "avg_hr": 142,
-          "max_hr": 146,
-          "avg_cadence": 77.33103,
-          "zone": 1
-        }
-      ]
-    },
     {
       "activity_id": "i146968936",
       "date": "2026-05-10",
