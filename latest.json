@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-05-21T17:09:06.668863",
+    "last_updated": "2026-05-21T19:15:21.477756",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.95"
@@ -189,7 +189,7 @@
       "atl": 26.08,
       "tsb": 16.7,
       "ramp_rate": -3.7,
-      "fitness_source": "From Intervals.icu API (reflects completed workouts)"
+      "fitness_source": "Decayed from yesterday (today's planned workouts not yet completed)"
     },
     "thresholds": {
       "eftp": 278.4,
@@ -559,12 +559,13 @@
     },
     "consistency_index": 0.0,
     "consistency_details": {
-      "planned_days": 2,
+      "planned_days": 3,
       "completed_days": 0,
       "matched_days": 0,
       "planned_dates": [
         "2026-05-17",
-        "2026-05-18"
+        "2026-05-18",
+        "2026-05-21"
       ],
       "completed_dates": []
     },
@@ -583,10 +584,10 @@
         },
         "stream_2": {
           "planned_tss_delta": null,
-          "hard_sessions_planned": 1,
+          "hard_sessions_planned": 2,
           "race_proximity": 3,
           "next_week_load": null,
-          "plan_coverage_current_week": 0.4,
+          "plan_coverage_current_week": 0.6,
           "plan_coverage_next_week": 1.0
         },
         "data_quality": "good",
@@ -622,13 +623,13 @@
     "p_max": 1274,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-05-21T17:09:06.667577",
+    "calculation_timestamp": "2026-05-21T19:15:21.476500",
     "data_quality": {
       "hrv_data_points": 3,
       "rhr_data_points": 5,
       "activities_7d": 5,
       "activities_28d": 8,
-      "planned_workouts_7d": 5,
+      "planned_workouts_7d": 6,
       "ftp_history_days": {
         "indoor": 0,
         "outdoor": 0
@@ -1245,6 +1246,19 @@
   ],
   "planned_workouts": [
     {
+      "id": 111579908,
+      "date": "2026-05-21",
+      "name": "Low Cadence Intervals",
+      "type": "WORKOUT",
+      "sport_type": "VirtualRide",
+      "planned_tss": 70,
+      "duration_hours": 1.14,
+      "duration_formatted": "1h8m30s",
+      "workout_summary": "10m @184W | 3\u00d730s @313W / 1m rec | 8m @232W | 4m @184W | 8m @229W | 4m @184W | 8m @240W | 4m @184W | 8m @232W | 10m @184W",
+      "has_terrain": false,
+      "description": "-10m warmup ramp 60-75%\n\n3x\n-30s 115%\n-60s 50%\n\n\n- 8m 85% 55-65rpm\n-4m ramp 65-70%\n- 8m 84% 50-60rpm\n-4m ramp 65-70%\n- 8m 88% 55-65rpm\n-4m ramp 65-70%\n- 8m 85% 50-60rpm\n\n-10m ramp 75-60%"
+    },
+    {
       "id": 85965051,
       "date": "2026-05-24",
       "name": "G\u00f6teborgsvarvet Half Marathon",
@@ -1545,9 +1559,9 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 1,
-    "success": 0,
-    "patternA": 0,
+    "attempted": 2,
+    "success": 1,
+    "patternA": 1,
     "patternB": 0,
     "bail_no_workout_doc": 3,
     "bail_no_match": 1
