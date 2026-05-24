@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-05-24T04:36:25.019202",
+    "last_updated": "2026-05-24T07:39:35.633753",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.95"
@@ -604,7 +604,7 @@
     "p_max": 1273,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-05-24T04:36:25.017989",
+    "calculation_timestamp": "2026-05-24T07:39:35.632432",
     "data_quality": {
       "hrv_data_points": 2,
       "rhr_data_points": 5,
@@ -661,7 +661,8 @@
           "z7_time": 0
         }
       },
-      "has_intervals": true
+      "has_intervals": true,
+      "description": "Gick ut som hare f\u00f6r 1:45 med Julia Arheden och Niklas Thedin  i sl\u00e4pt\u00e5g.\nSk\u00f6nt v\u00e4der, trevligt s\u00e4llskap och v\u00e4ldigt mycket b\u00e4ttre k\u00e4nsla \u00e4n f\u00f6rra \u00e5ret. Blev aldrig \u201dj\u00e4ttejobbigt\u201d bara lagom!\nF\u00f6rs\u00f6kte trycka p\u00e5 lite uppf\u00f6r avenyn och vidare n\u00e4r jag f\u00f6rstod att jag \u00e4nd\u00e5 hade en hypotetisk chans till PB, men det va lite f\u00f6r sent in i loppet f\u00f6r att kunna plocka 3 minuter!\n\nKul!\n\n-- Intervals icu --\nWind: SSW 20 - 22 km/h Gusts 40 - 44\nHeadwind: 32% 33m10s\nTailwind: 35% 36m32s\nRain: 0.4 mm/h\nTemp: 17.0 to 19.7\u00b0C  avg 18.7\nFeels like: 15.6 to 17.6\u00b0C  avg 16.8\nClouds: 100%"
     },
     {
       "id": "i150413698",
