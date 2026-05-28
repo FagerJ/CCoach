@@ -1,67 +1,10 @@
 {
-  "generated_at": "2026-05-27T23:09:11.547764",
+  "generated_at": "2026-05-28T00:11:59.981826",
   "version": "3.95",
   "script_hash": "ec09283a7a09",
   "scan_hours": 72,
   "retention_days": 8,
   "activities": [
-    {
-      "activity_id": "i149814196",
-      "date": "2026-05-19",
-      "type": "Run",
-      "name": "5km med en tr\u00f6tt Harry \ud83d\udc36",
-      "interval_summary": [
-        "1x 5m17s 5:10",
-        "4x 5m25s 5:23"
-      ],
-      "intervals": [
-        {
-          "type": "WORK",
-          "label": "317s@133bpm74rpm",
-          "duration_secs": 317,
-          "avg_hr": 133,
-          "max_hr": 150,
-          "avg_cadence": 74.19231,
-          "zone": 1
-        },
-        {
-          "type": "WORK",
-          "label": "325s@162bpm78rpm",
-          "duration_secs": 334,
-          "avg_hr": 156,
-          "max_hr": 165,
-          "avg_cadence": 76.07622,
-          "zone": 2
-        },
-        {
-          "type": "WORK",
-          "label": "325s@162bpm78rpm",
-          "duration_secs": 319,
-          "avg_hr": 162,
-          "max_hr": 169,
-          "avg_cadence": 78.90221,
-          "zone": 2
-        },
-        {
-          "type": "WORK",
-          "label": "325s@162bpm78rpm",
-          "duration_secs": 319,
-          "avg_hr": 164,
-          "max_hr": 169,
-          "avg_cadence": 79.1536,
-          "zone": 2
-        },
-        {
-          "type": "WORK",
-          "label": "325s@162bpm78rpm",
-          "duration_secs": 327,
-          "avg_hr": 166,
-          "max_hr": 171,
-          "avg_cadence": 78.86544,
-          "zone": 3
-        }
-      ]
-    },
     {
       "activity_id": "i150413698",
       "date": "2026-05-21",
