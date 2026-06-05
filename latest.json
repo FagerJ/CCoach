@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-06-05T16:16:58.330989",
+    "last_updated": "2026-06-05T18:19:21.118022",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.95"
@@ -249,7 +249,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 2247,
+      "steps": 3775,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -623,7 +623,7 @@
     "p_max": 1263,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-06-05T16:16:58.118979",
+    "calculation_timestamp": "2026-06-05T18:19:21.116426",
     "data_quality": {
       "hrv_data_points": 0,
       "rhr_data_points": 5,
@@ -689,7 +689,8 @@
           "z7_time": 394
         }
       },
-      "has_intervals": true
+      "has_intervals": true,
+      "description": "-- Intervals icu --\nWind: SSW 13 - 20 km/h Gusts 35 - 42\nHeadwind: 79% 45m10s\nTailwind: 4% 2m26s\nRain: 0.4 mm/h\nTemp: 16.9 to 18.8\u00b0C  avg 17.9\nFeels like: 15.7 to 17.9\u00b0C  avg 16.6\nClouds: 71%"
     },
     {
       "id": "i154491957",
@@ -1658,7 +1659,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 2247,
+      "steps": 3775,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
