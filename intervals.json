@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-06T15:38:30.608141",
+  "generated_at": "2026-06-06T16:44:56.551658",
   "version": "3.95",
   "script_hash": "ec09283a7a09",
   "scan_hours": 72,
@@ -2147,6 +2147,25 @@
           "zone": 1,
           "training_load": 1.3532987,
           "decoupling": 100.0
+        }
+      ]
+    },
+    {
+      "activity_id": "i154841327",
+      "date": "2026-06-06",
+      "type": "Ride",
+      "name": "Kungsbacka Cycling",
+      "interval_summary": [
+        "1x 1h19m 148bpm"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "4774s@148bpm",
+          "duration_secs": 4774,
+          "avg_hr": 148,
+          "max_hr": 174,
+          "zone": 2
         }
       ]
     }
