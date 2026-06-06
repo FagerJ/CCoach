@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-06T16:44:56.551658",
+  "generated_at": "2026-06-06T17:49:11.481675",
   "version": "3.95",
   "script_hash": "ec09283a7a09",
   "scan_hours": 72,
@@ -2166,6 +2166,74 @@
           "avg_hr": 148,
           "max_hr": 174,
           "zone": 2
+        }
+      ]
+    },
+    {
+      "activity_id": "i154859011",
+      "date": "2026-06-06",
+      "type": "Run",
+      "name": "Kungsbacka Running",
+      "interval_summary": [
+        "1x 5m5s 5:04",
+        "3x 5m31s 5:18",
+        "1x 18m43s 5:03",
+        "1x 1m41s 6:39"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "305s@145bpm81rpm",
+          "duration_secs": 305,
+          "avg_hr": 145,
+          "max_hr": 153,
+          "avg_cadence": 81.20328,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "331s@166bpm79rpm",
+          "duration_secs": 338,
+          "avg_hr": 162,
+          "max_hr": 173,
+          "avg_cadence": 79.78878,
+          "zone": 2
+        },
+        {
+          "type": "WORK",
+          "label": "331s@166bpm79rpm",
+          "duration_secs": 321,
+          "avg_hr": 163,
+          "max_hr": 170,
+          "avg_cadence": 77.021805,
+          "zone": 2
+        },
+        {
+          "type": "WORK",
+          "label": "1123s@158bpm81rpm",
+          "duration_secs": 1123,
+          "avg_hr": 158,
+          "max_hr": 169,
+          "avg_cadence": 81.35526,
+          "zone": 2
+        },
+        {
+          "type": "WORK",
+          "label": "331s@166bpm79rpm",
+          "duration_secs": 334,
+          "avg_hr": 172,
+          "max_hr": 189,
+          "avg_cadence": 79.70958,
+          "zone": 4
+        },
+        {
+          "type": "WORK",
+          "label": "101s@180bpm71rpm",
+          "duration_secs": 101,
+          "avg_hr": 180,
+          "max_hr": 186,
+          "avg_cadence": 71.29703,
+          "zone": 4
         }
       ]
     }
