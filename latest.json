@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-06-17T06:49:01.394462",
+    "last_updated": "2026-06-17T11:26:46.755363",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.95"
@@ -99,7 +99,7 @@
       "rhr": {
         "status": "unavailable",
         "value": null,
-        "baseline_7d": null,
+        "baseline_7d": 55,
         "delta_bpm": null
       },
       "sleep": {
@@ -207,7 +207,7 @@
     },
     "current_metrics": {
       "weight_kg": 77.8,
-      "resting_hr": 53,
+      "resting_hr": 55,
       "hrv": null,
       "sleep_quality": null,
       "sleep_hours": null,
@@ -243,9 +243,9 @@
   "derived_metrics": {
     "recovery_index": null,
     "hrv_baseline_7d": null,
-    "rhr_baseline_7d": null,
+    "rhr_baseline_7d": 55,
     "hrv_baseline_28d": 82.4,
-    "rhr_baseline_28d": 53,
+    "rhr_baseline_28d": 53.1,
     "latest_hrv": null,
     "latest_rhr": null,
     "acwr": 0.22,
@@ -604,10 +604,10 @@
     "p_max": 1257,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-06-17T06:49:01.393057",
+    "calculation_timestamp": "2026-06-17T11:26:46.753940",
     "data_quality": {
       "hrv_data_points": 0,
-      "rhr_data_points": 0,
+      "rhr_data_points": 1,
       "activities_7d": 3,
       "activities_28d": 17,
       "planned_workouts_7d": 4,
@@ -1465,7 +1465,7 @@
     {
       "date": "2026-06-12",
       "weight_kg": null,
-      "resting_hr": null,
+      "resting_hr": 55,
       "hrv_rmssd": null,
       "hrv_sdnn": null,
       "sleep_hours": null,
@@ -1491,7 +1491,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": null,
+      "steps": 4765,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -1986,7 +1986,7 @@
     "total_tss": 55,
     "activities_count": 3,
     "avg_hrv": null,
-    "avg_resting_hr": null
+    "avg_resting_hr": 55.0
   },
   "race_calendar": {
     "next_race": {
