@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-06-20T19:53:44.891574",
+    "last_updated": "2026-06-20T21:03:24.135317",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.95"
@@ -596,7 +596,7 @@
     "p_max": 1253,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-06-20T19:53:44.890201",
+    "calculation_timestamp": "2026-06-20T21:03:24.133971",
     "data_quality": {
       "hrv_data_points": 0,
       "rhr_data_points": 2,
@@ -640,8 +640,8 @@
       "efficiency_factor": 1.3835616,
       "hrrc": null,
       "elevation_m": 640.2,
-      "feel": null,
-      "rpe": null,
+      "feel": 3,
+      "rpe": 7,
       "zone_distribution": {
         "hr_zones": {
           "z1_time": 1729,
@@ -662,7 +662,10 @@
           "z7_time": 0
         }
       },
-      "has_intervals": true
+      "has_intervals": true,
+      "chat_notes": [
+        "Rectal Temp\nStart: 37.1\nWarmup: 38.0\nAfter 2 intervals (40m): 38.3\n52 min: 38.4\nDid 2 more intervals, finishing at 38.5. Then sauna. Did not exceed 38.5"
+      ]
     },
     {
       "id": "i158542454",
@@ -708,7 +711,10 @@
         }
       },
       "has_intervals": true,
-      "description": "Han orkade lite l\u00e4ngre idag!\nUtan koppel dessutom, sprang s\u00e5 fint vid min sida :)\n\n-- Intervals icu --\nWind: S 8 - 11 km/h Gusts 21 - 25\nHeadwind: 19% 6m40s\nTailwind: 22% 7m53s\nTemp: 18.5 to 19.8\u00b0C  avg 19.4\nFeels like: 18.1 to 19.4\u00b0C  avg 18.9\nClouds: 45%"
+      "description": "Han orkade lite l\u00e4ngre idag!\nUtan koppel dessutom, sprang s\u00e5 fint vid min sida :)\n\n-- Intervals icu --\nWind: S 8 - 11 km/h Gusts 21 - 25\nHeadwind: 19% 6m40s\nTailwind: 22% 7m53s\nTemp: 18.5 to 19.8\u00b0C  avg 19.4\nFeels like: 18.1 to 19.4\u00b0C  avg 18.9\nClouds: 45%",
+      "chat_notes": [
+        "(deleted)"
+      ]
     },
     {
       "id": "i158183460",
