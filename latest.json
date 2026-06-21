@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-06-21T16:20:03.715223",
+    "last_updated": "2026-06-21T18:00:16.579921",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.95"
@@ -576,9 +576,9 @@
           "planned_tss_delta": 3.31,
           "hard_sessions_planned": 0,
           "race_proximity": 63,
-          "next_week_load": 1.6,
+          "next_week_load": 1.56,
           "plan_coverage_current_week": 0.2,
-          "plan_coverage_next_week": 4.0
+          "plan_coverage_next_week": 3.2
         },
         "data_quality": "good",
         "stream_agreement": null
@@ -613,7 +613,7 @@
     "p_max": 1253,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-06-21T16:20:03.713668",
+    "calculation_timestamp": "2026-06-21T18:00:16.578450",
     "data_quality": {
       "hrv_data_points": 0,
       "rhr_data_points": 2,
@@ -1890,58 +1890,6 @@
       "description": "-90m z4-z6"
     },
     {
-      "id": 97072554,
-      "date": "2026-06-22",
-      "name": "Weekly",
-      "type": "TARGET",
-      "sport_type": "Ride",
-      "planned_tss": null,
-      "duration_hours": 0.0,
-      "duration_formatted": "0s",
-      "workout_summary": null,
-      "has_terrain": false,
-      "description": ""
-    },
-    {
-      "id": 97072579,
-      "date": "2026-06-22",
-      "name": "Weekly",
-      "type": "TARGET",
-      "sport_type": "Run",
-      "planned_tss": null,
-      "duration_hours": 0.0,
-      "duration_formatted": "0s",
-      "workout_summary": null,
-      "has_terrain": false,
-      "description": ""
-    },
-    {
-      "id": 97072604,
-      "date": "2026-06-22",
-      "name": "Weekly",
-      "type": "TARGET",
-      "sport_type": "Swim",
-      "planned_tss": null,
-      "duration_hours": 0.0,
-      "duration_formatted": "0s",
-      "workout_summary": null,
-      "has_terrain": false,
-      "description": ""
-    },
-    {
-      "id": 97072619,
-      "date": "2026-06-22",
-      "name": "Recovery Week",
-      "type": "NOTE",
-      "sport_type": null,
-      "planned_tss": null,
-      "duration_hours": 0.0,
-      "duration_formatted": "0s",
-      "workout_summary": null,
-      "has_terrain": false,
-      "description": "Focus on easier efforts, reduced volume, and allowing your body to adapt to training stress (Ride, Run, Swim)"
-    },
-    {
       "id": 117549880,
       "date": "2026-06-22",
       "name": "Commute to work 08:00 - RECOVERY pace (easy!)",
@@ -2093,20 +2041,8 @@
       "duration_formatted": "1h5m",
       "workout_summary": null,
       "has_terrain": false,
+      "start_time": "07:00",
       "description": "easy, LEASHED - no Icarus\n\n- 65m 70-80% HR"
-    },
-    {
-      "id": 117548142,
-      "date": "2026-06-26",
-      "name": "Strength A - Squat 4x5 + RDL + Lunge + shoulder rehab",
-      "type": "WORKOUT",
-      "sport_type": "WeightTraining",
-      "planned_tss": null,
-      "duration_hours": 0.67,
-      "duration_formatted": "40m",
-      "workout_summary": null,
-      "has_terrain": false,
-      "description": ""
     },
     {
       "id": 117548141,
@@ -2123,6 +2059,20 @@
       "description": "- 400mtr easy\n- 600mtr steady\n- 400mtr drills\n- 200mtr easy"
     },
     {
+      "id": 117548142,
+      "date": "2026-06-26",
+      "name": "Strength A - Squat 4x5 + RDL + Lunge + shoulder rehab",
+      "type": "WORKOUT",
+      "sport_type": "WeightTraining",
+      "planned_tss": null,
+      "duration_hours": 0.67,
+      "duration_formatted": "40m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "17:00",
+      "description": ""
+    },
+    {
       "id": 117548143,
       "date": "2026-06-27",
       "name": "Long Endurance (TT position) - FUEL PRACTICE 80-100g/h",
@@ -2133,6 +2083,7 @@
       "duration_formatted": "2h",
       "workout_summary": null,
       "has_terrain": false,
+      "start_time": "09:00",
       "indoor": true,
       "description": "- 10m ramp 50%-65%\n- 100m 65-75%\n- 10m 60%"
     },
@@ -2147,6 +2098,7 @@
       "duration_formatted": "15m",
       "workout_summary": null,
       "has_terrain": false,
+      "start_time": "11:15",
       "description": "- 15m 72-80% HR"
     },
     {
@@ -2155,13 +2107,14 @@
       "name": "SRC June #4 (RACE) - FUEL 2x Maurten 320 (160g)",
       "type": "WORKOUT",
       "sport_type": "VirtualRide",
-      "planned_tss": 150,
-      "duration_hours": 1.92,
-      "duration_formatted": "1h55m",
+      "planned_tss": 137,
+      "duration_hours": 1.5,
+      "duration_formatted": "1h30m",
       "workout_summary": null,
       "has_terrain": false,
+      "start_time": "11:47",
       "indoor": true,
-      "description": ""
+      "description": "-90m z4"
     },
     {
       "id": 97072555,
@@ -2373,12 +2326,12 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 15,
+    "attempted": 16,
     "success": 1,
     "patternA": 1,
     "patternB": 0,
-    "bail_no_workout_doc": 2,
-    "bail_no_match": 14
+    "bail_no_workout_doc": 1,
+    "bail_no_match": 15
   },
   "weekly_summary": {
     "total_training_hours": 5.98,
