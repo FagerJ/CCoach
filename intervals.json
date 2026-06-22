@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-22T14:24:47.501628",
+  "generated_at": "2026-06-22T18:30:29.704312",
   "version": "3.95",
   "script_hash": "ec09283a7a09",
   "scan_hours": 72,
@@ -1996,6 +1996,25 @@
           "zone": 2,
           "training_load": 9.542744,
           "decoupling": 2.6203437
+        }
+      ]
+    },
+    {
+      "activity_id": "i159438063",
+      "date": "2026-06-22",
+      "type": "Ride",
+      "name": "Commute home 16:30 - RECOVERY pace (easy!)",
+      "interval_summary": [
+        "1x 59m32s 139bpm"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "3572s@139bpm",
+          "duration_secs": 3572,
+          "avg_hr": 139,
+          "max_hr": 171,
+          "zone": 1
         }
       ]
     }
