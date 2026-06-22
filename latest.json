@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-06-22T18:30:29.842048",
+    "last_updated": "2026-06-22T21:22:20.465159",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.95"
@@ -583,8 +583,8 @@
           "hard_sessions_planned": 2,
           "race_proximity": 62,
           "next_week_load": null,
-          "plan_coverage_current_week": 3.2,
-          "plan_coverage_next_week": 0.6
+          "plan_coverage_current_week": 4.0,
+          "plan_coverage_next_week": 0.8
         },
         "data_quality": "good",
         "stream_agreement": null
@@ -617,7 +617,7 @@
     "p_max": 1253,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-06-22T18:30:29.703195",
+    "calculation_timestamp": "2026-06-22T21:22:20.463579",
     "data_quality": {
       "hrv_data_points": 0,
       "rhr_data_points": 5,
@@ -2040,6 +2040,20 @@
       "description": "- 15m ramp 50%-65%\n- 50m 65-75%\n\n4x\n- 30s 105%\n- 2m30s 60%\n\n- 5m 50%"
     },
     {
+      "id": 117867154,
+      "date": "2026-06-23",
+      "name": "Heat: Sauna 15-20min (post-bike)",
+      "type": "WORKOUT",
+      "sport_type": "Other",
+      "planned_tss": null,
+      "duration_hours": 0.33,
+      "duration_formatted": "20m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "20:15",
+      "description": ""
+    },
+    {
       "id": 117549883,
       "date": "2026-06-24",
       "name": "Commute to work 08:00 (Z2 - fast section OK)",
@@ -2108,6 +2122,20 @@
       "has_terrain": false,
       "start_time": "16:30",
       "description": "- 28km 60-70%"
+    },
+    {
+      "id": 117867155,
+      "date": "2026-06-25",
+      "name": "Heat: Sauna 15-20min (post-session)",
+      "type": "WORKOUT",
+      "sport_type": "Other",
+      "planned_tss": null,
+      "duration_hours": 0.33,
+      "duration_formatted": "20m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "17:15",
+      "description": ""
     },
     {
       "id": 117548140,
@@ -2181,6 +2209,20 @@
       "description": "- 15m 72-80% HR"
     },
     {
+      "id": 117867156,
+      "date": "2026-06-27",
+      "name": "Heat: Sauna 15-20min (post-long ride)",
+      "type": "WORKOUT",
+      "sport_type": "Other",
+      "planned_tss": null,
+      "duration_hours": 0.33,
+      "duration_formatted": "20m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "12:00",
+      "description": ""
+    },
+    {
       "id": 117548145,
       "date": "2026-06-28",
       "name": "SRC June #4 (RACE) - FUEL 2x Maurten 320 (160g)",
@@ -2194,6 +2236,20 @@
       "start_time": "11:47",
       "indoor": true,
       "description": "-90m z4"
+    },
+    {
+      "id": 117867157,
+      "date": "2026-06-28",
+      "name": "Heat: Sauna 15-20min (post-SRC)",
+      "type": "WORKOUT",
+      "sport_type": "Other",
+      "planned_tss": null,
+      "duration_hours": 0.33,
+      "duration_formatted": "20m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "14:00",
+      "description": ""
     },
     {
       "id": 97072555,
@@ -2227,6 +2283,19 @@
       "name": "Weekly",
       "type": "TARGET",
       "sport_type": "Swim",
+      "planned_tss": null,
+      "duration_hours": 0.0,
+      "duration_formatted": "0s",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description": ""
+    },
+    {
+      "id": 117867159,
+      "date": "2026-06-29",
+      "name": "WEEK 2 -- Aerobic re-base + first over-unders | swim 3-4x, long-run build | ~10h",
+      "type": "NOTE",
+      "sport_type": null,
       "planned_tss": null,
       "duration_hours": 0.0,
       "duration_formatted": "0s",
@@ -2274,6 +2343,32 @@
       "description_preview": null
     },
     {
+      "id": 117867160,
+      "date": "2026-07-06",
+      "name": "WEEK 3 -- MyWhoosh CHAMPIONSHIP block (bike overload) | swim freq only, run easy | HEAT PEAK",
+      "type": "NOTE",
+      "sport_type": null,
+      "planned_tss": null,
+      "duration_hours": 0.0,
+      "duration_formatted": "0s",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": null
+    },
+    {
+      "id": 117867161,
+      "date": "2026-07-07",
+      "name": "MyWhoosh Championship (Jul 7-14) -- race hard",
+      "type": "NOTE",
+      "sport_type": null,
+      "planned_tss": null,
+      "duration_hours": 0.0,
+      "duration_formatted": "0s",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": null
+    },
+    {
       "id": 97072557,
       "date": "2026-07-13",
       "name": "Weekly",
@@ -2305,6 +2400,19 @@
       "name": "Weekly",
       "type": "TARGET",
       "sport_type": "Swim",
+      "planned_tss": null,
+      "duration_hours": 0.0,
+      "duration_formatted": "0s",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": null
+    },
+    {
+      "id": 117867162,
+      "date": "2026-07-13",
+      "name": "WEEK 4 -- Champs tail to absorb/recover | reintroduce run, technique swims | lighter",
+      "type": "NOTE",
+      "sport_type": null,
       "planned_tss": null,
       "duration_hours": 0.0,
       "duration_formatted": "0s",
@@ -2365,6 +2473,19 @@
       "description_preview": "Focus on easier efforts, reduced volume, and allowing your body to adapt to training stress (Ride, Run, Swim)"
     },
     {
+      "id": 117867163,
+      "date": "2026-07-20",
+      "name": "WEEK 5 -- 70.3 SPECIFICITY begins | first long BRICK, TT long ride, swim 1.5k, long run",
+      "type": "NOTE",
+      "sport_type": null,
+      "planned_tss": null,
+      "duration_hours": 0.0,
+      "duration_formatted": "0s",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": null
+    },
+    {
       "id": 97072559,
       "date": "2026-07-27",
       "name": "Weekly",
@@ -2396,6 +2517,19 @@
       "name": "Weekly",
       "type": "TARGET",
       "sport_type": "Swim",
+      "planned_tss": null,
+      "duration_hours": 0.0,
+      "duration_formatted": "0s",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": null
+    },
+    {
+      "id": 117867164,
+      "date": "2026-07-27",
+      "name": "WEEK 6 -- PEAK | big brick, longest TT ride, 1.9k cont. swim, long run | heat MAINTAIN",
+      "type": "NOTE",
+      "sport_type": null,
       "planned_tss": null,
       "duration_hours": 0.0,
       "duration_formatted": "0s",
@@ -2454,6 +2588,19 @@
       "workout_summary": null,
       "has_terrain": false,
       "description_preview": "Peak phase: race intensity, sharpening, taper"
+    },
+    {
+      "id": 117867165,
+      "date": "2026-08-03",
+      "name": "WEEK 7 -- Peak / sharpen | race-pace brick, race-sim swim, over-unders",
+      "type": "NOTE",
+      "sport_type": null,
+      "planned_tss": null,
+      "duration_hours": 0.0,
+      "duration_formatted": "0s",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": null
     }
   ],
   "workout_summary_stats": {
