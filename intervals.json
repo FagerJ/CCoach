@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-23T08:01:34.270420",
+  "generated_at": "2026-06-23T11:28:54.797033",
   "version": "3.95",
   "script_hash": "ec09283a7a09",
   "scan_hours": 72,
@@ -2015,6 +2015,91 @@
           "avg_hr": 139,
           "max_hr": 171,
           "zone": 1
+        }
+      ]
+    },
+    {
+      "activity_id": "i159613842",
+      "date": "2026-06-23",
+      "type": "Run",
+      "name": "Kungsbacka - Easy Dog Run with Harry (recover",
+      "interval_summary": [
+        "1x 5m2s 5:01",
+        "4x 5m46s 5:45",
+        "1x 7m35s 7:36",
+        "1x 8s 10:36"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "302s@135bpm79rpm",
+          "duration_secs": 302,
+          "avg_hr": 135,
+          "max_hr": 149,
+          "avg_cadence": 78.99669,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "346s@155bpm79rpm",
+          "duration_secs": 330,
+          "avg_hr": 155,
+          "max_hr": 161,
+          "avg_cadence": 78.276596,
+          "zone": 2
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 1,
+          "avg_hr": 157,
+          "max_hr": 157,
+          "avg_cadence": 78.0,
+          "zone": 2
+        },
+        {
+          "type": "WORK",
+          "label": "346s@155bpm79rpm",
+          "duration_secs": 340,
+          "avg_hr": 156,
+          "max_hr": 161,
+          "avg_cadence": 78.86176,
+          "zone": 2
+        },
+        {
+          "type": "WORK",
+          "label": "346s@155bpm79rpm",
+          "duration_secs": 359,
+          "avg_hr": 155,
+          "max_hr": 160,
+          "avg_cadence": 79.13092,
+          "zone": 2
+        },
+        {
+          "type": "WORK",
+          "label": "346s@155bpm79rpm",
+          "duration_secs": 354,
+          "avg_hr": 155,
+          "max_hr": 160,
+          "avg_cadence": 78.96328,
+          "zone": 2
+        },
+        {
+          "type": "WORK",
+          "label": "455s@155bpm73rpm",
+          "duration_secs": 455,
+          "avg_hr": 155,
+          "max_hr": 166,
+          "avg_cadence": 72.525276,
+          "zone": 2
+        },
+        {
+          "type": "WORK",
+          "label": "8s@157bpm76rpm",
+          "duration_secs": 8,
+          "avg_hr": 157,
+          "max_hr": 158,
+          "avg_cadence": 75.875,
+          "zone": 2
         }
       ]
     }
