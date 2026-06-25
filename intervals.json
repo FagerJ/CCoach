@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-25T06:19:08.346166",
+  "generated_at": "2026-06-25T09:49:12.178115",
   "version": "3.95",
   "script_hash": "ec09283a7a09",
   "scan_hours": 72,
@@ -1490,6 +1490,32 @@
           "avg_hr": 162,
           "max_hr": 162,
           "zone": 2
+        }
+      ]
+    },
+    {
+      "activity_id": "i160183588",
+      "date": "2026-06-25",
+      "type": "Ride",
+      "name": "Commute to work 08:00 (Z2 - fast section OK)",
+      "interval_summary": [
+        "1x 59m48s 134bpm"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "3588s@134bpm",
+          "duration_secs": 3588,
+          "avg_hr": 134,
+          "max_hr": 155,
+          "zone": 1
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 1,
+          "avg_hr": 109,
+          "max_hr": 109,
+          "zone": 1
         }
       ]
     }
