@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-06-26T12:31:02.592833",
+    "last_updated": "2026-06-26T15:15:06.470864",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.95"
@@ -180,10 +180,10 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 52.67,
-      "atl": 74.72,
-      "tsb": -22.05,
-      "ramp_rate": 7.64,
+      "ctl": 53.85,
+      "atl": 81.37,
+      "tsb": -27.52,
+      "ramp_rate": 8.82,
       "fitness_source": "From Intervals.icu API (reflects completed workouts)"
     },
     "thresholds": {
@@ -243,7 +243,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 10639,
+      "steps": 10656,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -582,17 +582,17 @@
       ],
       "basis": {
         "stream_1": {
-          "ctl_slope": 1.33,
+          "ctl_slope": 1.73,
           "acwr_trend": "falling",
           "hard_day_pattern": 2.5,
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 1.89,
+          "planned_tss_delta": 2.31,
           "hard_sessions_planned": 1,
           "race_proximity": 58,
           "next_week_load": null,
-          "plan_coverage_current_week": 1.8,
+          "plan_coverage_current_week": 1.6,
           "plan_coverage_next_week": 0.8
         },
         "data_quality": "good",
@@ -628,13 +628,13 @@
     "p_max": 1253,
     "power_model_source": "wellness.sportInfo",
     "vo2max": 51.0,
-    "calculation_timestamp": "2026-06-26T12:31:02.439500",
+    "calculation_timestamp": "2026-06-26T15:15:06.469446",
     "data_quality": {
       "hrv_data_points": 5,
       "rhr_data_points": 7,
       "activities_7d": 14,
       "activities_28d": 31,
-      "planned_workouts_7d": 15,
+      "planned_workouts_7d": 14,
       "ftp_history_days": {
         "indoor": 0,
         "outdoor": 0
@@ -2416,7 +2416,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 10639,
+      "steps": 10656,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -2428,6 +2428,32 @@
     }
   ],
   "planned_workouts": [
+    {
+      "id": 118800190,
+      "date": "2026-06-26",
+      "name": "Active Heat Training - layered, low power, hold 38.5-39C (NO fan)",
+      "type": "WORKOUT",
+      "sport_type": "VirtualRide",
+      "planned_tss": 50,
+      "duration_hours": 1.0,
+      "duration_formatted": "1h",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description": "- Warmup 20-25m: full layers, NO fan, drive core temp to 38.5C at easy Z1\n- Hold 30-40m at 38.5-39.0C: low power 130-150W. Temp is the work, not watts\n- Cap 39.5C - strip a layer if exceeded\n- Hydrate with electrolytes throughout; cut short if HR will not settle\n- NO sauna after - this is the full heat dose for today"
+    },
+    {
+      "id": 118800191,
+      "date": "2026-06-26",
+      "name": "Shoulder Mobility - Yoga + Stretch (gentle, pain-free ROM only)",
+      "type": "WORKOUT",
+      "sport_type": "Other",
+      "planned_tss": null,
+      "duration_hours": 0.33,
+      "duration_formatted": "20m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description": "- Gentle yoga flow + shoulder stretch, pain-free range only\n- Pendulum swings, light band pull-aparts, scap movement\n- No loaded or end-range work - this is mobility, not strength"
+    },
     {
       "id": 117548140,
       "date": "2026-06-26",
@@ -2441,48 +2467,6 @@
       "has_terrain": false,
       "start_time": "07:00",
       "description": "easy, LEASHED - no Icarus\n\n- 65m 70-80% HR"
-    },
-    {
-      "id": 117548141,
-      "date": "2026-06-26",
-      "name": "Swim #3 - Aerobic + drills",
-      "type": "WORKOUT",
-      "sport_type": "Swim",
-      "planned_tss": null,
-      "duration_hours": 0.67,
-      "duration_formatted": "40m21s",
-      "workout_summary": null,
-      "has_terrain": false,
-      "start_time": "12:30",
-      "description": "- 400mtr easy\n- 600mtr steady\n- 400mtr drills\n- 200mtr easy"
-    },
-    {
-      "id": 117548142,
-      "date": "2026-06-26",
-      "name": "Strength A - Squat 4x5 + RDL + Lunge + shoulder rehab",
-      "type": "WORKOUT",
-      "sport_type": "WeightTraining",
-      "planned_tss": null,
-      "duration_hours": 0.67,
-      "duration_formatted": "40m",
-      "workout_summary": null,
-      "has_terrain": false,
-      "start_time": "17:00",
-      "description": ""
-    },
-    {
-      "id": 117867155,
-      "date": "2026-06-26",
-      "name": "Heat: Sauna 15-20min (post-session)",
-      "type": "WORKOUT",
-      "sport_type": "Other",
-      "planned_tss": null,
-      "duration_hours": 0.33,
-      "duration_formatted": "20m",
-      "workout_summary": null,
-      "has_terrain": false,
-      "start_time": "17:15",
-      "description": ""
     },
     {
       "id": 117548143,
@@ -2909,12 +2893,12 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 5,
+    "attempted": 4,
     "success": 0,
     "patternA": 0,
     "patternB": 0,
-    "bail_no_workout_doc": 2,
-    "bail_no_match": 5
+    "bail_no_workout_doc": 4,
+    "bail_no_match": 4
   },
   "weekly_summary": {
     "total_training_hours": 12.55,
