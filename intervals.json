@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-03T07:36:58.017963",
+  "generated_at": "2026-07-03T10:16:44.294929",
   "version": "3.95",
   "script_hash": "ec09283a7a09",
   "scan_hours": 72,
@@ -1334,6 +1334,54 @@
           "max_hr": 164,
           "avg_cadence": 75.0,
           "zone": 2
+        }
+      ]
+    },
+    {
+      "activity_id": "i162323190",
+      "date": "2026-07-03",
+      "type": "Ride",
+      "name": "Commute home 16:30 + Openers (3x1min Z5)",
+      "interval_summary": [
+        "1x 11s 350w"
+      ],
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 2700,
+          "avg_power": 181,
+          "max_power": 467,
+          "avg_hr": 145,
+          "max_hr": 164,
+          "avg_cadence": 76.32241,
+          "zone": 1,
+          "training_load": 38.57693,
+          "decoupling": -0.7655293
+        },
+        {
+          "type": "WORK",
+          "label": "11s@350w85rpm",
+          "duration_secs": 11,
+          "avg_power": 350,
+          "max_power": 440,
+          "avg_hr": 154,
+          "max_hr": 156,
+          "avg_cadence": 84.818184,
+          "zone": 7,
+          "training_load": 0.24609175,
+          "decoupling": 29.458275
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 891,
+          "avg_power": 117,
+          "max_power": 477,
+          "avg_hr": 132,
+          "max_hr": 159,
+          "avg_cadence": 60.971188,
+          "zone": 1,
+          "training_load": 8.275087,
+          "decoupling": 4.464637
         }
       ]
     }
