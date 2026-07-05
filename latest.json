@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-07-05T05:27:54.839227",
+    "last_updated": "2026-07-05T08:24:18.571587",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.95"
@@ -117,14 +117,14 @@
       "unavailable": 4
     },
     "phase_context": {
-      "phase": "Build",
+      "phase": "Deload",
       "phase_week": 1,
-      "amber_threshold": 3,
-      "modifier_applied": "build_loosened"
+      "amber_threshold": 2,
+      "modifier_applied": "default"
     },
     "race_week_defers": false,
     "modification": null,
-    "reason": "P3 green light. 2 green, 0 amber (threshold 3), 0 red. Note: 4 signals unavailable \u2014 limited data.",
+    "reason": "P3 green light. 2 green, 0 amber (threshold 2), 0 red. Note: 4 signals unavailable \u2014 limited data.",
     "alarm_refs": []
   },
   "history": {
@@ -555,9 +555,11 @@
       ]
     },
     "phase_detection": {
-      "phase": "Build",
+      "phase": "Deload",
       "confidence": "high",
-      "reason_codes": [],
+      "reason_codes": [
+        "BUILD_HISTORY_REDUCED_LOAD_REBOUND_CONFIRMED"
+      ],
       "basis": {
         "stream_1": {
           "ctl_slope": 5.0,
@@ -566,23 +568,25 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 2.86,
-          "hard_sessions_planned": 1,
+          "planned_tss_delta": 0.27,
+          "hard_sessions_planned": 0,
           "race_proximity": 49,
-          "next_week_load": 2.24,
+          "next_week_load": 2.31,
           "plan_coverage_current_week": 0.2,
-          "plan_coverage_next_week": 2.2
+          "plan_coverage_next_week": 2.4
         },
         "data_quality": "good",
-        "stream_agreement": null
+        "stream_agreement": false
       },
       "previous_phase": null,
       "phase_duration_weeks": 1,
       "dossier_declared": null,
       "dossier_agreement": null
     },
-    "phase_detected": "Build",
-    "phase_triggers": [],
+    "phase_detected": "Deload",
+    "phase_triggers": [
+      "BUILD_HISTORY_REDUCED_LOAD_REBOUND_CONFIRMED"
+    ],
     "seasonal_context": "Peak Race Season",
     "benchmark_indoor": {
       "current_ftp": 273,
@@ -604,7 +608,7 @@
     "p_max": 1253,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-07-05T05:27:54.837795",
+    "calculation_timestamp": "2026-07-05T08:24:18.570131",
     "data_quality": {
       "hrv_data_points": 3,
       "rhr_data_points": 5,
@@ -2355,18 +2359,18 @@
   ],
   "planned_workouts": [
     {
-      "id": 119154435,
+      "id": 120609109,
       "date": "2026-07-05",
-      "name": "SRC July #1 (RACE) - FUEL 2x Maurten 320 (160g)",
+      "name": "OPTIONAL easy flush - 25min Z1 spin OR gentle swim (legs flat)",
       "type": "WORKOUT",
-      "sport_type": "VirtualRide",
-      "planned_tss": 160,
-      "duration_hours": 1.67,
-      "duration_formatted": "1h40m",
+      "sport_type": "Ride",
+      "planned_tss": 15,
+      "duration_hours": 0.42,
+      "duration_formatted": "25m",
       "workout_summary": null,
       "has_terrain": false,
-      "start_time": "11:45",
-      "description": "- Race. Fuel 2x Maurten 320 = 160g carbs; DRINK to thirst+ in the heat\n- Climbs: save matches early, fight to hold the wheel over the crest"
+      "start_time": "17:00",
+      "description": "- Legs are flat 2 days out - this is OPTIONAL\n- Either 25min Z1 flush spin OR a gentle shoulder swim\n- If you'd rather rest, rest. NO intensity, NO heat today"
     },
     {
       "id": 97072556,
@@ -2419,6 +2423,20 @@
       "workout_summary": null,
       "has_terrain": false,
       "description": ""
+    },
+    {
+      "id": 120609112,
+      "date": "2026-07-06",
+      "name": "Pre-MWC Primer - openers (35min)",
+      "type": "WORKOUT",
+      "sport_type": "VirtualRide",
+      "planned_tss": 30,
+      "duration_hours": 0.58,
+      "duration_formatted": "35m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "17:00",
+      "description": "- 10min easy build\n- 4x1min at race effort (MWC pace), 2min easy between\n- 3x15s fast sprints, full recovery\n- 10min easy spin down\n- Prime the legs; then carb-load, hydrate, early night"
     },
     {
       "id": 117867161,
@@ -2836,7 +2854,7 @@
     "success": 0,
     "patternA": 0,
     "patternB": 0,
-    "bail_no_workout_doc": 3,
+    "bail_no_workout_doc": 4,
     "bail_no_match": 7
   },
   "weekly_summary": {
