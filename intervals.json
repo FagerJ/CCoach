@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-07T07:51:49.104718",
+  "generated_at": "2026-07-07T10:44:31.152011",
   "version": "3.95",
   "script_hash": "ec09283a7a09",
   "scan_hours": 72,
@@ -1252,6 +1252,54 @@
           "zone": 1,
           "training_load": 1.5764319,
           "decoupling": -27.82695
+        }
+      ]
+    },
+    {
+      "activity_id": "i163454807",
+      "date": "2026-07-07",
+      "type": "VirtualRide",
+      "name": "MyWhoosh - Capital Circuit",
+      "interval_summary": [
+        "1x 12s 435w"
+      ],
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 91,
+          "avg_power": 129,
+          "max_power": 356,
+          "avg_hr": 115,
+          "max_hr": 127,
+          "avg_cadence": 74.42857,
+          "zone": 1,
+          "training_load": 0.4563831,
+          "decoupling": 6.9980597
+        },
+        {
+          "type": "WORK",
+          "label": "12s@435w70rpm",
+          "duration_secs": 12,
+          "avg_power": 435,
+          "max_power": 510,
+          "avg_hr": 126,
+          "max_hr": 134,
+          "avg_cadence": 70.25,
+          "zone": 7,
+          "training_load": 0.21060705,
+          "decoupling": 16.755766
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 384,
+          "avg_power": 101,
+          "max_power": 1020,
+          "avg_hr": 125,
+          "max_hr": 156,
+          "avg_cadence": 58.875,
+          "zone": 1,
+          "training_load": 4.4838386,
+          "decoupling": 12.424169
         }
       ]
     }
