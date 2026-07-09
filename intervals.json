@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-09T10:51:19.902290",
+  "generated_at": "2026-07-09T13:41:56.137077",
   "version": "3.95",
   "script_hash": "ec09283a7a09",
   "scan_hours": 72,
@@ -1751,6 +1751,80 @@
           "avg_cadence": 25.013514,
           "zone": 1,
           "training_load": 3.076783,
+          "decoupling": 100.0
+        }
+      ]
+    },
+    {
+      "activity_id": "i164179928",
+      "date": "2026-07-09",
+      "type": "VirtualRide",
+      "name": "MWC S3 - Hudayriat Rolling (66.6km/442m) ~155 TSS",
+      "interval_summary": [
+        "1x 12s 461w",
+        "1x 20s 725w"
+      ],
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 6375,
+          "avg_power": 249,
+          "max_power": 729,
+          "avg_hr": 164,
+          "max_hr": 180,
+          "avg_cadence": 82.6527,
+          "zone": 4,
+          "training_load": 173.21278,
+          "decoupling": -1.0873923
+        },
+        {
+          "type": "WORK",
+          "label": "12s@461w82rpm",
+          "duration_secs": 12,
+          "avg_power": 461,
+          "max_power": 580,
+          "avg_hr": 172,
+          "max_hr": 173,
+          "avg_cadence": 82.25,
+          "zone": 7,
+          "training_load": 0.34069958,
+          "decoupling": 30.858385
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 55,
+          "avg_power": 195,
+          "max_power": 390,
+          "avg_hr": 174,
+          "max_hr": 176,
+          "avg_cadence": 77.472725,
+          "zone": 2,
+          "training_load": 1.4071405,
+          "decoupling": -0.084114686
+        },
+        {
+          "type": "WORK",
+          "label": "20s@725w98rpm",
+          "duration_secs": 20,
+          "avg_power": 725,
+          "max_power": 1213,
+          "avg_hr": 172,
+          "max_hr": 176,
+          "avg_cadence": 98.25,
+          "zone": 7,
+          "training_load": 1.4960917,
+          "decoupling": 36.25355
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 67,
+          "avg_power": 3,
+          "max_power": 24,
+          "avg_hr": 166,
+          "max_hr": 178,
+          "avg_cadence": 24.731344,
+          "zone": 1,
+          "training_load": 2.9378881,
           "decoupling": 100.0
         }
       ]
