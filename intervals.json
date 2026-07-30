@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-30T18:11:16.701853",
+  "generated_at": "2026-07-30T19:48:46.432364",
   "version": "3.95",
   "script_hash": "ec09283a7a09",
   "scan_hours": 72,
@@ -869,6 +869,54 @@
           "avg_hr": 114,
           "max_hr": 144,
           "zone": 1
+        }
+      ]
+    },
+    {
+      "activity_id": "i170875584",
+      "date": "2026-07-30",
+      "type": "VirtualRide",
+      "name": "BIKE: Endurance 2h Z2 + fuel practice",
+      "interval_summary": [
+        "1x 89s 277w"
+      ],
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 1718,
+          "avg_power": 180,
+          "max_power": 269,
+          "avg_hr": 134,
+          "max_hr": 151,
+          "avg_cadence": 82.16763,
+          "zone": 1,
+          "training_load": 21.09988,
+          "decoupling": -2.2719378
+        },
+        {
+          "type": "WORK",
+          "label": "89s@277w88rpm",
+          "duration_secs": 89,
+          "avg_power": 277,
+          "max_power": 282,
+          "avg_hr": 152,
+          "max_hr": 160,
+          "avg_cadence": 88.24719,
+          "zone": 4,
+          "training_load": 2.0956273,
+          "decoupling": 5.473764
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 4811,
+          "avg_power": 206,
+          "max_power": 279,
+          "avg_hr": 154,
+          "max_hr": 175,
+          "avg_cadence": 82.16192,
+          "zone": 2,
+          "training_load": 72.1821,
+          "decoupling": 7.32221
         }
       ]
     }
