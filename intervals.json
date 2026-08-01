@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-01T10:54:04.545738",
+  "generated_at": "2026-08-01T11:55:12.899699",
   "version": "3.95",
   "script_hash": "ec09283a7a09",
   "scan_hours": 72,
@@ -642,6 +642,34 @@
           "zone": 2,
           "training_load": 72.1821,
           "decoupling": 7.32221
+        }
+      ]
+    },
+    {
+      "activity_id": "i171405519",
+      "date": "2026-08-01",
+      "type": "Ride",
+      "name": "LONG RIDE 75km + race-power blocks - FUEL 100g/h",
+      "interval_summary": [
+        "1x 43m36s 144bpm",
+        "1x 3h37m 146bpm"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "2616s@144bpm",
+          "duration_secs": 2616,
+          "avg_hr": 144,
+          "max_hr": 160,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "13051s@146bpm",
+          "duration_secs": 13051,
+          "avg_hr": 146,
+          "max_hr": 176,
+          "zone": 1
         }
       ]
     }
