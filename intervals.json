@@ -1,87 +1,10 @@
 {
-  "generated_at": "2026-07-31T23:31:30.632754",
+  "generated_at": "2026-08-01T01:11:25.498663",
   "version": "3.95",
   "script_hash": "ec09283a7a09",
   "scan_hours": 72,
   "retention_days": 8,
   "activities": [
-    {
-      "activity_id": "i168371079",
-      "date": "2026-07-23",
-      "type": "Swim",
-      "name": "Swim - SHOULDER TEST + technique (600-800m, NO paddles)",
-      "interval_summary": [
-        "1x 100m 1:56",
-        "2x 50m 2:07",
-        "1x 1900m 2:18"
-      ],
-      "intervals": [
-        {
-          "type": "WORK",
-          "label": "116s@118bpm21rpm",
-          "duration_secs": 116,
-          "avg_hr": 118,
-          "max_hr": 135,
-          "avg_cadence": 20.87931,
-          "zone": 1
-        },
-        {
-          "type": "RECOVERY",
-          "duration_secs": 45,
-          "avg_hr": 115,
-          "max_hr": 131,
-          "zone": 1
-        },
-        {
-          "type": "WORK",
-          "label": "64s@118bpm18rpm",
-          "duration_secs": 62,
-          "avg_hr": 116,
-          "max_hr": 131,
-          "avg_cadence": 19.67742,
-          "zone": 1
-        },
-        {
-          "type": "RECOVERY",
-          "duration_secs": 9,
-          "avg_hr": 127,
-          "max_hr": 130,
-          "zone": 1
-        },
-        {
-          "type": "WORK",
-          "label": "64s@118bpm18rpm",
-          "duration_secs": 65,
-          "avg_hr": 119,
-          "max_hr": 130,
-          "avg_cadence": 15.753846,
-          "zone": 1
-        },
-        {
-          "type": "RECOVERY",
-          "duration_secs": 82,
-          "avg_hr": 106,
-          "max_hr": 130,
-          "zone": 1
-        },
-        {
-          "type": "WORK",
-          "label": "2621s@135bpm21rpm",
-          "duration_secs": 2621,
-          "avg_hr": 135,
-          "max_hr": 152,
-          "avg_cadence": 21.233118,
-          "zone": 1
-        },
-        {
-          "type": "RECOVERY",
-          "duration_secs": 58,
-          "avg_hr": 122,
-          "max_hr": 144,
-          "zone": 1
-        }
-      ]
-    },
     {
       "activity_id": "i168740102",
       "date": "2026-07-24",
