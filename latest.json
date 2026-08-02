@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-08-02T19:50:51.834486",
+    "last_updated": "2026-08-02T20:42:04.758424",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.95"
@@ -606,9 +606,9 @@
           "planned_tss_delta": null,
           "hard_sessions_planned": 0,
           "race_proximity": 21,
-          "next_week_load": 1.4,
+          "next_week_load": 2.19,
           "plan_coverage_current_week": 0.2,
-          "plan_coverage_next_week": 3.8
+          "plan_coverage_next_week": 5.0
         },
         "data_quality": "good",
         "stream_agreement": null
@@ -643,7 +643,7 @@
     "p_max": 1243,
     "power_model_source": "wellness.sportInfo",
     "vo2max": 52.0,
-    "calculation_timestamp": "2026-08-02T19:50:51.610127",
+    "calculation_timestamp": "2026-08-02T20:42:04.757083",
     "data_quality": {
       "hrv_data_points": 4,
       "rhr_data_points": 6,
@@ -2375,6 +2375,20 @@
       "description": "Warmup\n- 200mtr 2:10/100m Pace\n\nMain Set 6x\n- 200mtr 2:00/100m Pace\n- 25s Z1 Pace\n\nCooldown\n- 100mtr 2:15/100m Pace"
     },
     {
+      "id": 126842872,
+      "date": "2026-08-03",
+      "name": "Easy Run 40min + 6x20s strides (run economy)",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": 45,
+      "duration_hours": 0.68,
+      "duration_formatted": "41m",
+      "workout_summary": "35m | 6\u00d720s / 40s rec",
+      "has_terrain": false,
+      "start_time": "17:00",
+      "description": "Warmup\n- 35m Z2 Pace\n\nStrides 6x\n- 20s Z5 Pace\n- 40s Z1 Pace"
+    },
+    {
       "id": 125566523,
       "date": "2026-08-03",
       "name": "Shoulder Rehab - cuff + scap",
@@ -2399,8 +2413,36 @@
       "duration_formatted": "1h25m",
       "workout_summary": "15m @163W | 3\u00d715m @251W / 5m rec | 10m @130W",
       "has_terrain": false,
-      "start_time": "17:00",
+      "start_time": "09:00",
       "description": "Warmup\n- 15m ramp 45-75%\n\nMain Set 3x\n- 15m 92%\n- 5m 58%\n\nCooldown\n- 10m ramp 55-40%"
+    },
+    {
+      "id": 126846348,
+      "date": "2026-08-04",
+      "name": "BIKE: Commute",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 59,
+      "duration_hours": 1.0,
+      "duration_formatted": "1h",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "12:00",
+      "description": "-1h Z2"
+    },
+    {
+      "id": 126846331,
+      "date": "2026-08-04",
+      "name": "BIKE: Commute",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 59,
+      "duration_hours": 1.0,
+      "duration_formatted": "1h",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "17:00",
+      "description": "-1h Z2"
     },
     {
       "id": 125566525,
@@ -2431,18 +2473,32 @@
       "description": "Warmup\n- 150mtr 2:10/100m Pace\n\nMain Set 6x\n- 150mtr 2:05/100m Pace\n- 20s Z1 Pace\n\nCooldown\n- 150mtr 2:15/100m Pace"
     },
     {
-      "id": 125566527,
+      "id": 126846351,
       "date": "2026-08-05",
-      "name": "Run 8km easy Z2 (calves easy)",
+      "name": "BIKE: Commute",
       "type": "WORKOUT",
-      "sport_type": "Run",
-      "planned_tss": 53,
-      "duration_hours": 0.8,
-      "duration_formatted": "48m16s",
+      "sport_type": "Ride",
+      "planned_tss": 59,
+      "duration_hours": 1.0,
+      "duration_formatted": "1h",
       "workout_summary": null,
       "has_terrain": false,
-      "start_time": "17:30",
-      "description": "- 8km Z2 Pace"
+      "start_time": "12:00",
+      "description": "-1h Z2"
+    },
+    {
+      "id": 126846326,
+      "date": "2026-08-05",
+      "name": "BIKE: Commute",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 59,
+      "duration_hours": 1.0,
+      "duration_formatted": "1h",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "17:00",
+      "description": "-1h Z2"
     },
     {
       "id": 125566528,
@@ -2461,16 +2517,30 @@
     {
       "id": 125566529,
       "date": "2026-08-06",
-      "name": "BIKE: Endurance 2h Z2 aero - FUEL 90-100g/h",
+      "name": "BIKE: Commute",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 117,
-      "duration_hours": 2.0,
-      "duration_formatted": "2h",
+      "planned_tss": 59,
+      "duration_hours": 1.0,
+      "duration_formatted": "1h",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "12:00",
+      "description": "-1h Z2"
+    },
+    {
+      "id": 126846280,
+      "date": "2026-08-06",
+      "name": "BIKE: Commute",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 59,
+      "duration_hours": 1.0,
+      "duration_formatted": "1h",
       "workout_summary": null,
       "has_terrain": false,
       "start_time": "17:00",
-      "description": "- 2h Z2"
+      "description": "-1h Z2"
     },
     {
       "id": 125566530,
@@ -2499,6 +2569,20 @@
       "has_terrain": false,
       "start_time": "12:00",
       "description": "Warmup\n- 200mtr 2:10/100m Pace\n\nMain Set 5x\n- 200mtr 2:00/100m Pace\n- 20s Z1 Pace\n\nCooldown\n- 200mtr 2:15/100m Pace"
+    },
+    {
+      "id": 126842873,
+      "date": "2026-08-07",
+      "name": "Easy Run 35min + 6x20s strides (run economy)",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": 39,
+      "duration_hours": 0.6,
+      "duration_formatted": "36m",
+      "workout_summary": "30m | 6\u00d720s / 40s rec",
+      "has_terrain": false,
+      "start_time": "17:00",
+      "description": "Warmup\n- 30m Z2 Pace\n\nStrides 6x\n- 20s Z5 Pace\n- 40s Z1 Pace"
     },
     {
       "id": 125566532,
@@ -2621,6 +2705,19 @@
       "has_terrain": false,
       "start_time": "07:30",
       "description_preview": "Warmup\n- 200mtr 2:10/100m Pace\nMain Set"
+    },
+    {
+      "id": 126843472,
+      "date": "2026-08-10",
+      "name": "Easy Run 35min + strides (run economy)",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": 39,
+      "duration_hours": 0.6,
+      "duration_formatted": "36m",
+      "workout_summary": "30m | 6\u00d720s / 40s rec",
+      "has_terrain": false,
+      "start_time": "17:00"
     },
     {
       "id": 125566537,
@@ -3088,12 +3185,12 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 37,
-    "success": 11,
-    "patternA": 11,
+    "attempted": 44,
+    "success": 14,
+    "patternA": 14,
     "patternB": 0,
     "bail_no_workout_doc": 9,
-    "bail_no_match": 26
+    "bail_no_match": 30
   },
   "weekly_summary": {
     "total_training_hours": 9.73,
