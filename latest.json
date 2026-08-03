@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-08-03T04:46:03.220389",
+    "last_updated": "2026-08-03T08:20:07.922031",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.95"
@@ -591,11 +591,11 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 4.36,
+          "planned_tss_delta": 2.01,
           "hard_sessions_planned": 9,
           "race_proximity": 20,
           "next_week_load": 3.27,
-          "plan_coverage_current_week": 5.0,
+          "plan_coverage_current_week": 3.8,
           "plan_coverage_next_week": 4.6
         },
         "data_quality": "good",
@@ -629,7 +629,7 @@
     "p_max": 1243,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-08-03T04:46:03.219087",
+    "calculation_timestamp": "2026-08-03T08:20:07.920724",
     "data_quality": {
       "hrv_data_points": 3,
       "rhr_data_points": 5,
@@ -2389,34 +2389,6 @@
       "description": "Warmup\n- 15m ramp 45-75%\n\nMain Set 3x\n- 15m 92%\n- 5m 58%\n\nCooldown\n- 10m ramp 55-40%"
     },
     {
-      "id": 126846348,
-      "date": "2026-08-04",
-      "name": "BIKE: Commute",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 59,
-      "duration_hours": 1.0,
-      "duration_formatted": "1h",
-      "workout_summary": null,
-      "has_terrain": false,
-      "start_time": "12:00",
-      "description": "-1h Z2"
-    },
-    {
-      "id": 126846331,
-      "date": "2026-08-04",
-      "name": "BIKE: Commute",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 59,
-      "duration_hours": 1.0,
-      "duration_formatted": "1h",
-      "workout_summary": null,
-      "has_terrain": false,
-      "start_time": "17:00",
-      "description": "-1h Z2"
-    },
-    {
       "id": 125566525,
       "date": "2026-08-04",
       "name": "Shoulder Rehab",
@@ -2445,34 +2417,6 @@
       "description": "Warmup\n- 150mtr 2:10/100m Pace\n\nMain Set 6x\n- 150mtr 2:05/100m Pace\n- 20s Z1 Pace\n\nCooldown\n- 150mtr 2:15/100m Pace"
     },
     {
-      "id": 126846351,
-      "date": "2026-08-05",
-      "name": "BIKE: Commute",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 59,
-      "duration_hours": 1.0,
-      "duration_formatted": "1h",
-      "workout_summary": null,
-      "has_terrain": false,
-      "start_time": "12:00",
-      "description": "-1h Z2"
-    },
-    {
-      "id": 126846326,
-      "date": "2026-08-05",
-      "name": "BIKE: Commute",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 59,
-      "duration_hours": 1.0,
-      "duration_formatted": "1h",
-      "workout_summary": null,
-      "has_terrain": false,
-      "start_time": "17:00",
-      "description": "-1h Z2"
-    },
-    {
       "id": 125566528,
       "date": "2026-08-05",
       "name": "HEAT 1: layered hold 38.5C, 45min (trainer)",
@@ -2485,34 +2429,6 @@
       "has_terrain": false,
       "start_time": "20:00",
       "description": "- 10m ramp 40-55%\n- 35m 55%"
-    },
-    {
-      "id": 125566529,
-      "date": "2026-08-06",
-      "name": "BIKE: Commute",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 59,
-      "duration_hours": 1.0,
-      "duration_formatted": "1h",
-      "workout_summary": null,
-      "has_terrain": false,
-      "start_time": "12:00",
-      "description": "-1h Z2"
-    },
-    {
-      "id": 126846280,
-      "date": "2026-08-06",
-      "name": "BIKE: Commute",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 59,
-      "duration_hours": 1.0,
-      "duration_formatted": "1h",
-      "workout_summary": null,
-      "has_terrain": false,
-      "start_time": "17:00",
-      "description": "-1h Z2"
     },
     {
       "id": 125566530,
@@ -3158,12 +3074,12 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 43,
+    "attempted": 37,
     "success": 14,
     "patternA": 14,
     "patternB": 0,
     "bail_no_workout_doc": 9,
-    "bail_no_match": 29
+    "bail_no_match": 23
   },
   "weekly_summary": {
     "total_training_hours": 9.12,
