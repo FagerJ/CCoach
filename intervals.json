@@ -1,94 +1,10 @@
 {
-  "generated_at": "2026-08-04T23:29:49.221730",
+  "generated_at": "2026-08-05T00:55:01.615360",
   "version": "3.95",
   "script_hash": "ec09283a7a09",
   "scan_hours": 72,
   "retention_days": 8,
   "activities": [
-    {
-      "activity_id": "i169770220",
-      "date": "2026-07-27",
-      "type": "Swim",
-      "name": "Pool Swim",
-      "interval_summary": [
-        "2x 100m 1:53",
-        "4x 400m 2:03"
-      ],
-      "intervals": [
-        {
-          "type": "WORK",
-          "label": "114s@0.88mps23rpm",
-          "duration_secs": 110,
-          "avg_cadence": 23.281818,
-          "zone": 7
-        },
-        {
-          "type": "RECOVERY",
-          "duration_secs": 34,
-          "zone": 1
-        },
-        {
-          "type": "WORK",
-          "label": "114s@0.88mps23rpm",
-          "duration_secs": 117,
-          "avg_cadence": 23.307692,
-          "zone": 6
-        },
-        {
-          "type": "RECOVERY",
-          "duration_secs": 58,
-          "zone": 1
-        },
-        {
-          "type": "WORK",
-          "label": "492s@0.81mps23rpm",
-          "duration_secs": 475,
-          "avg_cadence": 22.701052,
-          "zone": 6
-        },
-        {
-          "type": "RECOVERY",
-          "duration_secs": 118,
-          "zone": 1
-        },
-        {
-          "type": "WORK",
-          "label": "492s@0.81mps23rpm",
-          "duration_secs": 476,
-          "avg_cadence": 23.256302,
-          "zone": 6
-        },
-        {
-          "type": "RECOVERY",
-          "duration_secs": 124,
-          "zone": 1
-        },
-        {
-          "type": "WORK",
-          "label": "492s@0.81mps23rpm",
-          "duration_secs": 495,
-          "avg_cadence": 23.381819,
-          "zone": 5
-        },
-        {
-          "type": "RECOVERY",
-          "duration_secs": 94,
-          "zone": 1
-        },
-        {
-          "type": "WORK",
-          "label": "492s@0.81mps23rpm",
-          "duration_secs": 522,
-          "avg_cadence": 22.576628,
-          "zone": 4
-        },
-        {
-          "type": "RECOVERY",
-          "duration_secs": 258,
-          "zone": 1
-        }
-      ]
-    },
     {
       "activity_id": "i170400116",
       "date": "2026-07-29",
