@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-05T20:20:04.209534",
+  "generated_at": "2026-08-05T21:40:39.296974",
   "version": "3.95",
   "script_hash": "ec09283a7a09",
   "scan_hours": 72,
@@ -843,6 +843,54 @@
           "avg_hr": 114,
           "max_hr": 144,
           "zone": 1
+        }
+      ]
+    },
+    {
+      "activity_id": "i172886435",
+      "date": "2026-08-05",
+      "type": "VirtualRide",
+      "name": "HEAT 1: layered hold 38.5C, 45min (trainer)",
+      "interval_summary": [
+        "1x 10s 383w"
+      ],
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 1975,
+          "avg_power": 166,
+          "max_power": 434,
+          "avg_hr": 143,
+          "max_hr": 168,
+          "avg_cadence": 77.08557,
+          "zone": 1,
+          "training_load": 20.436905,
+          "decoupling": 13.373739
+        },
+        {
+          "type": "WORK",
+          "label": "10s@383w68rpm",
+          "duration_secs": 10,
+          "avg_power": 383,
+          "max_power": 460,
+          "avg_hr": 151,
+          "max_hr": 155,
+          "avg_cadence": 68.1,
+          "zone": 7,
+          "training_load": 0.15696922,
+          "decoupling": 14.868888
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 1040,
+          "avg_power": 161,
+          "max_power": 367,
+          "avg_hr": 160,
+          "max_hr": 172,
+          "avg_cadence": 69.13942,
+          "zone": 1,
+          "training_load": 10.640454,
+          "decoupling": -3.0752118
         }
       ]
     }
