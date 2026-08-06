@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-05T23:36:37.219774",
+  "generated_at": "2026-08-06T01:02:02.448364",
   "version": "3.95",
   "script_hash": "ec09283a7a09",
   "scan_hours": 72,
@@ -97,64 +97,6 @@
           "max_hr": 182,
           "avg_cadence": 78.514084,
           "zone": 3
-        }
-      ]
-    },
-    {
-      "activity_id": "i170444254",
-      "date": "2026-07-28",
-      "type": "VirtualRide",
-      "name": "BIKE: Sustained Threshold 2x20min (climb work)",
-      "interval_summary": [
-        "2x 19m58s 251w"
-      ],
-      "intervals": [
-        {
-          "type": "RECOVERY",
-          "duration_secs": 2888,
-          "avg_power": 52,
-          "max_power": 252,
-          "avg_cadence": 25.040512,
-          "zone": 1,
-          "training_load": 8.721305
-        },
-        {
-          "type": "WORK",
-          "label": "1198s@251w83rpm",
-          "duration_secs": 1198,
-          "avg_power": 251,
-          "max_power": 263,
-          "avg_cadence": 84.48831,
-          "zone": 3,
-          "training_load": 25.128086
-        },
-        {
-          "type": "RECOVERY",
-          "duration_secs": 481,
-          "avg_power": 154,
-          "max_power": 253,
-          "avg_cadence": 83.577965,
-          "zone": 1,
-          "training_load": 4.067116
-        },
-        {
-          "type": "WORK",
-          "label": "1198s@251w83rpm",
-          "duration_secs": 1198,
-          "avg_power": 251,
-          "max_power": 265,
-          "avg_cadence": 82.0601,
-          "zone": 3,
-          "training_load": 24.929052
-        },
-        {
-          "type": "RECOVERY",
-          "duration_secs": 4754,
-          "avg_power": 33,
-          "max_power": 253,
-          "avg_cadence": 19.265461,
-          "zone": 1,
-          "training_load": 8.341694
         }
       ]
     },
