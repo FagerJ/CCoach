@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-13T18:34:02.818390",
+  "generated_at": "2026-08-13T19:41:44.980981",
   "version": "3.95",
   "script_hash": "ec09283a7a09",
   "scan_hours": 72,
@@ -1048,6 +1048,156 @@
           "zone": 1,
           "training_load": 0.28775993,
           "decoupling": 100.0
+        }
+      ]
+    },
+    {
+      "activity_id": "i175549166",
+      "date": "2026-08-13",
+      "type": "Run",
+      "name": "Run 14km easy (flat)",
+      "interval_summary": [
+        "1x 5m36s 5:39",
+        "9x 4m51s 4:51",
+        "1x 7m22s 6:38",
+        "1x 8m53s 8:53",
+        "1x 6m3s 6:01",
+        "1x 2s 22:32"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "336s@127bpm78rpm",
+          "duration_secs": 336,
+          "avg_hr": 127,
+          "max_hr": 149,
+          "avg_cadence": 78.22891,
+          "zone": 1
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 4,
+          "avg_hr": 148,
+          "max_hr": 149,
+          "avg_cadence": 81.0,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "291s@164bpm82rpm",
+          "duration_secs": 300,
+          "avg_hr": 153,
+          "max_hr": 160,
+          "avg_cadence": 80.74333,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "442s@152bpm77rpm",
+          "duration_secs": 442,
+          "avg_hr": 152,
+          "max_hr": 167,
+          "avg_cadence": 76.8421,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "533s@149bpm64rpm",
+          "duration_secs": 533,
+          "avg_hr": 149,
+          "max_hr": 164,
+          "avg_cadence": 64.29643,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "363s@157bpm78rpm",
+          "duration_secs": 363,
+          "avg_hr": 157,
+          "max_hr": 171,
+          "avg_cadence": 77.66391,
+          "zone": 2
+        },
+        {
+          "type": "WORK",
+          "label": "291s@164bpm82rpm",
+          "duration_secs": 295,
+          "avg_hr": 160,
+          "max_hr": 167,
+          "avg_cadence": 81.932205,
+          "zone": 2
+        },
+        {
+          "type": "WORK",
+          "label": "291s@164bpm82rpm",
+          "duration_secs": 292,
+          "avg_hr": 164,
+          "max_hr": 170,
+          "avg_cadence": 81.85959,
+          "zone": 2
+        },
+        {
+          "type": "WORK",
+          "label": "291s@164bpm82rpm",
+          "duration_secs": 298,
+          "avg_hr": 162,
+          "max_hr": 168,
+          "avg_cadence": 80.70134,
+          "zone": 2
+        },
+        {
+          "type": "WORK",
+          "label": "291s@164bpm82rpm",
+          "duration_secs": 295,
+          "avg_hr": 165,
+          "max_hr": 170,
+          "avg_cadence": 82.40678,
+          "zone": 2
+        },
+        {
+          "type": "WORK",
+          "label": "291s@164bpm82rpm",
+          "duration_secs": 289,
+          "avg_hr": 166,
+          "max_hr": 175,
+          "avg_cadence": 82.15917,
+          "zone": 3
+        },
+        {
+          "type": "WORK",
+          "label": "291s@164bpm82rpm",
+          "duration_secs": 287,
+          "avg_hr": 167,
+          "max_hr": 171,
+          "avg_cadence": 82.79094,
+          "zone": 3
+        },
+        {
+          "type": "WORK",
+          "label": "291s@164bpm82rpm",
+          "duration_secs": 271,
+          "avg_hr": 169,
+          "max_hr": 175,
+          "avg_cadence": 83.35424,
+          "zone": 3
+        },
+        {
+          "type": "WORK",
+          "label": "291s@164bpm82rpm",
+          "duration_secs": 290,
+          "avg_hr": 170,
+          "max_hr": 175,
+          "avg_cadence": 82.96896,
+          "zone": 3
+        },
+        {
+          "type": "WORK",
+          "label": "2s@173bpm78rpm",
+          "duration_secs": 2,
+          "avg_hr": 173,
+          "max_hr": 173,
+          "avg_cadence": 78.0,
+          "zone": 4
         }
       ]
     }
