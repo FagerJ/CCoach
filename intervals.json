@@ -1,84 +1,10 @@
 {
-  "generated_at": "2026-08-14T23:57:35.133429",
+  "generated_at": "2026-08-15T00:59:56.646994",
   "version": "3.95",
   "script_hash": "ec09283a7a09",
   "scan_hours": 72,
   "retention_days": 8,
   "activities": [
-    {
-      "activity_id": "i173184297",
-      "date": "2026-08-06",
-      "type": "VirtualRide",
-      "name": "MyWhoosh - Nabatean Trail",
-      "interval_summary": [
-        "1x 40s 361w",
-        "1x 16s 500w"
-      ],
-      "intervals": [
-        {
-          "type": "RECOVERY",
-          "duration_secs": 344,
-          "avg_power": 138,
-          "max_power": 311,
-          "avg_hr": 108,
-          "max_hr": 127,
-          "avg_cadence": 67.19768,
-          "zone": 1,
-          "training_load": 2.1952782,
-          "decoupling": -12.973405
-        },
-        {
-          "type": "WORK",
-          "label": "40s@361w56rpm",
-          "duration_secs": 40,
-          "avg_power": 361,
-          "max_power": 472,
-          "avg_hr": 141,
-          "max_hr": 153,
-          "avg_cadence": 55.95,
-          "zone": 7,
-          "training_load": 1.4040956,
-          "decoupling": 15.294767
-        },
-        {
-          "type": "RECOVERY",
-          "duration_secs": 1666,
-          "avg_power": 164,
-          "max_power": 413,
-          "avg_hr": 138,
-          "max_hr": 170,
-          "avg_cadence": 73.04622,
-          "zone": 1,
-          "training_load": 18.22717,
-          "decoupling": -4.851173
-        },
-        {
-          "type": "WORK",
-          "label": "16s@500w71rpm",
-          "duration_secs": 16,
-          "avg_power": 500,
-          "max_power": 525,
-          "avg_hr": 151,
-          "max_hr": 160,
-          "avg_cadence": 70.625,
-          "zone": 7,
-          "training_load": 0.41136742,
-          "decoupling": 6.605677
-        },
-        {
-          "type": "RECOVERY",
-          "duration_secs": 1741,
-          "avg_power": 135,
-          "max_power": 415,
-          "avg_hr": 153,
-          "max_hr": 171,
-          "avg_cadence": 62.608845,
-          "zone": 1,
-          "training_load": 14.537661,
-          "decoupling": 8.806937
-        }
-      ]
-    },
     {
       "activity_id": "i173303547",
       "date": "2026-08-07",
