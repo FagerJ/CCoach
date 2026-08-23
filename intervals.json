@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-23T13:07:52.324791",
+  "generated_at": "2026-08-23T13:43:14.000790",
   "version": "3.95",
   "script_hash": "ec09283a7a09",
   "scan_hours": 72,
@@ -505,6 +505,25 @@
           "zone": 1,
           "training_load": 1.4142742,
           "decoupling": 100.0
+        }
+      ]
+    },
+    {
+      "activity_id": "i178906006",
+      "date": "2026-08-23",
+      "type": "Run",
+      "name": "Bellerive-sur-Allier Multisport",
+      "interval_summary": [
+        "1x 7s 2:13"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "7s@160bpm",
+          "duration_secs": 7,
+          "avg_hr": 160,
+          "max_hr": 161,
+          "zone": 2
         }
       ]
     }
