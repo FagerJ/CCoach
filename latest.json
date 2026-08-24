@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-08-23T23:54:46.628088",
+    "last_updated": "2026-08-24T00:38:53.739358",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.95"
@@ -84,90 +84,63 @@
       "context": "TID shift: 7d High Intensity vs 28d Pyramidal. Training distribution changing.",
       "persistence_days": null,
       "tier": 3
-    },
-    {
-      "metric": "race_week",
-      "value": 0,
-      "severity": "info",
-      "threshold": "RACE_A within 7 days",
-      "context": "Race week D-0 of 'Ironman Vichy 70.3'. Today: Race day, 0-0 TSS. Race effort",
-      "persistence_days": null,
-      "tier": 1
-    },
-    {
-      "metric": "race_week_tsb",
-      "value": -8.4,
-      "severity": "warning",
-      "threshold": "TSB target 10-25",
-      "context": "Projected race-day TSB -8.4 is below target range 10-25. Consider additional rest to reach target.",
-      "persistence_days": null,
-      "tier": 1
     }
   ],
   "readiness_decision": {
-    "recommendation": "modify",
-    "priority": 2,
+    "recommendation": "go",
+    "priority": 3,
     "signals": {
       "hrv": {
-        "status": "amber",
-        "value": 74.0,
-        "baseline_7d": 86.3,
-        "delta_pct": -14.3
+        "status": "unavailable",
+        "value": null,
+        "baseline_7d": 88.4,
+        "delta_pct": null
       },
       "rhr": {
-        "status": "green",
-        "value": 47,
-        "baseline_7d": 44.6,
-        "delta_bpm": 2.4
+        "status": "unavailable",
+        "value": null,
+        "baseline_7d": 44.5,
+        "delta_bpm": null
       },
       "sleep": {
-        "status": "green",
-        "hours": 8.32,
-        "quality": 2
+        "status": "unavailable",
+        "hours": null,
+        "quality": null
       },
       "acwr": {
         "status": "green",
-        "value": 0.86
+        "value": 0.89
       },
       "ri": {
-        "status": "green",
-        "value": 0.81
+        "status": "unavailable",
+        "value": null
       },
       "tsb": {
         "status": "green",
-        "value": -8.4
+        "value": 0.2
       }
     },
     "signal_summary": {
-      "green": 5,
-      "amber": 1,
+      "green": 2,
+      "amber": 0,
       "red": 0,
-      "unavailable": 0
+      "unavailable": 4
     },
     "phase_context": {
-      "phase": "Taper",
+      "phase": "Base",
       "phase_week": 1,
-      "amber_threshold": 1,
-      "modifier_applied": "race_week_tightened"
+      "amber_threshold": 2,
+      "modifier_applied": "default"
     },
-    "race_week_defers": true,
-    "modification": {
-      "triggers": [
-        "hrv"
-      ],
-      "suggested_adjustments": {
-        "intensity": "reduce",
-        "volume": "preserve",
-        "cap_zone": null
-      }
-    },
-    "reason": "P2 signal count. 1 amber (hrv) >= threshold 1.",
+    "race_week_defers": false,
+    "modification": null,
+    "reason": "P3 green light. 2 green, 0 amber (threshold 2), 0 red. Note: 4 signals unavailable \u2014 limited data.",
     "alarm_refs": []
   },
   "history": {
     "available": true,
     "last_generated": "2026-07-19",
-    "age_days": 35,
+    "age_days": 36,
     "total_months": 35,
     "history_confidence": "high"
   },
@@ -211,18 +184,18 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 68.43,
-      "atl": 76.84,
-      "tsb": -8.41,
-      "ramp_rate": -1.13,
+      "ctl": 66.82,
+      "atl": 66.61,
+      "tsb": 0.21,
+      "ramp_rate": -1.1,
       "fitness_source": "From Intervals.icu API (reflects completed workouts)"
     },
     "thresholds": {
-      "eftp": 286.2,
-      "w_prime": 24353,
-      "w_prime_kj": 24.4,
-      "p_max": 1228,
-      "vo2max": 53.0,
+      "eftp": 285.9,
+      "w_prime": 24328,
+      "w_prime_kj": 24.3,
+      "p_max": 1227,
+      "vo2max": null,
       "sports": {
         "cycling": {
           "lthr": 182,
@@ -253,11 +226,11 @@
     "current_metrics": {
       "weight_kg": 78.5,
       "resting_hr": 47,
-      "hrv": 74.0,
-      "sleep_quality": 2,
-      "sleep_hours": 8.32,
-      "sleep_formatted": "8h19m",
-      "sleep_score": 82.0,
+      "hrv": null,
+      "sleep_quality": null,
+      "sleep_hours": null,
+      "sleep_formatted": null,
+      "sleep_score": null,
       "fatigue": null,
       "soreness": null,
       "stress": null,
@@ -274,7 +247,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 25173,
+      "steps": null,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -286,14 +259,14 @@
     }
   },
   "derived_metrics": {
-    "recovery_index": 0.81,
-    "hrv_baseline_7d": 86.3,
-    "rhr_baseline_7d": 44.6,
-    "hrv_baseline_28d": 92.2,
+    "recovery_index": null,
+    "hrv_baseline_7d": 88.4,
+    "rhr_baseline_7d": 44.5,
+    "hrv_baseline_28d": 91.7,
     "rhr_baseline_28d": 45,
-    "latest_hrv": 74.0,
-    "latest_rhr": 47,
-    "acwr": 0.86,
+    "latest_hrv": null,
+    "latest_rhr": null,
+    "acwr": 0.89,
     "acwr_interpretation": "optimal",
     "monotony": 0.38,
     "monotony_interpretation": "normal",
@@ -304,9 +277,9 @@
     "multi_sport_detected": true,
     "strain": 154.0,
     "stress_tolerance": 4.1,
-    "load_recovery_ratio": 5.0,
+    "load_recovery_ratio": null,
     "tss_7d_total": 406.0,
-    "tss_28d_total": 1891.0,
+    "tss_28d_total": 1825.0,
     "zone_distribution_7d": {
       "z1_hours": 0.95,
       "z2_hours": 0.75,
@@ -321,7 +294,7 @@
     "quality_intensity_note": "Quality Intensity % (Z4+/threshold+) - target ~20% in polarized training",
     "polarisation_index": 0.33,
     "polarisation_note": "Easy time (Z1+Z2) / Total - target ~80% in polarized training",
-    "hard_days_this_week": 1,
+    "hard_days_this_week": 0,
     "hard_days_note": "Power ladder: z3+ >= 30min, z4+ >= 10min, z5+ >= 5min, z6+ >= 2min, z7 >= 1min. HR fallback (when no power): z4+ >= 10min, z5+ >= 5min. Per Seiler 3-zone model + Foster. HR-based days flagged with intensity_basis: hr",
     "seiler_tid_7d": {
       "z1_seconds": 6123,
@@ -408,12 +381,12 @@
       "power_curve_delta": {
         "window_days": 28,
         "current_window": {
-          "start": "2026-07-27",
-          "end": "2026-08-23"
+          "start": "2026-07-28",
+          "end": "2026-08-24"
         },
         "previous_window": {
-          "start": "2026-06-29",
-          "end": "2026-07-26"
+          "start": "2026-06-30",
+          "end": "2026-07-27"
         },
         "anchors": {
           "5s": {
@@ -448,12 +421,12 @@
       "hr_curve_delta": {
         "window_days": 28,
         "current_window": {
-          "start": "2026-07-27",
-          "end": "2026-08-23"
+          "start": "2026-07-28",
+          "end": "2026-08-24"
         },
         "previous_window": {
-          "start": "2026-06-29",
-          "end": "2026-07-26"
+          "start": "2026-06-30",
+          "end": "2026-07-27"
         },
         "anchors": {
           "60s": {
@@ -483,8 +456,8 @@
       "sustainability_profile": {
         "window": {
           "days": 42,
-          "start": "2026-07-13",
-          "end": "2026-08-23"
+          "start": "2026-07-14",
+          "end": "2026-08-24"
         },
         "weight_kg": 78.5,
         "weight_source": "wellness_extended",
@@ -515,8 +488,8 @@
               "model_divergence_pct": -2.2
             },
             "1200s": {
-              "actual_watts": 296,
-              "actual_wpkg": 3.77,
+              "actual_watts": 290,
+              "actual_wpkg": 3.69,
               "actual_hr": 172,
               "pct_lthr": 94.5,
               "source": "observed_outdoor",
@@ -524,31 +497,31 @@
               "coggan_wpkg": 3.24,
               "cp_model_watts": 293,
               "cp_model_wpkg": 3.73,
-              "model_divergence_pct": 1.0
+              "model_divergence_pct": -1.0
             },
             "1800s": {
-              "actual_watts": 298,
-              "actual_wpkg": 3.8,
-              "actual_hr": 172,
-              "pct_lthr": 94.5,
+              "actual_watts": 279,
+              "actual_wpkg": 3.55,
+              "actual_hr": 168,
+              "pct_lthr": 92.3,
               "source": "observed_outdoor",
               "coggan_watts": 246,
               "coggan_wpkg": 3.13,
               "cp_model_watts": 287,
               "cp_model_wpkg": 3.66,
-              "model_divergence_pct": 3.8
+              "model_divergence_pct": -2.8
             },
             "3600s": {
-              "actual_watts": 290,
-              "actual_wpkg": 3.69,
-              "actual_hr": 170,
-              "pct_lthr": 93.4,
+              "actual_watts": 263,
+              "actual_wpkg": 3.35,
+              "actual_hr": 166,
+              "pct_lthr": 91.2,
               "source": "observed_outdoor",
               "coggan_watts": 235,
               "coggan_wpkg": 2.99,
               "cp_model_watts": 280,
               "cp_model_wpkg": 3.57,
-              "model_divergence_pct": 3.6
+              "model_divergence_pct": -6.1
             },
             "5400s": {
               "actual_watts": 248,
@@ -577,7 +550,7 @@
           },
           "coverage_ratio": 1.0,
           "ftp_used": 273,
-          "w_prime_used": 24353,
+          "w_prime_used": 24328,
           "ftp_staleness_days": 0,
           "model_trust_note": "CP/W' model (P=CP+W'/t) is primary for durations \u226420min where W' contribution is meaningful. Coggan duration factors (Allen & Coggan, 3rd ed.) are the established reference for \u226560min. 30min is the crossover zone where both apply. model_divergence_pct = (actual - CP_model) / CP_model \u00d7 100. Positive divergence at short durations may indicate strong anaerobic capacity or stale W' value. Indoor MMP is typically 3-5% lower than outdoor (cooling, motivation) \u2014 source flag indicates which environment produced each anchor."
         }
@@ -585,11 +558,10 @@
     },
     "consistency_index": 0.0,
     "consistency_details": {
-      "planned_days": 6,
+      "planned_days": 5,
       "completed_days": 1,
       "matched_days": 0,
       "planned_dates": [
-        "2026-08-17",
         "2026-08-18",
         "2026-08-19",
         "2026-08-20",
@@ -601,24 +573,24 @@
       ]
     },
     "phase_detection": {
-      "phase": "Taper",
+      "phase": "Base",
       "confidence": "medium",
       "reason_codes": [
-        "RACE_IMMINENT"
+        "NO_PLANNED_WORKOUTS"
       ],
       "basis": {
         "stream_1": {
           "ctl_slope": null,
           "acwr_trend": null,
-          "hard_day_pattern": 1,
+          "hard_day_pattern": 0.8,
           "weeks_available": 4
         },
         "stream_2": {
           "planned_tss_delta": null,
-          "hard_sessions_planned": 2,
-          "race_proximity": 0,
+          "hard_sessions_planned": 0,
+          "race_proximity": null,
           "next_week_load": null,
-          "plan_coverage_current_week": 0.4,
+          "plan_coverage_current_week": 0.0,
           "plan_coverage_next_week": 0.0
         },
         "data_quality": "good",
@@ -629,9 +601,9 @@
       "dossier_declared": null,
       "dossier_agreement": null
     },
-    "phase_detected": "Taper",
+    "phase_detected": "Base",
     "phase_triggers": [
-      "RACE_IMMINENT"
+      "NO_PLANNED_WORKOUTS"
     ],
     "seasonal_context": "Peak Race Season",
     "benchmark_indoor": {
@@ -648,21 +620,21 @@
       "benchmark_percentage": null,
       "seasonal_expected": null
     },
-    "eftp": 286.2,
-    "w_prime": 24353,
-    "w_prime_kj": 24.4,
-    "p_max": 1228,
+    "eftp": 285.9,
+    "w_prime": 24328,
+    "w_prime_kj": 24.3,
+    "p_max": 1227,
     "power_model_source": "wellness.sportInfo",
-    "vo2max": 53.0,
-    "calculation_timestamp": "2026-08-23T23:54:46.626635",
+    "vo2max": null,
+    "calculation_timestamp": "2026-08-24T00:38:53.738201",
     "data_quality": {
-      "hrv_data_points": 6,
-      "rhr_data_points": 7,
+      "hrv_data_points": 5,
+      "rhr_data_points": 6,
       "activities_7d": 8,
-      "activities_28d": 34,
-      "planned_workouts_7d": 17,
+      "activities_28d": 33,
+      "planned_workouts_7d": 9,
       "ftp_history_days": {
-        "indoor": 146,
+        "indoor": 147,
         "outdoor": 0
       }
     }
@@ -2258,83 +2230,9 @@
         }
       },
       "has_intervals": false
-    },
-    {
-      "id": "i169770220",
-      "date": "2026-07-27T18:06:56",
-      "type": "Swim",
-      "name": "Swim - endurance sets (stay UNDER shoulder give-out)",
-      "duration_hours": 0.61,
-      "distance_km": 1.8,
-      "tss": 66,
-      "intensity_factor": 90.84528,
-      "avg_power": null,
-      "normalized_power": null,
-      "avg_hr": null,
-      "max_hr": null,
-      "avg_cadence": 23.101555,
-      "avg_speed": 3.0,
-      "max_speed": 3.5,
-      "avg_pace": null,
-      "avg_temp": null,
-      "weather": null,
-      "humidity": null,
-      "wind_speed": null,
-      "work_kj": null,
-      "calories": 452,
-      "carbs_used": null,
-      "carbs_ingested": null,
-      "variability_index": null,
-      "decoupling": null,
-      "efficiency_factor": null,
-      "hrrc": null,
-      "elevation_m": null,
-      "feel": 4,
-      "rpe": 4,
-      "zone_distribution": null,
-      "has_intervals": false
     }
   ],
   "wellness_data": [
-    {
-      "date": "2026-08-17",
-      "weight_kg": null,
-      "resting_hr": 45,
-      "hrv_rmssd": 76.0,
-      "hrv_sdnn": null,
-      "sleep_hours": 6.42,
-      "sleep_formatted": "6h25m",
-      "sleep_quality": 3,
-      "sleep_score": 79.0,
-      "mental_energy": null,
-      "avg_sleeping_hr": null,
-      "vo2max": null,
-      "fatigue": null,
-      "soreness": null,
-      "stress": null,
-      "mood": null,
-      "motivation": null,
-      "injury": null,
-      "hydration": null,
-      "spO2": null,
-      "blood_glucose": null,
-      "systolic": null,
-      "diastolic": null,
-      "baevsky_si": null,
-      "lactate": null,
-      "respiration": null,
-      "body_fat_pct": null,
-      "abdomen_cm": null,
-      "steps": 15193,
-      "hydration_volume_l": null,
-      "kcal_consumed": null,
-      "carbohydrates_g": null,
-      "protein_g": null,
-      "fat_g": null,
-      "menstrual_phase": null,
-      "menstrual_phase_predicted": null,
-      "readiness": null
-    },
     {
       "date": "2026-08-18",
       "weight_kg": null,
@@ -2568,43 +2466,54 @@
       "menstrual_phase": null,
       "menstrual_phase_predicted": null,
       "readiness": null
-    }
-  ],
-  "planned_workouts": [
-    {
-      "id": 85965244,
-      "date": "2026-08-23",
-      "name": "Ironman Vichy 70.3",
-      "type": "RACE_A",
-      "sport_type": "Ride",
-      "planned_tss": null,
-      "duration_hours": 5.0,
-      "duration_formatted": "5h",
-      "workout_summary": null,
-      "has_terrain": false,
-      "description": ""
     },
     {
-      "id": 125566565,
-      "date": "2026-08-23",
-      "name": "IRONMAN VICHY 70.3 - RACE DAY",
-      "type": "RACE_A",
-      "sport_type": "Ride",
-      "planned_tss": null,
-      "duration_hours": 0.0,
-      "duration_formatted": "0s",
-      "workout_summary": null,
-      "has_terrain": false,
-      "start_time": "07:30",
-      "description": "- SWIM 1.9km: easy from the gun (1:55-2:00), even, manage the shoulder\n- BIKE 90km at 76-80% FTP (215-230W) aero; the 11km climb at km35 is your effort - do NOT overcook it\n- FUEL the bike at 100g+/h (glucose:fructose mix) + drink to thirst, salt in heat\n- RUN 21km flat: settle first 5km then build; keep taking gels/aid\n- Target 5:25-5:40 strong, 5:15 stretch. Execute, do not hero the bike"
+      "date": "2026-08-24",
+      "weight_kg": null,
+      "resting_hr": null,
+      "hrv_rmssd": null,
+      "hrv_sdnn": null,
+      "sleep_hours": null,
+      "sleep_formatted": null,
+      "sleep_quality": null,
+      "sleep_score": null,
+      "mental_energy": null,
+      "avg_sleeping_hr": null,
+      "vo2max": null,
+      "fatigue": null,
+      "soreness": null,
+      "stress": null,
+      "mood": null,
+      "motivation": null,
+      "injury": null,
+      "hydration": null,
+      "spO2": null,
+      "blood_glucose": null,
+      "systolic": null,
+      "diastolic": null,
+      "baevsky_si": null,
+      "lactate": null,
+      "respiration": null,
+      "body_fat_pct": null,
+      "abdomen_cm": null,
+      "steps": null,
+      "hydration_volume_l": null,
+      "kcal_consumed": null,
+      "carbohydrates_g": null,
+      "protein_g": null,
+      "fat_g": null,
+      "menstrual_phase": null,
+      "menstrual_phase_predicted": null,
+      "readiness": null
     }
   ],
+  "planned_workouts": [],
   "workout_summary_stats": {
     "attempted": 0,
     "success": 0,
     "patternA": 0,
     "patternB": 0,
-    "bail_no_workout_doc": 1,
+    "bail_no_workout_doc": 0,
     "bail_no_match": 0
   },
   "weekly_summary": {
@@ -2612,99 +2521,17 @@
     "total_training_formatted": "5h10m",
     "total_tss": 406,
     "activities_count": 8,
-    "avg_hrv": 86.3,
-    "avg_resting_hr": 44.6
+    "avg_hrv": 88.4,
+    "avg_resting_hr": 44.5
   },
   "race_calendar": {
-    "next_race": {
-      "name": "Ironman Vichy 70.3",
-      "date": "2026-08-23",
-      "category": "RACE_A",
-      "type": "Ride",
-      "days_until": 0,
-      "moving_time_seconds": 18000,
-      "distance_meters": null,
-      "has_terrain": false
-    },
-    "all_races": [
-      {
-        "name": "Ironman Vichy 70.3",
-        "date": "2026-08-23",
-        "category": "RACE_A",
-        "type": "Ride",
-        "days_until": 0,
-        "moving_time_seconds": 18000,
-        "distance_meters": null,
-        "has_terrain": false
-      },
-      {
-        "name": "IRONMAN VICHY 70.3 - RACE DAY",
-        "date": "2026-08-23",
-        "category": "RACE_A",
-        "type": "Ride",
-        "days_until": 0,
-        "moving_time_seconds": null,
-        "distance_meters": null,
-        "has_terrain": false,
-        "start_time": "07:30"
-      }
-    ],
+    "next_race": null,
+    "all_races": [],
     "taper_alert": {
       "active": false
     },
     "race_week": {
-      "active": true,
-      "event_name": "Ironman Vichy 70.3",
-      "event_date": "2026-08-23",
-      "event_category": "RACE_A",
-      "event_type": "Ride",
-      "event_duration_class": "long_endurance",
-      "event_moving_time_seconds": 18000,
-      "days_until_event": 0,
-      "current_day": "D-0",
-      "ctl_baseline": 68.4,
-      "normal_weekly_tss": 479.0,
-      "race_week_tss_budget": {
-        "min": 192,
-        "max": 263
-      },
-      "race_week_tss_spent": 406,
-      "race_week_tss_remaining": {
-        "min": 0,
-        "max": 0
-      },
-      "projected_race_day_tsb": -8.4,
-      "tsb_target_range": {
-        "min": 10,
-        "max": 25
-      },
-      "today": {
-        "label": "Race day",
-        "load_target_tss": {
-          "min": 0,
-          "max": 0
-        },
-        "zones": "Race effort",
-        "purpose": "Go/no-go assessment. Execute race plan."
-      },
-      "carb_loading": {
-        "applicable": true,
-        "active": true,
-        "starts": "D-4",
-        "start_date": "2026-08-19",
-        "note": "10-12 g\u00b7kg\u207b\u00b9/day. No depletion phase needed."
-      },
-      "opener": {
-        "day": "D-2",
-        "date": "2026-08-21",
-        "intensity": "lighter"
-      },
-      "go_no_go": {
-        "tsb_status": "flag",
-        "notes": [
-          "Projected race-day TSB -8.4 is significantly below target range 10-25. Fatigue may impact performance."
-        ]
-      }
+      "active": false
     }
   }
 }
