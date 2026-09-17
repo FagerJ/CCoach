@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-09-16T23:04:11.940763",
+    "last_updated": "2026-09-17T01:21:38.894469",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.95"
@@ -117,7 +117,7 @@
       },
       "tsb": {
         "status": "green",
-        "value": 36.1
+        "value": 30.1
       }
     },
     "signal_summary": {
@@ -140,7 +140,7 @@
   "history": {
     "available": true,
     "last_generated": "2026-09-07",
-    "age_days": 9,
+    "age_days": 10,
     "total_months": 35,
     "history_confidence": "high"
   },
@@ -153,17 +153,17 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 38.64,
-      "atl": 2.49,
-      "tsb": 36.15,
-      "ramp_rate": -7.01,
+      "ctl": 39.09,
+      "atl": 8.97,
+      "tsb": 30.12,
+      "ramp_rate": -5.49,
       "fitness_source": "Decayed from yesterday (today's planned workouts not yet completed)"
     },
     "thresholds": {
-      "eftp": 279.4,
-      "w_prime": 23775,
+      "eftp": 279.1,
+      "w_prime": 23751,
       "w_prime_kj": 23.8,
-      "p_max": 1199,
+      "p_max": 1198,
       "vo2max": null,
       "sports": {
         "cycling": {
@@ -231,8 +231,8 @@
     "recovery_index": null,
     "hrv_baseline_7d": null,
     "rhr_baseline_7d": null,
-    "hrv_baseline_28d": 83.8,
-    "rhr_baseline_28d": 49.4,
+    "hrv_baseline_28d": 82.3,
+    "rhr_baseline_28d": 50.3,
     "latest_hrv": null,
     "latest_rhr": null,
     "acwr": 0.0,
@@ -328,12 +328,12 @@
       "power_curve_delta": {
         "window_days": 28,
         "current_window": {
-          "start": "2026-08-20",
-          "end": "2026-09-16"
+          "start": "2026-08-21",
+          "end": "2026-09-17"
         },
         "previous_window": {
-          "start": "2026-07-23",
-          "end": "2026-08-19"
+          "start": "2026-07-24",
+          "end": "2026-08-20"
         },
         "anchors": {
           "5s": {
@@ -368,12 +368,12 @@
       "hr_curve_delta": {
         "window_days": 28,
         "current_window": {
-          "start": "2026-08-20",
-          "end": "2026-09-16"
+          "start": "2026-08-21",
+          "end": "2026-09-17"
         },
         "previous_window": {
-          "start": "2026-07-23",
-          "end": "2026-08-19"
+          "start": "2026-07-24",
+          "end": "2026-08-20"
         },
         "anchors": {
           "60s": {
@@ -403,8 +403,8 @@
       "sustainability_profile": {
         "window": {
           "days": 42,
-          "start": "2026-08-06",
-          "end": "2026-09-16"
+          "start": "2026-08-07",
+          "end": "2026-09-17"
         },
         "weight_kg": 78.5,
         "weight_source": "athlete_profile",
@@ -497,7 +497,7 @@
           },
           "coverage_ratio": 1.0,
           "ftp_used": 273,
-          "w_prime_used": 23775,
+          "w_prime_used": 23751,
           "ftp_staleness_days": 0,
           "model_trust_note": "CP/W' model (P=CP+W'/t) is primary for durations \u226420min where W' contribution is meaningful. Coggan duration factors (Allen & Coggan, 3rd ed.) are the established reference for \u226560min. 30min is the crossover zone where both apply. model_divergence_pct = (actual - CP_model) / CP_model \u00d7 100. Positive divergence at short durations may indicate strong anaerobic capacity or stale W' value. Indoor MMP is typically 3-5% lower than outdoor (cooling, motivation) \u2014 source flag indicates which environment produced each anchor."
         }
@@ -509,13 +509,13 @@
       "completed_days": 0,
       "matched_days": 0,
       "planned_dates": [
-        "2026-09-10",
         "2026-09-11",
         "2026-09-12",
         "2026-09-13",
         "2026-09-14",
         "2026-09-15",
-        "2026-09-16"
+        "2026-09-16",
+        "2026-09-17"
       ],
       "completed_dates": []
     },
@@ -527,7 +527,7 @@
       ],
       "basis": {
         "stream_1": {
-          "ctl_slope": -6.43,
+          "ctl_slope": -6.27,
           "acwr_trend": "stable",
           "hard_day_pattern": 0,
           "weeks_available": 4
@@ -537,7 +537,7 @@
           "hard_sessions_planned": 2,
           "race_proximity": null,
           "next_week_load": null,
-          "plan_coverage_current_week": 1.0,
+          "plan_coverage_current_week": 0.8,
           "plan_coverage_next_week": 1.8
         },
         "data_quality": "good",
@@ -567,13 +567,13 @@
       "benchmark_percentage": null,
       "seasonal_expected": null
     },
-    "eftp": 279.4,
-    "w_prime": 23775,
+    "eftp": 279.1,
+    "w_prime": 23751,
     "w_prime_kj": 23.8,
-    "p_max": 1199,
+    "p_max": 1198,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-09-16T23:04:11.939702",
+    "calculation_timestamp": "2026-09-17T01:21:38.893519",
     "data_quality": {
       "hrv_data_points": 0,
       "rhr_data_points": 0,
@@ -581,7 +581,7 @@
       "activities_28d": 8,
       "planned_workouts_7d": 7,
       "ftp_history_days": {
-        "indoor": 170,
+        "indoor": 171,
         "outdoor": 0
       }
     }
@@ -958,45 +958,6 @@
   ],
   "wellness_data": [
     {
-      "date": "2026-09-10",
-      "weight_kg": null,
-      "resting_hr": null,
-      "hrv_rmssd": null,
-      "hrv_sdnn": null,
-      "sleep_hours": null,
-      "sleep_formatted": null,
-      "sleep_quality": null,
-      "sleep_score": null,
-      "mental_energy": null,
-      "avg_sleeping_hr": null,
-      "vo2max": null,
-      "fatigue": null,
-      "soreness": null,
-      "stress": null,
-      "mood": null,
-      "motivation": null,
-      "injury": null,
-      "hydration": null,
-      "spO2": null,
-      "blood_glucose": null,
-      "systolic": null,
-      "diastolic": null,
-      "baevsky_si": null,
-      "lactate": null,
-      "respiration": null,
-      "body_fat_pct": null,
-      "abdomen_cm": null,
-      "steps": null,
-      "hydration_volume_l": null,
-      "kcal_consumed": null,
-      "carbohydrates_g": null,
-      "protein_g": null,
-      "fat_g": null,
-      "menstrual_phase": null,
-      "menstrual_phase_predicted": null,
-      "readiness": null
-    },
-    {
       "date": "2026-09-11",
       "weight_kg": null,
       "resting_hr": null,
@@ -1229,23 +1190,48 @@
       "menstrual_phase": null,
       "menstrual_phase_predicted": null,
       "readiness": null
+    },
+    {
+      "date": "2026-09-17",
+      "weight_kg": null,
+      "resting_hr": null,
+      "hrv_rmssd": null,
+      "hrv_sdnn": null,
+      "sleep_hours": null,
+      "sleep_formatted": null,
+      "sleep_quality": null,
+      "sleep_score": null,
+      "mental_energy": null,
+      "avg_sleeping_hr": null,
+      "vo2max": null,
+      "fatigue": null,
+      "soreness": null,
+      "stress": null,
+      "mood": null,
+      "motivation": null,
+      "injury": null,
+      "hydration": null,
+      "spO2": null,
+      "blood_glucose": null,
+      "systolic": null,
+      "diastolic": null,
+      "baevsky_si": null,
+      "lactate": null,
+      "respiration": null,
+      "body_fat_pct": null,
+      "abdomen_cm": null,
+      "steps": null,
+      "hydration_volume_l": null,
+      "kcal_consumed": null,
+      "carbohydrates_g": null,
+      "protein_g": null,
+      "fat_g": null,
+      "menstrual_phase": null,
+      "menstrual_phase_predicted": null,
+      "readiness": null
     }
   ],
   "planned_workouts": [
-    {
-      "id": 133746579,
-      "date": "2026-09-16",
-      "name": "BIKE: Easy 60min Z2",
-      "type": "WORKOUT",
-      "sport_type": "VirtualRide",
-      "planned_tss": 59,
-      "duration_hours": 1.0,
-      "duration_formatted": "1h",
-      "workout_summary": null,
-      "has_terrain": false,
-      "start_time": "17:00",
-      "description": "- 60m Z2"
-    },
     {
       "id": 133746580,
       "date": "2026-09-17",
@@ -1370,7 +1356,7 @@
       "workout_summary": null,
       "has_terrain": false,
       "start_time": "18:00",
-      "description_preview": "- Navy Sill Run Club interval session - follow the club coach\n- EASE IN the first weeks: you are rebuilding and your calves are the injury risk\n- Skip the last rep or two if the legs feel sharp - no ego"
+      "description": "- Navy Sill Run Club interval session - follow the club coach\n- EASE IN the first weeks: you are rebuilding and your calves are the injury risk\n- Skip the last rep or two if the legs feel sharp - no ego\n- Tell me what the session was so I can log the quality"
     },
     {
       "id": 133746589,
@@ -1556,12 +1542,12 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 12,
+    "attempted": 11,
     "success": 0,
     "patternA": 0,
     "patternB": 0,
     "bail_no_workout_doc": 11,
-    "bail_no_match": 12
+    "bail_no_match": 11
   },
   "weekly_summary": {
     "total_training_hours": 0.0,
