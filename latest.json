@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-09-20T23:31:29.486287",
+    "last_updated": "2026-09-21T01:39:24.735781",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.95"
@@ -107,7 +107,7 @@
       },
       "tsb": {
         "status": "green",
-        "value": 33.7
+        "value": 21.5
       }
     },
     "signal_summary": {
@@ -130,7 +130,7 @@
   "history": {
     "available": true,
     "last_generated": "2026-09-07",
-    "age_days": 13,
+    "age_days": 14,
     "total_months": 35,
     "history_confidence": "high"
   },
@@ -143,17 +143,17 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 35.13,
-      "atl": 1.41,
-      "tsb": 33.72,
-      "ramp_rate": -6.37,
+      "ctl": 37.18,
+      "atl": 15.65,
+      "tsb": 21.53,
+      "ramp_rate": -3.35,
       "fitness_source": "Decayed from yesterday (today's planned workouts not yet completed)"
     },
     "thresholds": {
-      "eftp": 278.3,
-      "w_prime": 23680,
+      "eftp": 278.0,
+      "w_prime": 23656,
       "w_prime_kj": 23.7,
-      "p_max": 1194,
+      "p_max": 1193,
       "vo2max": null,
       "sports": {
         "cycling": {
@@ -318,12 +318,12 @@
       "power_curve_delta": {
         "window_days": 28,
         "current_window": {
-          "start": "2026-08-24",
-          "end": "2026-09-20"
+          "start": "2026-08-25",
+          "end": "2026-09-21"
         },
         "previous_window": {
-          "start": "2026-07-27",
-          "end": "2026-08-23"
+          "start": "2026-07-28",
+          "end": "2026-08-24"
         },
         "anchors": null,
         "rotation_index": null,
@@ -332,12 +332,12 @@
       "hr_curve_delta": {
         "window_days": 28,
         "current_window": {
-          "start": "2026-08-24",
-          "end": "2026-09-20"
+          "start": "2026-08-25",
+          "end": "2026-09-21"
         },
         "previous_window": {
-          "start": "2026-07-27",
-          "end": "2026-08-23"
+          "start": "2026-07-28",
+          "end": "2026-08-24"
         },
         "anchors": null,
         "rotation_index": null,
@@ -347,8 +347,8 @@
         "note": "No sustainability data available.",
         "window": {
           "days": 42,
-          "start": "2026-08-10",
-          "end": "2026-09-20"
+          "start": "2026-08-11",
+          "end": "2026-09-21"
         }
       }
     },
@@ -358,13 +358,13 @@
       "completed_days": 0,
       "matched_days": 0,
       "planned_dates": [
-        "2026-09-14",
         "2026-09-15",
         "2026-09-16",
         "2026-09-17",
         "2026-09-18",
         "2026-09-19",
-        "2026-09-20"
+        "2026-09-20",
+        "2026-09-21"
       ],
       "completed_dates": []
     },
@@ -376,17 +376,17 @@
       ],
       "basis": {
         "stream_1": {
-          "ctl_slope": -7.6,
-          "acwr_trend": "stable",
+          "ctl_slope": -5.9,
+          "acwr_trend": null,
           "hard_day_pattern": 0,
           "weeks_available": 4
         },
         "stream_2": {
           "planned_tss_delta": null,
-          "hard_sessions_planned": 1,
+          "hard_sessions_planned": 2,
           "race_proximity": null,
           "next_week_load": null,
-          "plan_coverage_current_week": 0.2,
+          "plan_coverage_current_week": 1.8,
           "plan_coverage_next_week": 1.8
         },
         "data_quality": "good",
@@ -416,66 +416,27 @@
       "benchmark_percentage": null,
       "seasonal_expected": null
     },
-    "eftp": 278.3,
-    "w_prime": 23680,
+    "eftp": 278.0,
+    "w_prime": 23656,
     "w_prime_kj": 23.7,
-    "p_max": 1194,
+    "p_max": 1193,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-09-20T23:31:29.485090",
+    "calculation_timestamp": "2026-09-21T01:39:24.734376",
     "data_quality": {
       "hrv_data_points": 0,
       "rhr_data_points": 0,
       "activities_7d": 0,
       "activities_28d": 0,
-      "planned_workouts_7d": 7,
+      "planned_workouts_7d": 8,
       "ftp_history_days": {
-        "indoor": 174,
+        "indoor": 175,
         "outdoor": 0
       }
     }
   },
   "recent_activities": [],
   "wellness_data": [
-    {
-      "date": "2026-09-14",
-      "weight_kg": null,
-      "resting_hr": null,
-      "hrv_rmssd": null,
-      "hrv_sdnn": null,
-      "sleep_hours": null,
-      "sleep_formatted": null,
-      "sleep_quality": null,
-      "sleep_score": null,
-      "mental_energy": null,
-      "avg_sleeping_hr": null,
-      "vo2max": null,
-      "fatigue": null,
-      "soreness": null,
-      "stress": null,
-      "mood": null,
-      "motivation": null,
-      "injury": null,
-      "hydration": null,
-      "spO2": null,
-      "blood_glucose": null,
-      "systolic": null,
-      "diastolic": null,
-      "baevsky_si": null,
-      "lactate": null,
-      "respiration": null,
-      "body_fat_pct": null,
-      "abdomen_cm": null,
-      "steps": null,
-      "hydration_volume_l": null,
-      "kcal_consumed": null,
-      "carbohydrates_g": null,
-      "protein_g": null,
-      "fat_g": null,
-      "menstrual_phase": null,
-      "menstrual_phase_predicted": null,
-      "readiness": null
-    },
     {
       "date": "2026-09-15",
       "weight_kg": null,
@@ -709,23 +670,48 @@
       "menstrual_phase": null,
       "menstrual_phase_predicted": null,
       "readiness": null
+    },
+    {
+      "date": "2026-09-21",
+      "weight_kg": null,
+      "resting_hr": null,
+      "hrv_rmssd": null,
+      "hrv_sdnn": null,
+      "sleep_hours": null,
+      "sleep_formatted": null,
+      "sleep_quality": null,
+      "sleep_score": null,
+      "mental_energy": null,
+      "avg_sleeping_hr": null,
+      "vo2max": null,
+      "fatigue": null,
+      "soreness": null,
+      "stress": null,
+      "mood": null,
+      "motivation": null,
+      "injury": null,
+      "hydration": null,
+      "spO2": null,
+      "blood_glucose": null,
+      "systolic": null,
+      "diastolic": null,
+      "baevsky_si": null,
+      "lactate": null,
+      "respiration": null,
+      "body_fat_pct": null,
+      "abdomen_cm": null,
+      "steps": null,
+      "hydration_volume_l": null,
+      "kcal_consumed": null,
+      "carbohydrates_g": null,
+      "protein_g": null,
+      "fat_g": null,
+      "menstrual_phase": null,
+      "menstrual_phase_predicted": null,
+      "readiness": null
     }
   ],
   "planned_workouts": [
-    {
-      "id": 133746583,
-      "date": "2026-09-20",
-      "name": "SRC RACE - FIRST ONE BACK",
-      "type": "WORKOUT",
-      "sport_type": "VirtualRide",
-      "planned_tss": 125,
-      "duration_hours": 1.5,
-      "duration_formatted": "1h30m",
-      "workout_summary": null,
-      "has_terrain": false,
-      "start_time": "11:45",
-      "description": "- First race back - ride to finish strong, not to win. Fuel 60-80g/h\n- Note exactly where you get dropped - that shapes the block"
-    },
     {
       "id": 133746584,
       "date": "2026-09-21",
@@ -864,7 +850,7 @@
       "workout_summary": null,
       "has_terrain": false,
       "start_time": "17:00",
-      "description_preview": "- 45m 55%"
+      "description": "- 45m 55%"
     },
     {
       "id": 133746594,
@@ -878,7 +864,7 @@
       "workout_summary": null,
       "has_terrain": false,
       "start_time": "18:30",
-      "description_preview": "- Warmup: band pull-apart, scap push-up, face pull (shoulder rehab every session)\n- DB bench neutral 4x8-12 | Incline DB press 3x10-12\n- Seated cable row 3x10 | Lateral raise 3x15 | Face pull 2x15"
+      "description": "- Warmup: band pull-apart, scap push-up, face pull (shoulder rehab every session)\n- DB bench neutral 4x8-12 | Incline DB press 3x10-12\n- Seated cable row 3x10 | Lateral raise 3x15 | Face pull 2x15\n- EZ curl 3x10-12 | Rope pushdown 3x12"
     },
     {
       "id": 133746595,
@@ -984,7 +970,7 @@
     "success": 0,
     "patternA": 0,
     "patternB": 0,
-    "bail_no_workout_doc": 9,
+    "bail_no_workout_doc": 8,
     "bail_no_match": 10
   },
   "weekly_summary": {
