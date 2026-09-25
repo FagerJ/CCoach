@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-09-24T23:39:41.382341",
+    "last_updated": "2026-09-25T01:53:17.078342",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.95"
@@ -107,7 +107,7 @@
       },
       "tsb": {
         "status": "green",
-        "value": 31.1
+        "value": 23.8
       }
     },
     "signal_summary": {
@@ -130,7 +130,7 @@
   "history": {
     "available": true,
     "last_generated": "2026-09-07",
-    "age_days": 17,
+    "age_days": 18,
     "total_months": 35,
     "history_confidence": "high"
   },
@@ -143,17 +143,17 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 31.94,
-      "atl": 0.79,
-      "tsb": 31.15,
-      "ramp_rate": -5.79,
+      "ctl": 32.84,
+      "atl": 9.0,
+      "tsb": 23.84,
+      "ramp_rate": -4.0,
       "fitness_source": "Decayed from yesterday (today's planned workouts not yet completed)"
     },
     "thresholds": {
-      "eftp": 277.2,
-      "w_prime": 23585,
+      "eftp": 276.9,
+      "w_prime": 23562,
       "w_prime_kj": 23.6,
-      "p_max": 1189,
+      "p_max": 1188,
       "vo2max": null,
       "sports": {
         "cycling": {
@@ -222,7 +222,7 @@
     "hrv_baseline_7d": null,
     "rhr_baseline_7d": null,
     "hrv_baseline_28d": 88.0,
-    "rhr_baseline_28d": 55,
+    "rhr_baseline_28d": 47,
     "latest_hrv": null,
     "latest_rhr": null,
     "acwr": null,
@@ -318,12 +318,12 @@
       "power_curve_delta": {
         "window_days": 28,
         "current_window": {
-          "start": "2026-08-28",
-          "end": "2026-09-24"
+          "start": "2026-08-29",
+          "end": "2026-09-25"
         },
         "previous_window": {
-          "start": "2026-07-31",
-          "end": "2026-08-27"
+          "start": "2026-08-01",
+          "end": "2026-08-28"
         },
         "anchors": null,
         "rotation_index": null,
@@ -332,12 +332,12 @@
       "hr_curve_delta": {
         "window_days": 28,
         "current_window": {
-          "start": "2026-08-28",
-          "end": "2026-09-24"
+          "start": "2026-08-29",
+          "end": "2026-09-25"
         },
         "previous_window": {
-          "start": "2026-07-31",
-          "end": "2026-08-27"
+          "start": "2026-08-01",
+          "end": "2026-08-28"
         },
         "anchors": null,
         "rotation_index": null,
@@ -347,8 +347,8 @@
         "note": "No sustainability data available.",
         "window": {
           "days": 42,
-          "start": "2026-08-14",
-          "end": "2026-09-24"
+          "start": "2026-08-15",
+          "end": "2026-09-25"
         }
       }
     },
@@ -358,13 +358,13 @@
       "completed_days": 0,
       "matched_days": 0,
       "planned_dates": [
-        "2026-09-18",
         "2026-09-19",
         "2026-09-20",
         "2026-09-21",
         "2026-09-22",
         "2026-09-23",
-        "2026-09-24"
+        "2026-09-24",
+        "2026-09-25"
       ],
       "completed_dates": []
     },
@@ -376,17 +376,17 @@
       ],
       "basis": {
         "stream_1": {
-          "ctl_slope": -8.55,
+          "ctl_slope": -8.1,
           "acwr_trend": null,
           "hard_day_pattern": 0,
           "weeks_available": 4
         },
         "stream_2": {
           "planned_tss_delta": null,
-          "hard_sessions_planned": 2,
+          "hard_sessions_planned": 1,
           "race_proximity": null,
           "next_week_load": null,
-          "plan_coverage_current_week": 1.0,
+          "plan_coverage_current_week": 0.8,
           "plan_coverage_next_week": 1.8
         },
         "data_quality": "good",
@@ -416,66 +416,27 @@
       "benchmark_percentage": null,
       "seasonal_expected": null
     },
-    "eftp": 277.2,
-    "w_prime": 23585,
+    "eftp": 276.9,
+    "w_prime": 23562,
     "w_prime_kj": 23.6,
-    "p_max": 1189,
+    "p_max": 1188,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-09-24T23:39:41.380927",
+    "calculation_timestamp": "2026-09-25T01:53:17.076652",
     "data_quality": {
       "hrv_data_points": 0,
       "rhr_data_points": 0,
       "activities_7d": 0,
       "activities_28d": 0,
-      "planned_workouts_7d": 8,
+      "planned_workouts_7d": 9,
       "ftp_history_days": {
-        "indoor": 178,
+        "indoor": 179,
         "outdoor": 0
       }
     }
   },
   "recent_activities": [],
   "wellness_data": [
-    {
-      "date": "2026-09-18",
-      "weight_kg": null,
-      "resting_hr": null,
-      "hrv_rmssd": null,
-      "hrv_sdnn": null,
-      "sleep_hours": null,
-      "sleep_formatted": null,
-      "sleep_quality": null,
-      "sleep_score": null,
-      "mental_energy": null,
-      "avg_sleeping_hr": null,
-      "vo2max": null,
-      "fatigue": null,
-      "soreness": null,
-      "stress": null,
-      "mood": null,
-      "motivation": null,
-      "injury": null,
-      "hydration": null,
-      "spO2": null,
-      "blood_glucose": null,
-      "systolic": null,
-      "diastolic": null,
-      "baevsky_si": null,
-      "lactate": null,
-      "respiration": null,
-      "body_fat_pct": null,
-      "abdomen_cm": null,
-      "steps": null,
-      "hydration_volume_l": null,
-      "kcal_consumed": null,
-      "carbohydrates_g": null,
-      "protein_g": null,
-      "fat_g": null,
-      "menstrual_phase": null,
-      "menstrual_phase_predicted": null,
-      "readiness": null
-    },
     {
       "date": "2026-09-19",
       "weight_kg": null,
@@ -709,23 +670,48 @@
       "menstrual_phase": null,
       "menstrual_phase_predicted": null,
       "readiness": null
+    },
+    {
+      "date": "2026-09-25",
+      "weight_kg": null,
+      "resting_hr": null,
+      "hrv_rmssd": null,
+      "hrv_sdnn": null,
+      "sleep_hours": null,
+      "sleep_formatted": null,
+      "sleep_quality": null,
+      "sleep_score": null,
+      "mental_energy": null,
+      "avg_sleeping_hr": null,
+      "vo2max": null,
+      "fatigue": null,
+      "soreness": null,
+      "stress": null,
+      "mood": null,
+      "motivation": null,
+      "injury": null,
+      "hydration": null,
+      "spO2": null,
+      "blood_glucose": null,
+      "systolic": null,
+      "diastolic": null,
+      "baevsky_si": null,
+      "lactate": null,
+      "respiration": null,
+      "body_fat_pct": null,
+      "abdomen_cm": null,
+      "steps": null,
+      "hydration_volume_l": null,
+      "kcal_consumed": null,
+      "carbohydrates_g": null,
+      "protein_g": null,
+      "fat_g": null,
+      "menstrual_phase": null,
+      "menstrual_phase_predicted": null,
+      "readiness": null
     }
   ],
   "planned_workouts": [
-    {
-      "id": 133746588,
-      "date": "2026-09-24",
-      "name": "NSRC intervals (Thu run quality)",
-      "type": "WORKOUT",
-      "sport_type": "Run",
-      "planned_tss": 72,
-      "duration_hours": 1.0,
-      "duration_formatted": "1h",
-      "workout_summary": null,
-      "has_terrain": false,
-      "start_time": "18:00",
-      "description": "- Navy Sill Run Club interval session - follow the club coach\n- EASE IN the first weeks: you are rebuilding and your calves are the injury risk\n- Skip the last rep or two if the legs feel sharp - no ego\n- Tell me what the session was so I can log the quality"
-    },
     {
       "id": 133746589,
       "date": "2026-09-25",
@@ -864,7 +850,7 @@
       "workout_summary": null,
       "has_terrain": false,
       "start_time": "07:30",
-      "description_preview": "- 30m Z2 Pace"
+      "description": "- 30m Z2 Pace"
     },
     {
       "id": 133746599,
@@ -878,7 +864,7 @@
       "workout_summary": null,
       "has_terrain": false,
       "start_time": "17:00",
-      "description_preview": "- Warmup + plyo: bounding, hurdle hops, single-leg hops\n- Barbell hip thrust 3x8-10 | Bulgarian split squat 2x8/leg\n- Single-leg RDL 2x10/leg | Standing calf raise 3x15"
+      "description": "- Warmup + plyo: bounding, hurdle hops, single-leg hops\n- Barbell hip thrust 3x8-10 | Bulgarian split squat 2x8/leg\n- Single-leg RDL 2x10/leg | Standing calf raise 3x15\n- Copenhagen plank 2x20s/side | Side plank row 2x10/side"
     },
     {
       "id": 133746600,
@@ -914,7 +900,7 @@
     "success": 0,
     "patternA": 0,
     "patternB": 0,
-    "bail_no_workout_doc": 7,
+    "bail_no_workout_doc": 6,
     "bail_no_match": 7
   },
   "weekly_summary": {
