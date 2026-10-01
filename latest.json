@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-10-01T06:31:40.919631",
+    "last_updated": "2026-10-01T13:52:47.533971",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.95"
@@ -568,11 +568,11 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 11.92,
+          "planned_tss_delta": 4.32,
           "hard_sessions_planned": 2,
           "race_proximity": null,
           "next_week_load": null,
-          "plan_coverage_current_week": 1.0,
+          "plan_coverage_current_week": 0.8,
           "plan_coverage_next_week": 0.0
         },
         "data_quality": "good",
@@ -606,7 +606,7 @@
     "p_max": 1181,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-10-01T06:31:40.918433",
+    "calculation_timestamp": "2026-10-01T13:52:47.532593",
     "data_quality": {
       "hrv_data_points": 5,
       "rhr_data_points": 5,
@@ -1051,82 +1051,68 @@
   ],
   "planned_workouts": [
     {
-      "id": 133746597,
+      "id": 140450473,
       "date": "2026-10-01",
-      "name": "NSRC intervals (Thu run quality)",
+      "name": "NSRC intervals - CAPPED at 10k effort",
       "type": "WORKOUT",
       "sport_type": "Run",
-      "planned_tss": 72,
+      "planned_tss": 60,
       "duration_hours": 1.0,
       "duration_formatted": "1h",
       "workout_summary": null,
       "has_terrain": false,
       "start_time": "18:00",
-      "description": "- Navy Sill Run Club interval session - follow the club coach\n- EASE IN the first weeks: you are rebuilding and your calves are the injury risk\n- Skip the last rep or two if the legs feel sharp - no ego\n- Tell me what the session was so I can log the quality"
+      "description": "- Club session. Run every rep at controlled 10k effort, NOT all-out\n- You should finish feeling you had two more reps in you\n- Calves tighten: skip the remaining reps and jog home. No ego\n- Last time your legs seized and you had DOMS Fri-Tue; this is the fix"
     },
     {
-      "id": 133746598,
+      "id": 140450474,
       "date": "2026-10-02",
-      "name": "Easy Run 30min",
+      "name": "Easy spin 45min - HR under 145",
       "type": "WORKOUT",
-      "sport_type": "Run",
-      "planned_tss": 33,
-      "duration_hours": 0.5,
-      "duration_formatted": "30m",
-      "workout_summary": null,
-      "has_terrain": false,
-      "start_time": "07:30",
-      "description": "- 30m Z2 Pace"
-    },
-    {
-      "id": 133746599,
-      "date": "2026-10-02",
-      "name": "GYM Lower C - hip thrust/split squat + plyo",
-      "type": "WORKOUT",
-      "sport_type": "WeightTraining",
-      "planned_tss": null,
-      "duration_hours": 0.83,
-      "duration_formatted": "50m",
+      "sport_type": "VirtualRide",
+      "planned_tss": 24,
+      "duration_hours": 0.75,
+      "duration_formatted": "45m",
       "workout_summary": null,
       "has_terrain": false,
       "start_time": "17:00",
-      "description": "- Warmup + plyo: bounding, hurdle hops, single-leg hops\n- Barbell hip thrust 3x8-10 | Bulgarian split squat 2x8/leg\n- Single-leg RDL 2x10/leg | Standing calf raise 3x15\n- Copenhagen plank 2x20s/side | Side plank row 2x10/side"
+      "description": "- 10m ramp 45-58%\n- 35m 55-62%"
     },
     {
-      "id": 133746600,
+      "id": 140450475,
       "date": "2026-10-03",
-      "name": "BIKE: Endurance 90min Z2",
+      "name": "Endurance ride 90min Z2 - HR under 150",
       "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 88,
+      "sport_type": "VirtualRide",
+      "planned_tss": 55,
       "duration_hours": 1.5,
       "duration_formatted": "1h30m",
       "workout_summary": null,
       "has_terrain": false,
       "start_time": "10:00",
-      "description": "- 90m Z2"
+      "description": "- 10m ramp 45-60%\n- 75m 60-65%\n- 5m 50%"
     },
     {
-      "id": 133746601,
+      "id": 140450476,
       "date": "2026-10-04",
-      "name": "SRC RACE",
+      "name": "Easy run 9km + 4 strides - HR 137-151",
       "type": "WORKOUT",
-      "sport_type": "VirtualRide",
-      "planned_tss": 130,
-      "duration_hours": 1.5,
-      "duration_formatted": "1h30m",
-      "workout_summary": null,
+      "sport_type": "Run",
+      "planned_tss": 45,
+      "duration_hours": 0.97,
+      "duration_formatted": "58m18s",
+      "workout_summary": "54m18s @144bpm | 4\u00d720s / 40s rec",
       "has_terrain": false,
-      "start_time": "11:45",
-      "description": "- Race it. Fuel 60-80g/h"
+      "start_time": "10:00",
+      "description": "- 9km 75-83% LTHR\n\nStrides 4x\n- 20s 3:45/km-4:05/km Pace\n- 40s 7:00/km-8:00/km Pace"
     }
   ],
   "workout_summary_stats": {
-    "attempted": 2,
-    "success": 0,
-    "patternA": 0,
+    "attempted": 3,
+    "success": 1,
+    "patternA": 1,
     "patternB": 0,
-    "bail_no_workout_doc": 3,
+    "bail_no_workout_doc": 1,
     "bail_no_match": 2
   },
   "weekly_summary": {
