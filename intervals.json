@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T10:11:09.857140",
+  "generated_at": "2026-10-06T16:46:15.525723",
   "version": "3.95",
   "script_hash": "ec09283a7a09",
   "scan_hours": 72,
@@ -77,6 +77,34 @@
           "avg_hr": 169,
           "max_hr": 169,
           "avg_cadence": 81.0,
+          "zone": 3
+        }
+      ]
+    },
+    {
+      "activity_id": "i194345259",
+      "date": "2026-10-06",
+      "type": "Run",
+      "name": "Kungsbacka - LONG RUN 10km - HR 137-151",
+      "interval_summary": [
+        "1x 59m27s 6:03"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "3567s@153bpm80rpm",
+          "duration_secs": 3567,
+          "avg_hr": 153,
+          "max_hr": 184,
+          "avg_cadence": 79.58787,
+          "zone": 1
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 1,
+          "avg_hr": 166,
+          "max_hr": 166,
+          "avg_cadence": 77.0,
           "zone": 3
         }
       ]
