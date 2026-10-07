@@ -62,15 +62,15 @@
       "menstrual": "menstrual_phase and menstrual_phase_predicted are not on the 1-4 scale. Values: PERIOD, FOLLICULAR, OVULATION, LUTEAL, etc."
     },
     "quick_stats": {
-      "total_training_hours": 3.05,
-      "total_training_formatted": "3h3m",
-      "total_activities": 3,
-      "total_tss": 190
+      "total_training_hours": 3.59,
+      "total_training_formatted": "3h35m",
+      "total_activities": 5,
+      "total_tss": 211
     }
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-10-07T13:54:50.528315",
+    "last_updated": "2026-10-07T19:38:06.049581",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.95"
@@ -78,10 +78,10 @@
   "alerts": [
     {
       "metric": "acwr",
-      "value": 1.92,
+      "value": 2.03,
       "severity": "alarm",
       "threshold": "0.75 / 1.35",
-      "context": "ACWR 1.92 outside safe range. Injury/overreach risk elevated.",
+      "context": "ACWR 2.03 outside safe range. Injury/overreach risk elevated.",
       "persistence_days": null,
       "tier": 2
     },
@@ -118,7 +118,7 @@
       },
       "acwr": {
         "status": "red",
-        "value": 1.92
+        "value": 2.03
       },
       "ri": {
         "status": "green",
@@ -139,7 +139,7 @@
     },
     "race_week_defers": false,
     "modification": null,
-    "reason": "P1 acute overload. ACWR 1.92 > 1.5.",
+    "reason": "P1 acute overload. ACWR 2.03 > 1.5.",
     "alarm_refs": []
   },
   "history": {
@@ -152,8 +152,8 @@
   "summary": {
     "period_description": "Last 7 days of training (including today)",
     "note": "Duration calculated from API moving_time field.",
-    "total_duration_decimal_hours": 3.05,
-    "total_activities": 3,
+    "total_duration_decimal_hours": 3.59,
+    "total_activities": 5,
     "by_activity_type": {
       "Run": {
         "duration_decimal_hours": 2.04,
@@ -162,26 +162,26 @@
         "distance_km": 20.9
       },
       "VirtualRide": {
-        "duration_decimal_hours": 1.01,
-        "count": 1,
-        "tss": 44,
-        "distance_km": 31.9
+        "duration_decimal_hours": 1.54,
+        "count": 3,
+        "tss": 65,
+        "distance_km": 44.6
       }
     }
   },
   "current_status": {
     "fitness": {
-      "ctl": 31.47,
-      "atl": 25.88,
-      "tsb": 5.59,
-      "ramp_rate": 0.76,
-      "fitness_source": "Decayed from yesterday (today's planned workouts not yet completed)"
+      "ctl": 31.97,
+      "atl": 28.67,
+      "tsb": 3.3,
+      "ramp_rate": -0.18,
+      "fitness_source": "From Intervals.icu API (reflects completed workouts)"
     },
     "thresholds": {
-      "eftp": 274.2,
-      "w_prime": 23327,
+      "eftp": 273.9,
+      "w_prime": 23304,
       "w_prime_kj": 23.3,
-      "p_max": 1176,
+      "p_max": 1175,
       "vo2max": null,
       "sports": {
         "cycling": {
@@ -234,7 +234,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 3332,
+      "steps": 5578,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -253,43 +253,43 @@
     "rhr_baseline_28d": 49.2,
     "latest_hrv": 68.0,
     "latest_rhr": 50,
-    "acwr": 1.92,
+    "acwr": 2.03,
     "acwr_interpretation": "danger",
-    "monotony": 0.77,
+    "monotony": 0.9,
     "monotony_interpretation": "normal",
     "primary_sport": "run",
     "primary_sport_monotony": null,
     "primary_sport_tss_7d": 146.0,
-    "effective_monotony": 0.77,
+    "effective_monotony": 0.9,
     "multi_sport_detected": true,
-    "strain": 146.0,
-    "stress_tolerance": 1.9,
-    "load_recovery_ratio": 2.0,
-    "tss_7d_total": 190.0,
-    "tss_28d_total": 395.0,
+    "strain": 190.0,
+    "stress_tolerance": 2.1,
+    "load_recovery_ratio": 2.2,
+    "tss_7d_total": 211.0,
+    "tss_28d_total": 416.0,
     "zone_distribution_7d": {
-      "z1_hours": 1.48,
-      "z2_hours": 1.15,
+      "z1_hours": 1.95,
+      "z2_hours": 1.2,
       "z3_hours": 0.27,
-      "z4_plus_hours": 0.15,
-      "total_hours": 3.05,
+      "z4_plus_hours": 0.16,
+      "total_hours": 3.59,
       "zone_basis": "mixed"
     },
-    "grey_zone_percentage": 8.7,
+    "grey_zone_percentage": 7.6,
     "grey_zone_note": "Gray Zone % (Z3/tempo) - minimize in polarized training",
-    "quality_intensity_percentage": 5.0,
+    "quality_intensity_percentage": 4.6,
     "quality_intensity_note": "Quality Intensity % (Z4+/threshold+) - target ~20% in polarized training",
-    "polarisation_index": 0.86,
+    "polarisation_index": 0.88,
     "polarisation_note": "Easy time (Z1+Z2) / Total - target ~80% in polarized training",
     "hard_days_this_week": 0,
     "hard_days_note": "Power ladder: z3+ >= 30min, z4+ >= 10min, z5+ >= 5min, z6+ >= 2min, z7 >= 1min. HR fallback (when no power): z4+ >= 10min, z5+ >= 5min. Per Seiler 3-zone model + Foster. HR-based days flagged with intensity_basis: hr",
     "seiler_tid_7d": {
-      "z1_seconds": 9462,
-      "z2_seconds": 960,
-      "z3_seconds": 552,
-      "z1_pct": 86.2,
-      "z2_pct": 8.7,
-      "z3_pct": 5.0,
+      "z1_seconds": 11348,
+      "z2_seconds": 976,
+      "z3_seconds": 588,
+      "z1_pct": 87.9,
+      "z2_pct": 7.6,
+      "z3_pct": 4.6,
       "polarization_index": null,
       "classification": "Pyramidal",
       "zone_basis": "mixed"
@@ -307,13 +307,13 @@
       "sport": "run"
     },
     "seiler_tid_28d": {
-      "z1_seconds": 15231,
-      "z2_seconds": 2152,
-      "z3_seconds": 3471,
-      "z1_pct": 73.0,
-      "z2_pct": 10.3,
-      "z3_pct": 16.6,
-      "polarization_index": 2.07,
+      "z1_seconds": 17117,
+      "z2_seconds": 2168,
+      "z3_seconds": 3507,
+      "z1_pct": 75.1,
+      "z2_pct": 9.5,
+      "z3_pct": 15.4,
+      "polarization_index": 2.08,
       "classification": "Polarized",
       "zone_basis": "mixed"
     },
@@ -360,7 +360,7 @@
         "classification_7d": "Pyramidal",
         "classification_28d": "Polarized",
         "pi_7d": null,
-        "pi_28d": 2.07,
+        "pi_28d": 2.08,
         "pi_delta": null,
         "drift": "shifting",
         "note": "Compares 7d vs 28d Seiler TID to detect distribution shifts. pi_delta positive = more polarized acutely."
@@ -377,9 +377,9 @@
         },
         "anchors": {
           "5s": {
-            "current_watts": 295,
+            "current_watts": 1071,
             "previous_watts": 603,
-            "pct_change": -51.1
+            "pct_change": 77.6
           },
           "60s": {
             "current_watts": 288,
@@ -402,7 +402,7 @@
             "pct_change": -11.8
           }
         },
-        "rotation_index": -29.6,
+        "rotation_index": 34.8,
         "note": "Compares MMP at 5 anchor durations (5s neuromuscular, 60s anaerobic, 300s MAP, 1200s threshold, 3600s endurance) across two 28d windows. rotation_index = mean(5s,60s pct_change) - mean(1200s,3600s pct_change). Positive = sprint-biased gains, negative = endurance-biased. 300s excluded from rotation (transitional). Null when either window has fewer than 3 valid anchor durations."
       },
       "hr_curve_delta": {
@@ -537,16 +537,16 @@
           },
           "coverage_ratio": 0.71,
           "ftp_used": 273,
-          "w_prime_used": 23327,
+          "w_prime_used": 23304,
           "ftp_staleness_days": 0,
           "model_trust_note": "CP/W' model (P=CP+W'/t) is primary for durations \u226420min where W' contribution is meaningful. Coggan duration factors (Allen & Coggan, 3rd ed.) are the established reference for \u226560min. 30min is the crossover zone where both apply. model_divergence_pct = (actual - CP_model) / CP_model \u00d7 100. Positive divergence at short durations may indicate strong anaerobic capacity or stale W' value. Indoor MMP is typically 3-5% lower than outdoor (cooling, motivation) \u2014 source flag indicates which environment produced each anchor."
         }
       }
     },
-    "consistency_index": 0.14,
+    "consistency_index": 0.17,
     "consistency_details": {
-      "planned_days": 7,
-      "completed_days": 1,
+      "planned_days": 6,
+      "completed_days": 2,
       "matched_days": 1,
       "planned_dates": [
         "2026-10-01",
@@ -554,11 +554,11 @@
         "2026-10-03",
         "2026-10-04",
         "2026-10-05",
-        "2026-10-06",
-        "2026-10-07"
+        "2026-10-06"
       ],
       "completed_dates": [
-        "2026-10-05"
+        "2026-10-05",
+        "2026-10-07"
       ]
     },
     "phase_detection": {
@@ -573,11 +573,11 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 1.42,
-          "hard_sessions_planned": 3,
+          "planned_tss_delta": 1.4,
+          "hard_sessions_planned": 2,
           "race_proximity": null,
           "next_week_load": null,
-          "plan_coverage_current_week": 1.0,
+          "plan_coverage_current_week": 0.8,
           "plan_coverage_next_week": 0.0
         },
         "data_quality": "good",
@@ -605,19 +605,19 @@
       "benchmark_percentage": null,
       "seasonal_expected": null
     },
-    "eftp": 274.2,
-    "w_prime": 23327,
+    "eftp": 273.9,
+    "w_prime": 23304,
     "w_prime_kj": 23.3,
-    "p_max": 1176,
+    "p_max": 1175,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-10-07T13:54:50.527194",
+    "calculation_timestamp": "2026-10-07T19:38:06.048274",
     "data_quality": {
       "hrv_data_points": 3,
       "rhr_data_points": 6,
-      "activities_7d": 3,
-      "activities_28d": 6,
-      "planned_workouts_7d": 7,
+      "activities_7d": 5,
+      "activities_28d": 8,
+      "planned_workouts_7d": 6,
       "ftp_history_days": {
         "indoor": 191,
         "outdoor": 0
@@ -625,6 +625,114 @@
     }
   },
   "recent_activities": [
+    {
+      "id": "i194796119",
+      "date": "2026-10-07T20:08:12",
+      "type": "VirtualRide",
+      "name": "MyWhoosh - Power Passport",
+      "duration_hours": 0.36,
+      "distance_km": 7.74,
+      "tss": 15,
+      "intensity_factor": 64.48276,
+      "avg_power": 162,
+      "normalized_power": 187,
+      "avg_hr": 150,
+      "max_hr": 181,
+      "avg_cadence": 78.19663,
+      "avg_speed": 21.3,
+      "max_speed": 64.4,
+      "avg_pace": null,
+      "avg_temp": null,
+      "weather": null,
+      "humidity": null,
+      "wind_speed": null,
+      "work_kj": 211.5,
+      "calories": 211,
+      "carbs_used": 81,
+      "carbs_ingested": null,
+      "variability_index": 1.154321,
+      "decoupling": 16.130434,
+      "efficiency_factor": 1.2466667,
+      "hrrc": null,
+      "elevation_m": 138.8,
+      "feel": null,
+      "rpe": null,
+      "zone_distribution": {
+        "hr_zones": {
+          "z1_time": 461,
+          "z2_time": 726,
+          "z3_time": 47,
+          "z4_time": 74,
+          "z5_time": 0,
+          "z6_time": 0,
+          "z7_time": 0
+        },
+        "power_zones": {
+          "z1_time": 1166,
+          "z2_time": 119,
+          "z3_time": 1,
+          "z4_time": 0,
+          "z5_time": 0,
+          "z6_time": 1,
+          "z7_time": 21
+        }
+      },
+      "has_intervals": false
+    },
+    {
+      "id": "i194783175",
+      "date": "2026-10-07T19:49:29",
+      "type": "VirtualRide",
+      "name": "MyWhoosh - Trainer Warmup",
+      "duration_hours": 0.17,
+      "distance_km": 5.01,
+      "tss": 6,
+      "intensity_factor": 57.931034,
+      "avg_power": 155,
+      "normalized_power": 168,
+      "avg_hr": 129,
+      "max_hr": 150,
+      "avg_cadence": 73.98537,
+      "avg_speed": 28.6,
+      "max_speed": 44.1,
+      "avg_pace": null,
+      "avg_temp": null,
+      "weather": null,
+      "humidity": null,
+      "wind_speed": null,
+      "work_kj": 97.4,
+      "calories": 97,
+      "carbs_used": 44,
+      "carbs_ingested": null,
+      "variability_index": 1.083871,
+      "decoupling": 3.8408592,
+      "efficiency_factor": 1.3023256,
+      "hrrc": null,
+      "elevation_m": 33.600002,
+      "feel": null,
+      "rpe": null,
+      "zone_distribution": {
+        "hr_zones": {
+          "z1_time": 605,
+          "z2_time": 25,
+          "z3_time": 0,
+          "z4_time": 0,
+          "z5_time": 0,
+          "z6_time": 0,
+          "z7_time": 0
+        },
+        "power_zones": {
+          "z1_time": 536,
+          "z2_time": 65,
+          "z3_time": 15,
+          "z4_time": 8,
+          "z5_time": 0,
+          "z6_time": 0,
+          "z7_time": 6
+        }
+      },
+      "has_intervals": false
+    },
     {
       "id": "i194345259",
       "date": "2026-10-06T17:34:15",
@@ -1187,7 +1295,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 3332,
+      "steps": 5578,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -1200,8 +1308,22 @@
   ],
   "planned_workouts": [
     {
-      "id": 141650426,
-      "date": "2026-10-07",
+      "id": 142448318,
+      "date": "2026-10-08",
+      "name": "NSRC 4+4+3 laps - CAPPED 4:50-4:55/km",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": 85,
+      "duration_hours": 1.33,
+      "duration_formatted": "1h20m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "18:00",
+      "description": "- Warm up 15 min easy, then 4 relaxed strides\n- Reps of 4 laps, 4 laps, 3 laps. Skip the club's last 3-lap rep\n- Every lap in 4:18 to 4:23, whatever the group runs\n- If heart rate passes 180 before the last lap of a rep, ease off\n- Calves tighten: stop the reps and jog home\n- Jog the recoveries, cool down 10 min easy\n- Eat carbs afterwards. Power Passport on Friday"
+    },
+    {
+      "id": 142448319,
+      "date": "2026-10-09",
       "name": "POWER PASSPORT TEST (MyWhoosh)",
       "type": "WORKOUT",
       "sport_type": "VirtualRide",
@@ -1211,35 +1333,7 @@
       "workout_summary": null,
       "has_terrain": false,
       "start_time": "18:00",
-      "description": "- Follow the MyWhoosh Power Passport protocol in the app\n- Carbs 2-3h before, a bottle on the bike, fan on\n- Warm up properly, then a genuine max on every effort\n- Sets your FTP, zones and SRC category. Retest around Nov 25"
-    },
-    {
-      "id": 141650427,
-      "date": "2026-10-08",
-      "name": "NSRC intervals - CAPPED at 10k effort",
-      "type": "WORKOUT",
-      "sport_type": "Run",
-      "planned_tss": 60,
-      "duration_hours": 1.0,
-      "duration_formatted": "1h",
-      "workout_summary": null,
-      "has_terrain": false,
-      "start_time": "18:00",
-      "description": "- Club session. Every rep at controlled 10k effort, not all-out\n- Finish feeling you had two reps left\n- Calves tighten: stop the reps and jog home\n- Jog or walk the recoveries fully"
-    },
-    {
-      "id": 141650428,
-      "date": "2026-10-09",
-      "name": "Easy run 6km - HR 137-151",
-      "type": "WORKOUT",
-      "sport_type": "Run",
-      "planned_tss": 26,
-      "duration_hours": 0.6,
-      "duration_formatted": "36m12s",
-      "workout_summary": null,
-      "has_terrain": false,
-      "start_time": "07:30",
-      "description": "- 6km 75-83% LTHR"
+      "description": "- Retry of Wednesday's attempt, which the software cut short\n- Follow the MyWhoosh Power Passport protocol in the app\n- Carbs 2-3h before, a bottle on the bike, fan on\n- Warm up properly, then a genuine max on every effort\n- Fails again: retry Saturday morning in place of the spin\n- Sets your FTP, zones and SRC category. Retest around Nov 25"
     },
     {
       "id": 141650430,
@@ -1271,18 +1365,18 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 2,
+    "attempted": 1,
     "success": 1,
     "patternA": 1,
     "patternB": 0,
     "bail_no_workout_doc": 3,
-    "bail_no_match": 1
+    "bail_no_match": 0
   },
   "weekly_summary": {
-    "total_training_hours": 3.05,
-    "total_training_formatted": "3h3m",
-    "total_tss": 190,
-    "activities_count": 3,
+    "total_training_hours": 3.59,
+    "total_training_formatted": "3h35m",
+    "total_tss": 211,
+    "activities_count": 5,
     "avg_hrv": 72.3,
     "avg_resting_hr": 50.5
   },
