@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-10-08T17:38:51.272374",
+    "last_updated": "2026-10-08T22:26:20.477865",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.95"
@@ -186,7 +186,7 @@
         "run": {
           "lthr": 182,
           "max_hr": 202,
-          "threshold_pace": 3.3898306,
+          "threshold_pace": 3.5714285,
           "pace_units": "MINS_KM",
           "ftp": null,
           "ftp_indoor": null
@@ -225,7 +225,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 17012,
+      "steps": 18518,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -602,7 +602,7 @@
     "p_max": 1175,
     "power_model_source": "wellness.sportInfo",
     "vo2max": 51.0,
-    "calculation_timestamp": "2026-10-08T17:38:50.695887",
+    "calculation_timestamp": "2026-10-08T22:26:20.476653",
     "data_quality": {
       "hrv_data_points": 4,
       "rhr_data_points": 7,
@@ -1331,7 +1331,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 17012,
+      "steps": 18518,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -1358,18 +1358,18 @@
       "description": "- Warm up 15 min easy, then 4 relaxed strides\n- Reps of 4 laps, 4 laps, 3 laps. Skip the club's last 3-lap rep\n- Every lap in 4:18 to 4:23, whatever the group runs\n- If heart rate passes 180 before the last lap of a rep, ease off\n- Calves tighten: stop the reps and jog home\n- Jog the recoveries, cool down 10 min easy\n- Eat carbs afterwards. Power Passport on Friday"
     },
     {
-      "id": 142448319,
+      "id": 142811509,
       "date": "2026-10-09",
-      "name": "POWER PASSPORT TEST (MyWhoosh)",
+      "name": "Recovery spin 60min - HR under 140",
       "type": "WORKOUT",
       "sport_type": "VirtualRide",
-      "planned_tss": 85,
-      "duration_hours": 1.25,
-      "duration_formatted": "1h15m",
+      "planned_tss": 30,
+      "duration_hours": 1.0,
+      "duration_formatted": "1h",
       "workout_summary": null,
       "has_terrain": false,
       "start_time": "18:00",
-      "description": "- Retry of Wednesday's attempt, which the software cut short\n- Follow the MyWhoosh Power Passport protocol in the app\n- Carbs 2-3h before, a bottle on the bike, fan on\n- Warm up properly, then a genuine max on every effort\n- Fails again: retry Saturday morning in place of the spin\n- Sets your FTP, zones and SRC category. Retest around Nov 25"
+      "description": "- 10m ramp 45-55%\n- 50m 52-60%"
     },
     {
       "id": 141650430,
@@ -1401,12 +1401,12 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 1,
+    "attempted": 2,
     "success": 1,
     "patternA": 1,
     "patternB": 0,
-    "bail_no_workout_doc": 3,
-    "bail_no_match": 0
+    "bail_no_workout_doc": 2,
+    "bail_no_match": 1
   },
   "weekly_summary": {
     "total_training_hours": 4.69,
