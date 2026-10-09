@@ -1,58 +1,10 @@
 {
-  "generated_at": "2026-10-08T22:26:20.477697",
+  "generated_at": "2026-10-09T02:21:28.673639",
   "version": "3.95",
   "script_hash": "ec09283a7a09",
   "scan_hours": 72,
   "retention_days": 8,
   "activities": [
-    {
-      "activity_id": "i192008006",
-      "date": "2026-09-30",
-      "type": "VirtualRide",
-      "name": "BIKE: Easy 60min Z2",
-      "interval_summary": [
-        "1x 18m41s 255w"
-      ],
-      "intervals": [
-        {
-          "type": "RECOVERY",
-          "duration_secs": 2358,
-          "avg_power": 193,
-          "max_power": 306,
-          "avg_hr": 151,
-          "max_hr": 175,
-          "avg_cadence": 83.72646,
-          "zone": 1,
-          "training_load": 35.00395,
-          "decoupling": 0.101762585
-        },
-        {
-          "type": "WORK",
-          "label": "1121s@255w83rpm",
-          "duration_secs": 1121,
-          "avg_power": 255,
-          "max_power": 297,
-          "avg_hr": 176,
-          "max_hr": 185,
-          "avg_cadence": 83.330956,
-          "zone": 3,
-          "training_load": 24.076174,
-          "decoupling": -2.1027453
-        },
-        {
-          "type": "RECOVERY",
-          "duration_secs": 123,
-          "avg_power": 95,
-          "max_power": 259,
-          "avg_hr": 166,
-          "max_hr": 184,
-          "avg_cadence": 71.48781,
-          "zone": 1,
-          "training_load": 0.90194315,
-          "decoupling": 0.1330679
-        }
-      ]
-    },
     {
       "activity_id": "i193508478",
       "date": "2026-10-04",
