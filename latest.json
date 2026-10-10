@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-10-10T06:31:25.193769",
+    "last_updated": "2026-10-10T13:02:08.071433",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.95"
@@ -91,10 +91,10 @@
     "priority": 1,
     "signals": {
       "hrv": {
-        "status": "unavailable",
-        "value": null,
-        "baseline_7d": 65.5,
-        "delta_pct": null
+        "status": "green",
+        "value": 71.0,
+        "baseline_7d": 66.6,
+        "delta_pct": 6.6
       },
       "rhr": {
         "status": "green",
@@ -103,24 +103,24 @@
         "delta_bpm": -3.1
       },
       "sleep": {
-        "status": "unavailable",
-        "hours": null,
-        "quality": null
+        "status": "amber",
+        "hours": 6.22,
+        "quality": 3
       },
       "acwr": {
         "status": "red",
         "value": 2.57
       },
       "ri": {
-        "status": "unavailable",
-        "value": null
+        "status": "green",
+        "value": 1.14
       }
     },
     "signal_summary": {
-      "green": 1,
-      "amber": 0,
+      "green": 3,
+      "amber": 1,
       "red": 1,
-      "unavailable": 3
+      "unavailable": 0
     },
     "phase_context": {
       "phase": "Base",
@@ -162,11 +162,11 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 34.0,
-      "atl": 38.49,
-      "tsb": -4.49,
-      "ramp_rate": 4.06,
-      "fitness_source": "Decayed from yesterday (today's planned workouts not yet completed)"
+      "ctl": 33.31,
+      "atl": 35.03,
+      "tsb": -1.72,
+      "ramp_rate": 3.37,
+      "fitness_source": "From Intervals.icu API (reflects completed workouts)"
     },
     "thresholds": {
       "eftp": 273.9,
@@ -204,11 +204,11 @@
     "current_metrics": {
       "weight_kg": 79.1,
       "resting_hr": 47,
-      "hrv": null,
-      "sleep_quality": null,
-      "sleep_hours": null,
-      "sleep_formatted": null,
-      "sleep_score": null,
+      "hrv": 71.0,
+      "sleep_quality": 3,
+      "sleep_hours": 6.22,
+      "sleep_formatted": "6h13m",
+      "sleep_score": 77.0,
       "fatigue": null,
       "soreness": null,
       "stress": null,
@@ -225,7 +225,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 418,
+      "steps": 3813,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -237,12 +237,12 @@
     }
   },
   "derived_metrics": {
-    "recovery_index": null,
-    "hrv_baseline_7d": 65.5,
+    "recovery_index": 1.14,
+    "hrv_baseline_7d": 66.6,
     "rhr_baseline_7d": 50.1,
     "hrv_baseline_28d": 70.6,
     "rhr_baseline_28d": 49.1,
-    "latest_hrv": null,
+    "latest_hrv": 71.0,
     "latest_rhr": 47,
     "acwr": 2.57,
     "acwr_interpretation": "danger",
@@ -255,7 +255,7 @@
     "multi_sport_detected": true,
     "strain": 508.0,
     "stress_tolerance": 3.7,
-    "load_recovery_ratio": null,
+    "load_recovery_ratio": 3.2,
     "tss_7d_total": 368.0,
     "tss_28d_total": 573.0,
     "zone_distribution_7d": {
@@ -534,9 +534,9 @@
         }
       }
     },
-    "consistency_index": 0.17,
+    "consistency_index": 0.2,
     "consistency_details": {
-      "planned_days": 6,
+      "planned_days": 5,
       "completed_days": 2,
       "matched_days": 1,
       "planned_dates": [
@@ -544,8 +544,7 @@
         "2026-10-05",
         "2026-10-06",
         "2026-10-08",
-        "2026-10-09",
-        "2026-10-10"
+        "2026-10-09"
       ],
       "completed_dates": [
         "2026-10-05",
@@ -565,11 +564,11 @@
         },
         "stream_2": {
           "planned_tss_delta": null,
-          "hard_sessions_planned": 2,
+          "hard_sessions_planned": 1,
           "race_proximity": null,
-          "next_week_load": null,
-          "plan_coverage_current_week": 0.4,
-          "plan_coverage_next_week": 0.0
+          "next_week_load": 1.21,
+          "plan_coverage_current_week": 0.2,
+          "plan_coverage_next_week": 1.4
         },
         "data_quality": "good",
         "stream_agreement": null
@@ -602,13 +601,13 @@
     "p_max": 1175,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-10-10T06:31:25.192440",
+    "calculation_timestamp": "2026-10-10T13:02:08.070152",
     "data_quality": {
-      "hrv_data_points": 4,
+      "hrv_data_points": 5,
       "rhr_data_points": 7,
       "activities_7d": 7,
       "activities_28d": 10,
-      "planned_workouts_7d": 6,
+      "planned_workouts_7d": 5,
       "ftp_history_days": {
         "indoor": 194,
         "outdoor": 0
@@ -1351,12 +1350,12 @@
       "date": "2026-10-10",
       "weight_kg": null,
       "resting_hr": 47,
-      "hrv_rmssd": null,
+      "hrv_rmssd": 71.0,
       "hrv_sdnn": null,
-      "sleep_hours": null,
-      "sleep_formatted": null,
-      "sleep_quality": null,
-      "sleep_score": null,
+      "sleep_hours": 6.22,
+      "sleep_formatted": "6h13m",
+      "sleep_quality": 3,
+      "sleep_score": 77.0,
       "mental_energy": null,
       "avg_sleeping_hr": null,
       "vo2max": null,
@@ -1376,7 +1375,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 418,
+      "steps": 3813,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -1389,8 +1388,92 @@
   ],
   "planned_workouts": [
     {
-      "id": 141650430,
-      "date": "2026-10-10",
+      "id": 141650431,
+      "date": "2026-10-11",
+      "name": "SRC RACE - first one back",
+      "type": "WORKOUT",
+      "sport_type": "VirtualRide",
+      "planned_tss": 120,
+      "duration_hours": 1.5,
+      "duration_formatted": "1h30m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "11:45",
+      "description": "- Saturday pre-race spin dropped: short sleep and a high load ratio on Oct 10\n- Race unless Sunday morning shows a real red flag: under six hours of sleep, HRV well under baseline, resting HR up five or more, or the itch and stomach symptoms back\n- The load-ratio Skip alone does not cancel it: that ratio runs high after a layoff\n- Warm up 15 min with two one-minute efforts at race pace before the start\n- First race back. Ride it to finish strong, not to win\n- Fuel 60-80 g/h from the start\n- Note exactly where you lose contact; it goes in RACE_LOG.md"
+    },
+    {
+      "id": 143140340,
+      "date": "2026-10-12",
+      "name": "Recovery spin 40min - HR under 140",
+      "type": "WORKOUT",
+      "sport_type": "VirtualRide",
+      "planned_tss": 19,
+      "duration_hours": 0.67,
+      "duration_formatted": "40m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "18:00",
+      "description": "- 10m ramp 45-55%\n- 30m 50-58%"
+    },
+    {
+      "id": 143140341,
+      "date": "2026-10-13",
+      "name": "LONG RUN 12km - HR 137-151",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": 51,
+      "duration_hours": 1.15,
+      "duration_formatted": "1h8m43s",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "17:00",
+      "description": "- 12km 75-83% LTHR"
+    },
+    {
+      "id": 143140342,
+      "date": "2026-10-14",
+      "name": "Easy bike 60min - HR under 145",
+      "type": "WORKOUT",
+      "sport_type": "VirtualRide",
+      "planned_tss": 33,
+      "duration_hours": 1.0,
+      "duration_formatted": "1h",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "18:00",
+      "description": "- 10m ramp 45-58%\n- 50m 55-62%"
+    },
+    {
+      "id": 143140343,
+      "date": "2026-10-15",
+      "name": "NSRC - CAPPED 4:30-4:35/km, max 11 laps",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": 90,
+      "duration_hours": 1.33,
+      "duration_formatted": "1h20m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "18:00",
+      "description": "- Warm up 15 min easy, then 4 relaxed strides\n- Work reps capped at 11 laps in total, same as last week. Skip whatever the club runs beyond that\n- Every rep at 4:30 to 4:35 per km, whatever the group runs. Last week was 4:18 to 4:23: too fast\n- Heart rate under 180 until the last lap of a rep. Last week rep 2 averaged 184: ease off when it passes 180\n- Calves tighten: stop the reps and jog home\n- Jog the recoveries, cool down 10 min easy\n- Eat carbs afterwards. Last week of capped NSRC"
+    },
+    {
+      "id": 143140344,
+      "date": "2026-10-16",
+      "name": "Easy run 6km - HR 137-151",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": 25,
+      "duration_hours": 0.57,
+      "duration_formatted": "34m21s",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "18:00",
+      "description": "- 6km 75-83% LTHR"
+    },
+    {
+      "id": 143140345,
+      "date": "2026-10-17",
       "name": "Pre-race spin 45min + 3 openers",
       "type": "WORKOUT",
       "sport_type": "VirtualRide",
@@ -1403,9 +1486,9 @@
       "description": "- 15m ramp 45-65%\n\nOpeners 3x\n- 1m 100%\n- 3m 55%\n\n- 18m 55-60%"
     },
     {
-      "id": 141650431,
-      "date": "2026-10-11",
-      "name": "SRC RACE - first one back",
+      "id": 143140346,
+      "date": "2026-10-18",
+      "name": "SRC RACE",
       "type": "WORKOUT",
       "sport_type": "VirtualRide",
       "planned_tss": 120,
@@ -1414,23 +1497,23 @@
       "workout_summary": null,
       "has_terrain": false,
       "start_time": "11:45",
-      "description": "- First race back. Ride it to finish strong, not to win\n- Fuel 60-80 g/h from the start\n- Note exactly where you lose contact; it goes in RACE_LOG.md"
+      "description_preview": "- Fuel 60-80 g/h from the start\n- Note exactly where you lose contact; it goes in RACE_LOG.md"
     }
   ],
   "workout_summary_stats": {
-    "attempted": 1,
+    "attempted": 5,
     "success": 1,
     "patternA": 1,
     "patternB": 0,
-    "bail_no_workout_doc": 1,
-    "bail_no_match": 0
+    "bail_no_workout_doc": 3,
+    "bail_no_match": 4
   },
   "weekly_summary": {
     "total_training_hours": 5.24,
     "total_training_formatted": "5h14m",
     "total_tss": 368,
     "activities_count": 7,
-    "avg_hrv": 65.5,
+    "avg_hrv": 66.6,
     "avg_resting_hr": 50.1
   },
   "race_calendar": {
