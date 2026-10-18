@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-10-18T00:29:05.798740",
+    "last_updated": "2026-10-18T04:56:04.724258",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.95"
@@ -107,7 +107,7 @@
       },
       "tsb": {
         "status": "green",
-        "value": -4.8
+        "value": -1.5
       }
     },
     "signal_summary": {
@@ -118,7 +118,7 @@
     },
     "phase_context": {
       "phase": "Base",
-      "phase_week": 1,
+      "phase_week": 2,
       "amber_threshold": 2,
       "modifier_applied": "default"
     },
@@ -129,8 +129,8 @@
   },
   "history": {
     "available": true,
-    "last_generated": "2026-09-07",
-    "age_days": 41,
+    "last_generated": "2026-10-18",
+    "age_days": 0,
     "total_months": 35,
     "history_confidence": "high"
   },
@@ -162,10 +162,10 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 37.0,
-      "atl": 41.77,
-      "tsb": -4.77,
-      "ramp_rate": 4.48,
+      "ctl": 36.2,
+      "atl": 37.73,
+      "tsb": -1.53,
+      "ramp_rate": 3.67,
       "fitness_source": "Decayed from yesterday (today's planned workouts not yet completed)"
     },
     "thresholds": {
@@ -511,8 +511,8 @@
       "reason_codes": [],
       "basis": {
         "stream_1": {
-          "ctl_slope": null,
-          "acwr_trend": null,
+          "ctl_slope": 1.03,
+          "acwr_trend": "falling",
           "hard_day_pattern": 1.2,
           "weeks_available": 4
         },
@@ -527,8 +527,8 @@
         "data_quality": "good",
         "stream_agreement": null
       },
-      "previous_phase": null,
-      "phase_duration_weeks": 1,
+      "previous_phase": "Base",
+      "phase_duration_weeks": 2,
       "dossier_declared": null,
       "dossier_agreement": null
     },
@@ -555,7 +555,7 @@
     "p_max": 1175,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-10-18T00:29:05.797293",
+    "calculation_timestamp": "2026-10-18T04:56:04.722858",
     "data_quality": {
       "hrv_data_points": 3,
       "rhr_data_points": 5,
