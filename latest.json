@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-10-19T19:17:02.932412",
+    "last_updated": "2026-10-19T22:57:12.807135",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.95"
@@ -507,9 +507,7 @@
     "phase_detection": {
       "phase": "Base",
       "confidence": "medium",
-      "reason_codes": [
-        "NO_PLANNED_WORKOUTS"
-      ],
+      "reason_codes": [],
       "basis": {
         "stream_1": {
           "ctl_slope": 1.75,
@@ -518,11 +516,11 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": null,
-          "hard_sessions_planned": 0,
+          "planned_tss_delta": 1.44,
+          "hard_sessions_planned": 2,
           "race_proximity": null,
           "next_week_load": null,
-          "plan_coverage_current_week": 0.0,
+          "plan_coverage_current_week": 1.2,
           "plan_coverage_next_week": 0.0
         },
         "data_quality": "good",
@@ -534,9 +532,7 @@
       "dossier_agreement": null
     },
     "phase_detected": "Base",
-    "phase_triggers": [
-      "NO_PLANNED_WORKOUTS"
-    ],
+    "phase_triggers": [],
     "seasonal_context": "Late Season / Transition",
     "benchmark_indoor": {
       "current_ftp": 290,
@@ -558,7 +554,7 @@
     "p_max": 1175,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-10-19T19:17:02.931399",
+    "calculation_timestamp": "2026-10-19T22:57:12.805718",
     "data_quality": {
       "hrv_data_points": 3,
       "rhr_data_points": 5,
@@ -1646,14 +1642,99 @@
       "readiness": null
     }
   ],
-  "planned_workouts": [],
+  "planned_workouts": [
+    {
+      "id": 146326879,
+      "date": "2026-10-20",
+      "name": "LONG RUN 12km - HR 137-151",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": 46,
+      "duration_hours": 1.15,
+      "duration_formatted": "1h8m43s",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "17:30",
+      "description": "- 12km 75-83% LTHR\n\nLast week stopped short with heart rate climbing past 160. Walk the hills if that keeps it under 151\nFinish the distance, not the pace. Take a gel and water if it runs past an hour\nResting HR still above 55 this morning, or a sore throat or fever: run short and easy, or rest"
+    },
+    {
+      "id": 146326880,
+      "date": "2026-10-21",
+      "name": "Endurance ride 75min - HR under 140",
+      "type": "WORKOUT",
+      "sport_type": "VirtualRide",
+      "planned_tss": 44,
+      "duration_hours": 1.25,
+      "duration_formatted": "1h15m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "19:15",
+      "description": "- 10m ramp 45-60%\n- 60m 58-64%\n- 5m 50%\n\nRide this workout, not a MyWhoosh group workout: last Wednesday's Mitochondria surged above threshold the day before the club run\nCommuting by bike today: the commute replaces this ride, easy both ways"
+    },
+    {
+      "id": 146326881,
+      "date": "2026-10-22",
+      "name": "NSRC - 10k effort, max 12 laps",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": 95,
+      "duration_hours": 1.42,
+      "duration_formatted": "1h25m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "18:00",
+      "description": "- Only if Tuesday's long run went fine and resting HR is back under 55. Otherwise run it all easy\n- Warm up on the run from the office: easy, heart rate under 150, then 4 relaxed strides\n- Reps at 10k effort, the step the season plan schedules for this week. You ran 4:21 per km twice with quiet calves\n- Each rep averages heart rate under 182. No rep faster than 4:15 per km\n- Work reps capped at 12 laps in total. Skip whatever the club runs beyond that\n- Calves tighten: stop the reps and jog home\n- Jog the recoveries, cool down 10 min easy, carbs afterwards"
+    },
+    {
+      "id": 146326882,
+      "date": "2026-10-23",
+      "name": "Easy run 7km - HR 137-151",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": 27,
+      "duration_hours": 0.67,
+      "duration_formatted": "40m5s",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "12:00",
+      "description": "- 7km 75-83% LTHR\n\nMissed last Friday: this is volume the week needs. Harry can come"
+    },
+    {
+      "id": 146326883,
+      "date": "2026-10-24",
+      "name": "Endurance ride 75min + 3 openers",
+      "type": "WORKOUT",
+      "sport_type": "VirtualRide",
+      "planned_tss": 47,
+      "duration_hours": 1.25,
+      "duration_formatted": "1h15m",
+      "workout_summary": "15m @150W | 40m @166W | 3\u00d71m @273W / 3m rec | 8m @136W",
+      "has_terrain": false,
+      "start_time": "10:00",
+      "description": "- 15m ramp 45-65%\n- 40m 58-64%\n\nOpeners 3x\n- 1m 100%\n- 3m 55%\n\n- 8m 50%"
+    },
+    {
+      "id": 146326884,
+      "date": "2026-10-25",
+      "name": "SRC RACE",
+      "type": "WORKOUT",
+      "sport_type": "VirtualRide",
+      "planned_tss": 120,
+      "duration_hours": 1.5,
+      "duration_formatted": "1h30m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "11:45",
+      "description": "- Warm up properly, with two hard efforts just before the start\n- Be in the front third of the pack before the first climb, so you drift back through it, not off it\n- Fuel 60-80 g/h from the start. Fan on full, plain water beside the carb flask\n- Note exactly where you lose contact; it goes in RACE_LOG.md"
+    }
+  ],
   "workout_summary_stats": {
-    "attempted": 0,
-    "success": 0,
-    "patternA": 0,
+    "attempted": 4,
+    "success": 1,
+    "patternA": 1,
     "patternB": 0,
-    "bail_no_workout_doc": 0,
-    "bail_no_match": 0
+    "bail_no_workout_doc": 2,
+    "bail_no_match": 3
   },
   "weekly_summary": {
     "total_training_hours": 3.11,
