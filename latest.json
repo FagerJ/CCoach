@@ -70,12 +70,21 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-10-21T11:19:29.982347",
+    "last_updated": "2026-10-21T16:00:08.917367",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.95"
   },
   "alerts": [
+    {
+      "metric": "rhr",
+      "value": 66,
+      "severity": "warning",
+      "threshold": "\u2191\u22655bpm vs baseline (54)",
+      "context": "RHR 66 is 12bpm above baseline. Monitor \u2014 alarm if persists >2 days.",
+      "persistence_days": 1,
+      "tier": 1
+    },
     {
       "metric": "acwr",
       "value": 0.68,
@@ -96,8 +105,8 @@
     }
   ],
   "readiness_decision": {
-    "recommendation": "go",
-    "priority": 3,
+    "recommendation": "modify",
+    "priority": 2,
     "signals": {
       "hrv": {
         "status": "unavailable",
@@ -106,10 +115,10 @@
         "delta_pct": null
       },
       "rhr": {
-        "status": "unavailable",
-        "value": null,
-        "baseline_7d": 51,
-        "delta_bpm": null
+        "status": "red",
+        "value": 66,
+        "baseline_7d": 54,
+        "delta_bpm": 12
       },
       "sleep": {
         "status": "unavailable",
@@ -126,24 +135,34 @@
       },
       "tsb": {
         "status": "green",
-        "value": -13.5
+        "value": -9.3
       }
     },
     "signal_summary": {
       "green": 1,
       "amber": 1,
-      "red": 0,
-      "unavailable": 4
+      "red": 1,
+      "unavailable": 3
     },
     "phase_context": {
-      "phase": "Build",
-      "phase_week": 1,
-      "amber_threshold": 3,
-      "modifier_applied": "build_loosened"
+      "phase": "Base",
+      "phase_week": 3,
+      "amber_threshold": 2,
+      "modifier_applied": "default"
     },
     "race_week_defers": false,
-    "modification": null,
-    "reason": "P3 green light. 1 green, 1 amber (threshold 3), 0 red. Note: 4 signals unavailable \u2014 limited data.",
+    "modification": {
+      "triggers": [
+        "rhr",
+        "acwr"
+      ],
+      "suggested_adjustments": {
+        "intensity": "reduce",
+        "volume": "reduce",
+        "cap_zone": "Z2"
+      }
+    },
+    "reason": "P2 signal count. 1 red (rhr), 1 amber (acwr).",
     "alarm_refs": []
   },
   "history": {
@@ -175,10 +194,10 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 39.71,
-      "atl": 53.25,
-      "tsb": -13.54,
-      "ramp_rate": 3.22,
+      "ctl": 38.65,
+      "atl": 47.94,
+      "tsb": -9.29,
+      "ramp_rate": 2.17,
       "fitness_source": "Decayed from yesterday (today's planned workouts not yet completed)"
     },
     "thresholds": {
@@ -216,7 +235,7 @@
     },
     "current_metrics": {
       "weight_kg": 78.4,
-      "resting_hr": 51,
+      "resting_hr": 66,
       "hrv": null,
       "sleep_quality": null,
       "sleep_hours": null,
@@ -238,7 +257,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": null,
+      "steps": 197,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -252,11 +271,11 @@
   "derived_metrics": {
     "recovery_index": null,
     "hrv_baseline_7d": 92.5,
-    "rhr_baseline_7d": 51,
+    "rhr_baseline_7d": 54,
     "hrv_baseline_28d": 75.1,
-    "rhr_baseline_28d": 49.3,
+    "rhr_baseline_28d": 50,
     "latest_hrv": null,
-    "latest_rhr": null,
+    "latest_rhr": 66,
     "acwr": 0.68,
     "acwr_interpretation": "undertraining",
     "monotony": 0.57,
@@ -516,20 +535,18 @@
       "completed_dates": []
     },
     "phase_detection": {
-      "phase": "Build",
+      "phase": "Base",
       "confidence": "medium",
-      "reason_codes": [
-        "PHASE_TRANSITION_Base_TO_Build"
-      ],
+      "reason_codes": [],
       "basis": {
         "stream_1": {
-          "ctl_slope": 2.15,
+          "ctl_slope": 1.88,
           "acwr_trend": "falling",
           "hard_day_pattern": 1.2,
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 1.14,
+          "planned_tss_delta": 1.06,
           "hard_sessions_planned": 2,
           "race_proximity": null,
           "next_week_load": null,
@@ -540,14 +557,12 @@
         "stream_agreement": null
       },
       "previous_phase": "Base",
-      "phase_duration_weeks": 1,
+      "phase_duration_weeks": 3,
       "dossier_declared": null,
       "dossier_agreement": null
     },
-    "phase_detected": "Build",
-    "phase_triggers": [
-      "PHASE_TRANSITION_Base_TO_Build"
-    ],
+    "phase_detected": "Base",
+    "phase_triggers": [],
     "seasonal_context": "Late Season / Transition",
     "benchmark_indoor": {
       "current_ftp": 290,
@@ -569,10 +584,10 @@
     "p_max": 1175,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-10-21T11:19:29.980676",
+    "calculation_timestamp": "2026-10-21T16:00:08.915947",
     "data_quality": {
       "hrv_data_points": 2,
-      "rhr_data_points": 4,
+      "rhr_data_points": 5,
       "activities_7d": 3,
       "activities_28d": 18,
       "planned_workouts_7d": 6,
@@ -1665,7 +1680,7 @@
     {
       "date": "2026-10-21",
       "weight_kg": null,
-      "resting_hr": null,
+      "resting_hr": 66,
       "hrv_rmssd": null,
       "hrv_sdnn": null,
       "sleep_hours": null,
@@ -1691,7 +1706,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": null,
+      "steps": 197,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -1709,7 +1724,7 @@
       "name": "Endurance ride 75min - HR under 140",
       "type": "WORKOUT",
       "sport_type": "VirtualRide",
-      "planned_tss": 44,
+      "planned_tss": 50,
       "duration_hours": 1.25,
       "duration_formatted": "1h15m",
       "workout_summary": null,
@@ -1718,18 +1733,18 @@
       "description": "- 10m ramp 45-60%\n- 60m 58-64%\n- 5m 50%\n\nRide this workout, not a MyWhoosh group workout: last Wednesday's Mitochondria surged above threshold the day before the club run\nCommuting by bike today: the commute replaces this ride, easy both ways"
     },
     {
-      "id": 146326881,
+      "id": 146807349,
       "date": "2026-10-22",
-      "name": "NSRC - 10k effort, max 12 laps",
+      "name": "NSRC - CAPPED 4:25-4:35/km, max 10 laps",
       "type": "WORKOUT",
       "sport_type": "Run",
-      "planned_tss": 95,
-      "duration_hours": 1.42,
-      "duration_formatted": "1h25m",
+      "planned_tss": 85,
+      "duration_hours": 1.33,
+      "duration_formatted": "1h20m",
       "workout_summary": null,
       "has_terrain": false,
       "start_time": "18:00",
-      "description": "- Only if Tuesday's long run went fine and resting HR is back under 55. Otherwise run it all easy\n- Warm up on the run from the office: easy, heart rate under 150, then 4 relaxed strides\n- Reps at 10k effort, the step the season plan schedules for this week. You ran 4:21 per km twice with quiet calves\n- Each rep averages heart rate under 182. No rep faster than 4:15 per km\n- Work reps capped at 12 laps in total. Skip whatever the club runs beyond that\n- Calves tighten: stop the reps and jog home\n- Jog the recoveries, cool down 10 min easy, carbs afterwards"
+      "description": "- Tuesday ran four km longer than planned at heart rate 161, so Thursday stays controlled\n- Calves tight or legs heavy: run it all easy instead\n- Warm up on the run from the office: easy, heart rate under 150, then 4 relaxed strides\n- Work reps capped at 10 laps in total. Skip whatever the club runs beyond that\n- Every rep at 4:25 to 4:35 per km. No faster, whatever the group runs\n- Heart rate under 180 until the last lap of a rep\n- Jog the recoveries, cool down 10 min easy, carbs afterwards"
     },
     {
       "id": 146326882,
@@ -1737,13 +1752,13 @@
       "name": "Easy run 7km - HR 137-151",
       "type": "WORKOUT",
       "sport_type": "Run",
-      "planned_tss": 27,
+      "planned_tss": 29,
       "duration_hours": 0.67,
       "duration_formatted": "40m5s",
       "workout_summary": null,
       "has_terrain": false,
       "start_time": "12:00",
-      "description": "- 7km 75-83% LTHR\n\nMissed last Friday: this is volume the week needs. Harry can come"
+      "description": "- 7km 75-83% LTHR\n\nHarry pace: slower than six minutes per km. Tuesday averaged heart rate 161 at a faster pace\nThe cap is the session. Over 151: slow down or walk"
     },
     {
       "id": 146326883,
@@ -1751,7 +1766,7 @@
       "name": "Endurance ride 75min + 3 openers",
       "type": "WORKOUT",
       "sport_type": "VirtualRide",
-      "planned_tss": 47,
+      "planned_tss": 55,
       "duration_hours": 1.25,
       "duration_formatted": "1h15m",
       "workout_summary": "15m @150W | 40m @166W | 3\u00d71m @273W / 3m rec | 8m @136W",
@@ -1788,7 +1803,7 @@
     "total_tss": 170,
     "activities_count": 3,
     "avg_hrv": 92.5,
-    "avg_resting_hr": 51.0
+    "avg_resting_hr": 54.0
   },
   "race_calendar": {
     "next_race": null,
