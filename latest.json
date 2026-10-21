@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-10-21T19:57:55.398485",
+    "last_updated": "2026-10-21T23:00:10.112822",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.95"
@@ -134,13 +134,13 @@
         "value": null
       },
       "tsb": {
-        "status": "amber",
-        "value": -21.4
+        "status": "green",
+        "value": -15.9
       }
     },
     "signal_summary": {
-      "green": 0,
-      "amber": 2,
+      "green": 1,
+      "amber": 1,
       "red": 1,
       "unavailable": 3
     },
@@ -154,8 +154,7 @@
     "modification": {
       "triggers": [
         "rhr",
-        "acwr",
-        "tsb"
+        "acwr"
       ],
       "suggested_adjustments": {
         "intensity": "reduce",
@@ -163,7 +162,7 @@
         "cap_zone": "Z2"
       }
     },
-    "reason": "P2 signal count. 1 red (rhr), 2 amber (acwr, tsb).",
+    "reason": "P2 signal count. 1 red (rhr), 1 amber (acwr).",
     "alarm_refs": []
   },
   "history": {
@@ -195,10 +194,10 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 41.24,
-      "atl": 62.59,
-      "tsb": -21.35,
-      "ramp_rate": 3.08,
+      "ctl": 40.06,
+      "atl": 55.93,
+      "tsb": -15.87,
+      "ramp_rate": 1.91,
       "fitness_source": "From Intervals.icu API (reflects completed workouts)"
     },
     "thresholds": {
@@ -543,13 +542,13 @@
       ],
       "basis": {
         "stream_1": {
-          "ctl_slope": 2.53,
+          "ctl_slope": 2.25,
           "acwr_trend": "falling",
           "hard_day_pattern": 1.2,
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 1.06,
+          "planned_tss_delta": 0.42,
           "hard_sessions_planned": 2,
           "race_proximity": null,
           "next_week_load": null,
@@ -589,7 +588,7 @@
     "p_max": 1175,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-10-21T19:57:55.397526",
+    "calculation_timestamp": "2026-10-21T23:00:10.111389",
     "data_quality": {
       "hrv_data_points": 2,
       "rhr_data_points": 5,
@@ -1773,32 +1772,32 @@
       "description": "- 10m ramp 45-60%\n- 60m 58-64%\n- 5m 50%\n\nRide this workout, not a MyWhoosh group workout: last Wednesday's Mitochondria surged above threshold the day before the club run\nCommuting by bike today: the commute replaces this ride, easy both ways"
     },
     {
-      "id": 146807349,
+      "id": 146983196,
       "date": "2026-10-22",
-      "name": "NSRC - CAPPED 4:25-4:35/km, max 10 laps",
+      "name": "NSRC - easy only, no reps",
       "type": "WORKOUT",
       "sport_type": "Run",
-      "planned_tss": 85,
-      "duration_hours": 1.33,
-      "duration_formatted": "1h20m",
+      "planned_tss": 45,
+      "duration_hours": 1.0,
+      "duration_formatted": "1h",
       "workout_summary": null,
       "has_terrain": false,
       "start_time": "18:00",
-      "description": "- Tuesday ran four km longer than planned at heart rate 161, so Thursday stays controlled\n- Calves tight or legs heavy: run it all easy instead\n- Warm up on the run from the office: easy, heart rate under 150, then 4 relaxed strides\n- Work reps capped at 10 laps in total. Skip whatever the club runs beyond that\n- Every rep at 4:25 to 4:35 per km. No faster, whatever the group runs\n- Heart rate under 180 until the last lap of a rep\n- Jog the recoveries, cool down 10 min easy, carbs afterwards"
+      "description": "- Run with the club but skip the reps: easy, heart rate under 151 the whole way\n- Calves were tight on Wednesday and you added a run of almost nine km on top of Tuesday's 16\n- Calves still tight or sore by the warm-up: walk-jog home and stop there\n- The reps come back next week once the calves are quiet"
     },
     {
-      "id": 146326882,
+      "id": 146983197,
       "date": "2026-10-23",
-      "name": "Easy run 7km - HR 137-151",
+      "name": "Easy spin 45min - HR under 135",
       "type": "WORKOUT",
-      "sport_type": "Run",
-      "planned_tss": 29,
-      "duration_hours": 0.67,
-      "duration_formatted": "40m5s",
+      "sport_type": "VirtualRide",
+      "planned_tss": 21,
+      "duration_hours": 0.75,
+      "duration_formatted": "45m",
       "workout_summary": null,
       "has_terrain": false,
       "start_time": "12:00",
-      "description": "- 7km 75-83% LTHR\n\nHarry pace: slower than six minutes per km. Tuesday averaged heart rate 161 at a faster pace\nThe cap is the session. Over 151: slow down or walk"
+      "description": "- 10m ramp 45-55%\n- 35m 50-58%\n\nReplaces the run: the week already has about as much running as the calves can take"
     },
     {
       "id": 146326883,
