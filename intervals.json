@@ -1,87 +1,10 @@
 {
-  "generated_at": "2026-10-30T22:42:53.041911",
+  "generated_at": "2026-10-31T01:48:43.278713",
   "version": "3.95",
   "script_hash": "ec09283a7a09",
   "scan_hours": 72,
   "retention_days": 8,
   "activities": [
-    {
-      "activity_id": "i200411674",
-      "date": "2026-10-22",
-      "type": "Run",
-      "name": "Gothenburg Running",
-      "interval_summary": [
-        "1x 5m59s 6:21",
-        "3x 11m48s 4:26",
-        "2x 4m50s 5:28",
-        "1x 40s 1:05:53"
-      ],
-      "intervals": [
-        {
-          "type": "WORK",
-          "label": "359s@129bpm72rpm",
-          "duration_secs": 359,
-          "avg_hr": 129,
-          "max_hr": 146,
-          "avg_cadence": 71.734634,
-          "zone": 1
-        },
-        {
-          "type": "WORK",
-          "label": "708s@172bpm82rpm",
-          "duration_secs": 719,
-          "avg_hr": 163,
-          "max_hr": 175,
-          "avg_cadence": 82.193596,
-          "zone": 2
-        },
-        {
-          "type": "WORK",
-          "label": "290s@164bpm82rpm",
-          "duration_secs": 282,
-          "avg_hr": 163,
-          "max_hr": 173,
-          "avg_cadence": 82.17376,
-          "zone": 2
-        },
-        {
-          "type": "WORK",
-          "label": "708s@172bpm82rpm",
-          "duration_secs": 712,
-          "avg_hr": 175,
-          "max_hr": 182,
-          "avg_cadence": 81.57725,
-          "zone": 4
-        },
-        {
-          "type": "WORK",
-          "label": "290s@164bpm82rpm",
-          "duration_secs": 298,
-          "avg_hr": 164,
-          "max_hr": 177,
-          "avg_cadence": 82.71477,
-          "zone": 2
-        },
-        {
-          "type": "WORK",
-          "label": "708s@172bpm82rpm",
-          "duration_secs": 693,
-          "avg_hr": 179,
-          "max_hr": 188,
-          "avg_cadence": 82.78066,
-          "zone": 4
-        },
-        {
-          "type": "WORK",
-          "label": "40s@172bpm33rpm",
-          "duration_secs": 40,
-          "avg_hr": 172,
-          "max_hr": 184,
-          "avg_cadence": 32.775,
-          "zone": 4
-        }
-      ]
-    },
     {
       "activity_id": "i202060626",
       "date": "2026-10-26",
