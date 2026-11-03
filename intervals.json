@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T07:55:07.528258",
+  "generated_at": "2026-11-03T15:35:53.135665",
   "version": "3.95",
   "script_hash": "ec09283a7a09",
   "scan_hours": 72,
@@ -248,6 +248,54 @@
           "zone": 1,
           "training_load": 37.91891,
           "decoupling": 6.7545805
+        }
+      ]
+    },
+    {
+      "activity_id": "i205241348",
+      "date": "2026-11-03",
+      "type": "VirtualRide",
+      "name": "MyWhoosh - Endurance 12's #1",
+      "interval_summary": [
+        "1x 2m56s 248w"
+      ],
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 605,
+          "avg_power": 154,
+          "max_power": 247,
+          "avg_hr": 136,
+          "max_hr": 152,
+          "avg_cadence": 82.8843,
+          "zone": 1,
+          "training_load": 5.051858,
+          "decoupling": -11.643357
+        },
+        {
+          "type": "WORK",
+          "label": "176s@248w92rpm",
+          "duration_secs": 176,
+          "avg_power": 248,
+          "max_power": 257,
+          "avg_hr": 158,
+          "max_hr": 166,
+          "avg_cadence": 91.875,
+          "zone": 3,
+          "training_load": 3.432628,
+          "decoupling": 7.8055215
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 3022,
+          "avg_power": 193,
+          "max_power": 264,
+          "avg_hr": 158,
+          "max_hr": 179,
+          "avg_cadence": 84.05096,
+          "zone": 1,
+          "training_load": 40.32627,
+          "decoupling": 1.287145
         }
       ]
     }
