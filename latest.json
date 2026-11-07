@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-11-07T14:29:37.125919",
+    "last_updated": "2026-11-07T18:59:02.588858",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.95"
@@ -574,12 +574,12 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 12.51,
-          "hard_sessions_planned": 3,
+          "planned_tss_delta": 5.98,
+          "hard_sessions_planned": 2,
           "race_proximity": 35,
-          "next_week_load": 3.14,
+          "next_week_load": 2.88,
           "plan_coverage_current_week": 0.6,
-          "plan_coverage_next_week": 1.2
+          "plan_coverage_next_week": 1.4
         },
         "data_quality": "good",
         "stream_agreement": null
@@ -612,7 +612,7 @@
     "p_max": 1162,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-11-07T14:29:36.966330",
+    "calculation_timestamp": "2026-11-07T18:59:02.587523",
     "data_quality": {
       "hrv_data_points": 3,
       "rhr_data_points": 5,
@@ -1666,46 +1666,60 @@
       "description": "- 15m ramp 45-65%\n- 40m 58-64%\n\nOpeners 3x\n- 1m 100%\n- 3m 55%\n\n- 8m 50%"
     },
     {
-      "id": 151199610,
+      "id": 152916259,
       "date": "2026-11-08",
-      "name": "SRC RACE",
-      "type": "WORKOUT",
-      "sport_type": "VirtualRide",
-      "planned_tss": 120,
-      "duration_hours": 1.5,
-      "duration_formatted": "1h30m",
-      "workout_summary": null,
-      "has_terrain": false,
-      "start_time": "11:45",
-      "description": "- Warm up properly, with two hard efforts just before the start\n- Be in the front third of the pack before the first climb, so you drift back through it, not off it\n- Fuel 60-80 g/h from the start. Fan on full, plain water beside the carb flask\n- Note exactly where you lose contact; it goes in RACE_LOG.md"
-    },
-    {
-      "id": 152820294,
-      "date": "2026-11-10",
-      "name": "LONG RUN 12km - HR 137-151",
+      "name": "LONG RUN 14km - HR 137-155",
       "type": "WORKOUT",
       "sport_type": "Run",
-      "planned_tss": 50,
-      "duration_hours": 1.15,
-      "duration_formatted": "1h8m43s",
+      "planned_tss": 60,
+      "duration_hours": 1.34,
+      "duration_formatted": "1h20m10s",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "10:00",
+      "description": "- 14km 75-85% LTHR\n\nFirst Sunday long run. About 5:55 to 6:15 per km on the flat; walk the hills if that keeps heart rate under 155\nThursday's 5:35 per km sat at heart rate 160: that pace is not easy yet\nHeart rate may drift to 160 in the last third, no higher. Water and a gel after an hour"
+    },
+    {
+      "id": 152907315,
+      "date": "2026-11-09",
+      "name": "Easy spin 40min - HR under 130",
+      "type": "WORKOUT",
+      "sport_type": "VirtualRide",
+      "planned_tss": 20,
+      "duration_hours": 0.67,
+      "duration_formatted": "40m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "18:00",
+      "description": "- 10m ramp 45-55%\n- 30m 50-58%\n\nThe day after the long run. Commuting by bike today: the commute replaces this, easy both ways. Rest is fine too"
+    },
+    {
+      "id": 152916284,
+      "date": "2026-11-10",
+      "name": "Easy run 8km - HR 137-155",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": 34,
+      "duration_hours": 0.76,
+      "duration_formatted": "45m48s",
       "workout_summary": null,
       "has_terrain": false,
       "start_time": "17:30",
-      "description": "- 12km 75-83% LTHR\n\nDeload week, and the second try at last Tuesday's run, which stopped early at an average heart rate of 154\nHeart rate is the limit, not the pace. Walk the hills if that keeps it under 151\nTake a gel and water if it runs past an hour\nCold symptoms back, a sore throat or a fever: run short and easy, or rest, and tell the coach"
+      "description": "- 8km 75-85% LTHR\n\nTuesday is no longer the long run day: an easy medium run, about 5:55 to 6:15 per km\nHeart rate is the limit, not the pace. Cold symptoms back: rest and tell the coach"
     },
     {
-      "id": 152820295,
+      "id": 152909299,
       "date": "2026-11-11",
-      "name": "Endurance ride 60min - HR under 140",
+      "name": "Tempo ride 75min - 3x10min + surges",
       "type": "WORKOUT",
       "sport_type": "VirtualRide",
-      "planned_tss": 35,
-      "duration_hours": 1.0,
-      "duration_formatted": "1h",
+      "planned_tss": 70,
+      "duration_hours": 1.25,
+      "duration_formatted": "1h15m",
       "workout_summary": null,
       "has_terrain": false,
       "start_time": "19:15",
-      "description": "- 10m ramp 45-60%\n- 45m 58-64%\n- 5m 50%\n\nNo running today: the calves get the day between the long run and the club run off impact\nCommuting by bike today: the commute replaces this ride, easy both ways"
+      "description": "- 10m ramp 50-70%\n\nTempo 3x\n- 9m 85-90%\n- 30s 125%\n- 30s 85%\n- 4m 60%\n\n- 20m 65-72%\n- 3m 50%\n\nRacing is holding a steady pace and then answering a surge: the surge comes late in each block"
     },
     {
       "id": 152820296,
@@ -1719,49 +1733,49 @@
       "workout_summary": null,
       "has_terrain": false,
       "start_time": "18:00",
-      "description": "- Warm up easy, heart rate under 150, then four relaxed strides\n- At most three reps, whatever the club runs beyond that. Deload week, and no fast running since the middle of October\n- Every rep at 4:30 to 4:35 per km, not faster\n- Heart rate under 180 until the last lap of a rep. Ease off as soon as it passes 180\n- Calves tight or sore after Tuesday or in the warm-up: run it easy with the group and skip the reps\n- Jog the recoveries and the cool-down. Eat carbs afterwards\n- This is the club interval session. A long steady group run at threshold-ish heart rate is not a substitute"
+      "description": "- Warm up easy, heart rate under 150, then four relaxed strides\n- At most three reps, whatever the club runs beyond that. First reps since the middle of October\n- Every rep at 4:30 to 4:35 per km, not faster\n- Heart rate under 180 until the last lap of a rep. Ease off as soon as it passes 180\n- Total run under twelve km including the warm-up: Sunday is the long run now\n- Calves tight or sore in the warm-up: run it easy with the group and skip the reps\n- Jog the recoveries and the cool-down. Eat carbs afterwards"
     },
     {
-      "id": 152820297,
+      "id": 152916285,
       "date": "2026-11-13",
-      "name": "Easy run 6km - HR 137-151",
+      "name": "Easy run 6km - HR 137-155",
       "type": "WORKOUT",
       "sport_type": "Run",
-      "planned_tss": 25,
+      "planned_tss": 26,
       "duration_hours": 0.57,
       "duration_formatted": "34m21s",
       "workout_summary": null,
       "has_terrain": false,
       "start_time": "18:00",
-      "description": "- 6km 75-83% LTHR\n\nFlat route, conversational. A dog walk-run with Harry is fine\nCalves sore from Thursday or heart rate will not settle under 151: swap for an easy spin, or rest"
+      "description": "- 6km 75-85% LTHR\n\nFlat route, conversational. A dog walk-run with Harry is fine\nCalves sore from Thursday or heart rate will not settle under 155: swap for an easy spin, or rest"
     },
     {
-      "id": 152820299,
+      "id": 152909301,
       "date": "2026-11-14",
-      "name": "Endurance ride 75min + 3 openers",
+      "name": "Race prep 90min - attacks, crests, sprints",
       "type": "WORKOUT",
       "sport_type": "VirtualRide",
-      "planned_tss": 47,
-      "duration_hours": 1.25,
-      "duration_formatted": "1h15m",
-      "workout_summary": "15m @150W | 40m @166W | 3\u00d71m @273W / 3m rec | 8m @136W",
-      "has_terrain": false,
-      "start_time": "10:00",
-      "description": "- 15m ramp 45-65%\n- 40m 58-64%\n\nOpeners 3x\n- 1m 100%\n- 3m 55%\n\n- 8m 50%"
-    },
-    {
-      "id": 152820300,
-      "date": "2026-11-15",
-      "name": "SRC RACE",
-      "type": "WORKOUT",
-      "sport_type": "VirtualRide",
-      "planned_tss": 120,
+      "planned_tss": 95,
       "duration_hours": 1.5,
       "duration_formatted": "1h30m",
+      "workout_summary": "15m @170W | 25m @202W | 3\u00d715s @546W / 2m45s rec | 7m @136W",
+      "has_terrain": false,
+      "start_time": "10:00",
+      "description": "- 15m ramp 50-75%\n\nAttack and hold 4x\n- 1m 125%\n- 4m 95%\n- 30s 150%\n- 3m 55%\n\n- 25m 70-78%\n\nSprints 3x\n- 15s 200%\n- 2m45s 55%\n\n- 7m 50%\n\nEach block is an SRC move: go with the attack, hold the group, sprint over the crest. Fuel 60 g/h"
+    },
+    {
+      "id": 152916286,
+      "date": "2026-11-15",
+      "name": "LONG RUN 16km - HR 137-155",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": 69,
+      "duration_hours": 1.53,
+      "duration_formatted": "1h31m37s",
       "workout_summary": null,
       "has_terrain": false,
-      "start_time": "11:45",
-      "description_preview": "- Warm up properly, with two hard efforts just before the start\n- Be in the front third of the pack before the first climb, so you drift back through it, not off it\n- Fuel 60-80 g/h from the start. Fan on full, plain water beside the carb flask"
+      "start_time": "10:00",
+      "description_preview": "- 16km 75-85% LTHR\nAbout 5:55 to 6:15 per km on the flat. Walk the hills if that keeps heart rate under 155\nHeart rate may drift to 160 in the last third, no higher. Water and a gel after an hour"
     },
     {
       "id": 152047211,
@@ -1779,12 +1793,12 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 6,
+    "attempted": 9,
     "success": 3,
     "patternA": 3,
     "patternB": 0,
-    "bail_no_workout_doc": 3,
-    "bail_no_match": 3
+    "bail_no_workout_doc": 1,
+    "bail_no_match": 6
   },
   "weekly_summary": {
     "total_training_hours": 4.98,
