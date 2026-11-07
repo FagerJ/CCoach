@@ -62,33 +62,33 @@
       "menstrual": "menstrual_phase and menstrual_phase_predicted are not on the 1-4 scale. Values: PERIOD, FOLLICULAR, OVULATION, LUTEAL, etc."
     },
     "quick_stats": {
-      "total_training_hours": 4.22,
-      "total_training_formatted": "4h13m",
-      "total_activities": 4,
-      "total_tss": 236
+      "total_training_hours": 4.98,
+      "total_training_formatted": "4h59m",
+      "total_activities": 5,
+      "total_tss": 286
     }
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-11-07T07:45:39.297202",
+    "last_updated": "2026-11-07T14:29:37.125919",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.95"
   },
   "alerts": [
     {
-      "metric": "tid_distribution",
-      "value": "Pyramidal",
-      "severity": "warning",
-      "threshold": "7d/28d classification mismatch",
-      "context": "TID shift: 7d Pyramidal vs 28d Polarized. Training distribution changing.",
+      "metric": "acwr",
+      "value": 1.38,
+      "severity": "alarm",
+      "threshold": "0.75 / 1.35",
+      "context": "ACWR 1.38 outside safe range. Injury/overreach risk elevated.",
       "persistence_days": null,
-      "tier": 3
+      "tier": 2
     }
   ],
   "readiness_decision": {
-    "recommendation": "go",
-    "priority": 3,
+    "recommendation": "modify",
+    "priority": 1,
     "signals": {
       "hrv": {
         "status": "green",
@@ -108,21 +108,17 @@
         "quality": 2
       },
       "acwr": {
-        "status": "green",
-        "value": 1.21
+        "status": "amber",
+        "value": 1.38
       },
       "ri": {
         "status": "green",
         "value": 1.27
-      },
-      "tsb": {
-        "status": "green",
-        "value": 7.0
       }
     },
     "signal_summary": {
-      "green": 6,
-      "amber": 0,
+      "green": 4,
+      "amber": 1,
       "red": 0,
       "unavailable": 0
     },
@@ -133,8 +129,17 @@
       "modifier_applied": "build_loosened"
     },
     "race_week_defers": false,
-    "modification": null,
-    "reason": "P3 green light. 6 green, 0 amber (threshold 3), 0 red.",
+    "modification": {
+      "triggers": [
+        "acwr"
+      ],
+      "suggested_adjustments": {
+        "intensity": "reduce",
+        "volume": "reduce",
+        "cap_zone": "Z2"
+      }
+    },
+    "reason": "P1 acute overload (modify). ACWR 1.38 > 1.3.",
     "alarm_refs": []
   },
   "history": {
@@ -147,8 +152,8 @@
   "summary": {
     "period_description": "Last 7 days of training (including today)",
     "note": "Duration calculated from API moving_time field.",
-    "total_duration_decimal_hours": 4.22,
-    "total_activities": 4,
+    "total_duration_decimal_hours": 4.98,
+    "total_activities": 5,
     "by_activity_type": {
       "Run": {
         "duration_decimal_hours": 2.11,
@@ -157,20 +162,20 @@
         "distance_km": 22.2
       },
       "VirtualRide": {
-        "duration_decimal_hours": 2.11,
-        "count": 2,
-        "tss": 100,
-        "distance_km": 60.9
+        "duration_decimal_hours": 2.87,
+        "count": 3,
+        "tss": 150,
+        "distance_km": 84.8
       }
     }
   },
   "current_status": {
     "fitness": {
-      "ctl": 33.91,
-      "atl": 26.92,
-      "tsb": 6.99,
-      "ramp_rate": -0.08,
-      "fitness_source": "Decayed from yesterday (today's planned workouts not yet completed)"
+      "ctl": 36.38,
+      "atl": 40.9,
+      "tsb": -4.52,
+      "ramp_rate": 2.39,
+      "fitness_source": "From Intervals.icu API (reflects completed workouts)"
     },
     "thresholds": {
       "eftp": 270.9,
@@ -229,7 +234,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 286,
+      "steps": 3093,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -248,81 +253,81 @@
     "rhr_baseline_28d": 49.6,
     "latest_hrv": 67.0,
     "latest_rhr": 50,
-    "acwr": 1.21,
-    "acwr_interpretation": "optimal",
-    "monotony": 0.75,
-    "monotony_interpretation": "normal",
-    "primary_sport": "run",
-    "primary_sport_monotony": null,
-    "primary_sport_tss_7d": 136.0,
-    "effective_monotony": 0.75,
+    "acwr": 1.38,
+    "acwr_interpretation": "caution",
+    "monotony": 0.96,
+    "monotony_interpretation": "normal (primary sport 0.8, total 0.96 inflated by multi-sport)",
+    "primary_sport": "cycling",
+    "primary_sport_monotony": 0.8,
+    "primary_sport_tss_7d": 150.0,
+    "effective_monotony": 0.8,
     "multi_sport_detected": true,
-    "strain": 177.0,
-    "stress_tolerance": 2.4,
-    "load_recovery_ratio": 1.9,
-    "tss_7d_total": 236.0,
-    "tss_28d_total": 780.0,
+    "strain": 275.0,
+    "stress_tolerance": 2.9,
+    "load_recovery_ratio": 2.3,
+    "tss_7d_total": 286.0,
+    "tss_28d_total": 830.0,
     "zone_distribution_7d": {
-      "z1_hours": 1.08,
-      "z2_hours": 2.49,
-      "z3_hours": 0.33,
-      "z4_plus_hours": 0.31,
-      "total_hours": 4.22,
+      "z1_hours": 1.55,
+      "z2_hours": 2.54,
+      "z3_hours": 0.34,
+      "z4_plus_hours": 0.55,
+      "total_hours": 4.98,
       "zone_basis": "mixed"
     },
-    "grey_zone_percentage": 7.9,
+    "grey_zone_percentage": 6.9,
     "grey_zone_note": "Gray Zone % (Z3/tempo) - minimize in polarized training",
-    "quality_intensity_percentage": 7.4,
+    "quality_intensity_percentage": 11.0,
     "quality_intensity_note": "Quality Intensity % (Z4+/threshold+) - target ~20% in polarized training",
-    "polarisation_index": 0.85,
+    "polarisation_index": 0.82,
     "polarisation_note": "Easy time (Z1+Z2) / Total - target ~80% in polarized training",
-    "hard_days_this_week": 1,
+    "hard_days_this_week": 2,
     "hard_days_note": "Power ladder: z3+ >= 30min, z4+ >= 10min, z5+ >= 5min, z6+ >= 2min, z7 >= 1min. HR fallback (when no power): z4+ >= 10min, z5+ >= 5min. Per Seiler 3-zone model + Foster. HR-based days flagged with intensity_basis: hr",
     "seiler_tid_7d": {
-      "z1_seconds": 12871,
-      "z2_seconds": 1200,
-      "z3_seconds": 1128,
-      "z1_pct": 84.7,
-      "z2_pct": 7.9,
-      "z3_pct": 7.4,
-      "polarization_index": null,
-      "classification": "Pyramidal",
+      "z1_seconds": 14733,
+      "z2_seconds": 1240,
+      "z3_seconds": 1971,
+      "z1_pct": 82.1,
+      "z2_pct": 6.9,
+      "z3_pct": 11.0,
+      "polarization_index": 2.12,
+      "classification": "Polarized",
       "zone_basis": "mixed"
     },
     "seiler_tid_7d_primary": {
-      "z1_seconds": 6001,
-      "z2_seconds": 467,
-      "z3_seconds": 1128,
-      "z1_pct": 79.0,
-      "z2_pct": 6.1,
-      "z3_pct": 14.8,
-      "polarization_index": 2.28,
-      "classification": "Polarized",
-      "zone_basis": "hr",
-      "sport": "run"
+      "z1_seconds": 8732,
+      "z2_seconds": 773,
+      "z3_seconds": 843,
+      "z1_pct": 84.4,
+      "z2_pct": 7.5,
+      "z3_pct": 8.1,
+      "polarization_index": 1.96,
+      "classification": "Pyramidal",
+      "zone_basis": "power",
+      "sport": "cycling"
     },
     "seiler_tid_28d": {
-      "z1_seconds": 30299,
-      "z2_seconds": 5153,
-      "z3_seconds": 8012,
-      "z1_pct": 69.7,
-      "z2_pct": 11.9,
-      "z3_pct": 18.4,
-      "polarization_index": 2.03,
+      "z1_seconds": 32161,
+      "z2_seconds": 5193,
+      "z3_seconds": 8855,
+      "z1_pct": 69.6,
+      "z2_pct": 11.2,
+      "z3_pct": 19.2,
+      "polarization_index": 2.07,
       "classification": "Polarized",
       "zone_basis": "mixed"
     },
     "seiler_tid_28d_primary": {
-      "z1_seconds": 14727,
-      "z2_seconds": 3012,
-      "z3_seconds": 4965,
-      "z1_pct": 64.9,
-      "z2_pct": 13.3,
-      "z3_pct": 21.9,
-      "polarization_index": 2.03,
+      "z1_seconds": 17434,
+      "z2_seconds": 2181,
+      "z3_seconds": 3890,
+      "z1_pct": 74.2,
+      "z2_pct": 9.3,
+      "z3_pct": 16.5,
+      "polarization_index": 2.12,
       "classification": "Polarized",
-      "zone_basis": "hr",
-      "sport": "run"
+      "zone_basis": "power",
+      "sport": "cycling"
     },
     "capability": {
       "durability": {
@@ -344,20 +349,20 @@
         "note": "Steady-state cycling sessions only (VI <= 1.05, VI > 0, >= 20min, power+HR data). Rising EF = improving aerobic efficiency. Compare like-for-like sessions only \u2014 EF varies with intensity. Trend compares 7d vs 28d mean (+/-0.03 = stable)."
       },
       "hrrc": {
-        "mean_hrrc_7d": 44.0,
-        "mean_hrrc_28d": 27.4,
-        "qualifying_sessions_7d": 1,
-        "qualifying_sessions_28d": 5,
+        "mean_hrrc_7d": 28.5,
+        "mean_hrrc_28d": 25.0,
+        "qualifying_sessions_7d": 2,
+        "qualifying_sessions_28d": 6,
         "trend": "improving",
         "note": "HRRc = heart rate recovery (largest 60s HR drop in bpm after exceeding threshold HR for >1 min). Higher = better parasympathetic recovery. Null when threshold not reached, recording stopped before cooldown, or no HR data. Trend: 7d mean vs 28d mean, >10% = meaningful (min 1 session/7d, 3 sessions/28d). Display only \u2014 not wired into readiness_decision signals."
       },
       "tid_comparison": {
-        "classification_7d": "Pyramidal",
+        "classification_7d": "Polarized",
         "classification_28d": "Polarized",
-        "pi_7d": null,
-        "pi_28d": 2.03,
-        "pi_delta": null,
-        "drift": "shifting",
+        "pi_7d": 2.12,
+        "pi_28d": 2.07,
+        "pi_delta": 0.05,
+        "drift": "consistent",
         "note": "Compares 7d vs 28d Seiler TID to detect distribution shifts. pi_delta positive = more polarized acutely."
       },
       "power_curve_delta": {
@@ -538,11 +543,11 @@
         }
       }
     },
-    "consistency_index": 0.17,
+    "consistency_index": 0.33,
     "consistency_details": {
       "planned_days": 6,
-      "completed_days": 2,
-      "matched_days": 1,
+      "completed_days": 3,
+      "matched_days": 2,
       "planned_dates": [
         "2026-11-01",
         "2026-11-03",
@@ -553,27 +558,28 @@
       ],
       "completed_dates": [
         "2026-11-02",
-        "2026-11-03"
+        "2026-11-03",
+        "2026-11-07"
       ]
     },
     "phase_detection": {
       "phase": "Build",
-      "confidence": "medium",
+      "confidence": "high",
       "reason_codes": [],
       "basis": {
         "stream_1": {
-          "ctl_slope": -2.95,
+          "ctl_slope": -1.7,
           "acwr_trend": "rising",
-          "hard_day_pattern": 1.5,
+          "hard_day_pattern": 1.8,
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": null,
-          "hard_sessions_planned": 2,
+          "planned_tss_delta": 12.51,
+          "hard_sessions_planned": 3,
           "race_proximity": 35,
-          "next_week_load": null,
-          "plan_coverage_current_week": 0.4,
-          "plan_coverage_next_week": 0.0
+          "next_week_load": 3.14,
+          "plan_coverage_current_week": 0.6,
+          "plan_coverage_next_week": 1.2
         },
         "data_quality": "good",
         "stream_agreement": null
@@ -606,13 +612,13 @@
     "p_max": 1162,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-11-07T07:45:39.295639",
+    "calculation_timestamp": "2026-11-07T14:29:36.966330",
     "data_quality": {
       "hrv_data_points": 3,
       "rhr_data_points": 5,
-      "activities_7d": 4,
-      "activities_28d": 15,
-      "planned_workouts_7d": 6,
+      "activities_7d": 5,
+      "activities_28d": 16,
+      "planned_workouts_7d": 7,
       "ftp_history_days": {
         "indoor": 222,
         "outdoor": 0
@@ -620,6 +626,60 @@
     }
   },
   "recent_activities": [
+    {
+      "id": "i206878957",
+      "date": "2026-11-07T09:27:59",
+      "type": "VirtualRide",
+      "name": "MyWhoosh - The Infamous 40/20s",
+      "duration_hours": 0.76,
+      "distance_km": 23.91,
+      "tss": 50,
+      "intensity_factor": 81.37931,
+      "avg_power": 201,
+      "normalized_power": 236,
+      "avg_hr": 154,
+      "max_hr": 182,
+      "avg_cadence": 82.09316,
+      "avg_speed": 31.4,
+      "max_speed": 54.7,
+      "avg_pace": null,
+      "avg_temp": null,
+      "weather": null,
+      "humidity": null,
+      "wind_speed": null,
+      "work_kj": 550.1,
+      "calories": 550,
+      "carbs_used": 172,
+      "carbs_ingested": null,
+      "variability_index": 1.1741294,
+      "decoupling": -5.804787,
+      "efficiency_factor": 1.5324675,
+      "hrrc": 13,
+      "elevation_m": 128.0,
+      "feel": null,
+      "rpe": null,
+      "zone_distribution": {
+        "hr_zones": {
+          "z1_time": 955,
+          "z2_time": 672,
+          "z3_time": 548,
+          "z4_time": 565,
+          "z5_time": 5,
+          "z6_time": 0,
+          "z7_time": 0
+        },
+        "power_zones": {
+          "z1_time": 1697,
+          "z2_time": 165,
+          "z3_time": 40,
+          "z4_time": 47,
+          "z5_time": 13,
+          "z6_time": 42,
+          "z7_time": 741
+        }
+      },
+      "has_intervals": true
+    },
     {
       "id": "i206254388",
       "date": "2026-11-05T16:37:21",
@@ -1565,7 +1625,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 286,
+      "steps": 3093,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -1577,6 +1637,20 @@
     }
   ],
   "planned_workouts": [
+    {
+      "id": 152812173,
+      "date": "2026-11-07",
+      "name": "The Infamous 40/20s",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 55,
+      "duration_hours": 0.75,
+      "duration_formatted": "45m",
+      "workout_summary": "3m @130W | 2m @188W | 2m10s @174W | 2m @217W | 2m @145W | 30s @290W | 1m @174W | 30s @319W | 1m @174W | 30s @348W | 3m30s @130W | 9\u00d740s @348W / 20s rec | 40s @348W | 4m @130W | 9\u00d740s @348W / 20s rec | 40s @348W | 3m30s @130W",
+      "has_terrain": false,
+      "indoor": true,
+      "description": "4020s Workout for sprint power and repeatabilityWarmup10 intervals of 40 seconds on power 20 seconds restRecover for 4mins10 intervals of 40 seconds on power 20 seconds restJelly legs\n\n\n\nhttps://app.trainerday.com/workouts/the-infamous-40-20s\n\n- 3m 45% \n- 2m 65% \n- 2m 10s 60% \n- 2m 75% \n- 2m 50% \n- 30s 100% \n- 1m 60% \n- 30s 110% \n- 1m 60% \n- 30s 120% \n- 3m 30s 45% \n\n9x\n- 40s 120% \n- 20s 50% \n\n\n- 40s 120% \n- 4m 45% \n\n9x\n- 40s 120% \n- 20s 50% \n\n\n- 40s 120% \n- 3m 30s 45%"
+    },
     {
       "id": 151199609,
       "date": "2026-11-07",
@@ -1606,6 +1680,90 @@
       "description": "- Warm up properly, with two hard efforts just before the start\n- Be in the front third of the pack before the first climb, so you drift back through it, not off it\n- Fuel 60-80 g/h from the start. Fan on full, plain water beside the carb flask\n- Note exactly where you lose contact; it goes in RACE_LOG.md"
     },
     {
+      "id": 152820294,
+      "date": "2026-11-10",
+      "name": "LONG RUN 12km - HR 137-151",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": 50,
+      "duration_hours": 1.15,
+      "duration_formatted": "1h8m43s",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "17:30",
+      "description": "- 12km 75-83% LTHR\n\nDeload week, and the second try at last Tuesday's run, which stopped early at an average heart rate of 154\nHeart rate is the limit, not the pace. Walk the hills if that keeps it under 151\nTake a gel and water if it runs past an hour\nCold symptoms back, a sore throat or a fever: run short and easy, or rest, and tell the coach"
+    },
+    {
+      "id": 152820295,
+      "date": "2026-11-11",
+      "name": "Endurance ride 60min - HR under 140",
+      "type": "WORKOUT",
+      "sport_type": "VirtualRide",
+      "planned_tss": 35,
+      "duration_hours": 1.0,
+      "duration_formatted": "1h",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "19:15",
+      "description": "- 10m ramp 45-60%\n- 45m 58-64%\n- 5m 50%\n\nNo running today: the calves get the day between the long run and the club run off impact\nCommuting by bike today: the commute replaces this ride, easy both ways"
+    },
+    {
+      "id": 152820296,
+      "date": "2026-11-12",
+      "name": "NSRC - CAPPED 4:30-4:35/km, max 3 reps",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": 70,
+      "duration_hours": 1.17,
+      "duration_formatted": "1h10m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "18:00",
+      "description": "- Warm up easy, heart rate under 150, then four relaxed strides\n- At most three reps, whatever the club runs beyond that. Deload week, and no fast running since the middle of October\n- Every rep at 4:30 to 4:35 per km, not faster\n- Heart rate under 180 until the last lap of a rep. Ease off as soon as it passes 180\n- Calves tight or sore after Tuesday or in the warm-up: run it easy with the group and skip the reps\n- Jog the recoveries and the cool-down. Eat carbs afterwards\n- This is the club interval session. A long steady group run at threshold-ish heart rate is not a substitute"
+    },
+    {
+      "id": 152820297,
+      "date": "2026-11-13",
+      "name": "Easy run 6km - HR 137-151",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": 25,
+      "duration_hours": 0.57,
+      "duration_formatted": "34m21s",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "18:00",
+      "description": "- 6km 75-83% LTHR\n\nFlat route, conversational. A dog walk-run with Harry is fine\nCalves sore from Thursday or heart rate will not settle under 151: swap for an easy spin, or rest"
+    },
+    {
+      "id": 152820299,
+      "date": "2026-11-14",
+      "name": "Endurance ride 75min + 3 openers",
+      "type": "WORKOUT",
+      "sport_type": "VirtualRide",
+      "planned_tss": 47,
+      "duration_hours": 1.25,
+      "duration_formatted": "1h15m",
+      "workout_summary": "15m @150W | 40m @166W | 3\u00d71m @273W / 3m rec | 8m @136W",
+      "has_terrain": false,
+      "start_time": "10:00",
+      "description": "- 15m ramp 45-65%\n- 40m 58-64%\n\nOpeners 3x\n- 1m 100%\n- 3m 55%\n\n- 8m 50%"
+    },
+    {
+      "id": 152820300,
+      "date": "2026-11-15",
+      "name": "SRC RACE",
+      "type": "WORKOUT",
+      "sport_type": "VirtualRide",
+      "planned_tss": 120,
+      "duration_hours": 1.5,
+      "duration_formatted": "1h30m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "11:45",
+      "description_preview": "- Warm up properly, with two hard efforts just before the start\n- Be in the front third of the pack before the first climb, so you drift back through it, not off it\n- Fuel 60-80 g/h from the start. Fan on full, plain water beside the carb flask"
+    },
+    {
       "id": 152047211,
       "date": "2026-12-12",
       "name": "10k time trial",
@@ -1621,18 +1779,18 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 1,
-    "success": 1,
-    "patternA": 1,
+    "attempted": 6,
+    "success": 3,
+    "patternA": 3,
     "patternB": 0,
-    "bail_no_workout_doc": 1,
-    "bail_no_match": 0
+    "bail_no_workout_doc": 3,
+    "bail_no_match": 3
   },
   "weekly_summary": {
-    "total_training_hours": 4.22,
-    "total_training_formatted": "4h13m",
-    "total_tss": 236,
-    "activities_count": 4,
+    "total_training_hours": 4.98,
+    "total_training_formatted": "4h59m",
+    "total_tss": 286,
+    "activities_count": 5,
     "avg_hrv": 54.7,
     "avg_resting_hr": 52.0
   },
