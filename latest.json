@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-11-10T18:01:20.634090",
+    "last_updated": "2026-11-10T23:14:52.667071",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.95"
@@ -97,10 +97,10 @@
         "delta_pct": null
       },
       "rhr": {
-        "status": "unavailable",
-        "value": null,
-        "baseline_7d": 52.4,
-        "delta_bpm": null
+        "status": "amber",
+        "value": 56,
+        "baseline_7d": 53,
+        "delta_bpm": 3
       },
       "sleep": {
         "status": "unavailable",
@@ -118,9 +118,9 @@
     },
     "signal_summary": {
       "green": 0,
-      "amber": 0,
+      "amber": 1,
       "red": 1,
-      "unavailable": 4
+      "unavailable": 3
     },
     "phase_context": {
       "phase": null,
@@ -162,10 +162,10 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 39.13,
-      "atl": 55.29,
-      "tsb": -16.16,
-      "ramp_rate": 4.45,
+      "ctl": 38.33,
+      "atl": 50.77,
+      "tsb": -12.44,
+      "ramp_rate": 3.65,
       "fitness_source": "From Intervals.icu API (reflects completed workouts)"
     },
     "thresholds": {
@@ -173,7 +173,7 @@
       "w_prime": 23049,
       "w_prime_kj": 23.0,
       "p_max": 1162,
-      "vo2max": null,
+      "vo2max": 50.0,
       "sports": {
         "cycling": {
           "lthr": 182,
@@ -203,7 +203,7 @@
     },
     "current_metrics": {
       "weight_kg": 78.5,
-      "resting_hr": 54,
+      "resting_hr": 56,
       "hrv": null,
       "sleep_quality": null,
       "sleep_hours": null,
@@ -225,7 +225,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": null,
+      "steps": 22376,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -239,11 +239,11 @@
   "derived_metrics": {
     "recovery_index": null,
     "hrv_baseline_7d": 52.5,
-    "rhr_baseline_7d": 52.4,
+    "rhr_baseline_7d": 53,
     "hrv_baseline_28d": 72.2,
-    "rhr_baseline_28d": 50.0,
+    "rhr_baseline_28d": 50.2,
     "latest_hrv": null,
-    "latest_rhr": null,
+    "latest_rhr": 56,
     "acwr": 1.79,
     "acwr_interpretation": "danger",
     "monotony": 1.14,
@@ -567,8 +567,8 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 1.97,
-          "hard_sessions_planned": 2,
+          "planned_tss_delta": 2.21,
+          "hard_sessions_planned": 3,
           "race_proximity": 32,
           "next_week_load": null,
           "plan_coverage_current_week": 1.2,
@@ -606,11 +606,11 @@
     "w_prime_kj": 23.0,
     "p_max": 1162,
     "power_model_source": "wellness.sportInfo",
-    "vo2max": null,
-    "calculation_timestamp": "2026-11-10T18:01:20.395332",
+    "vo2max": 50.0,
+    "calculation_timestamp": "2026-11-10T23:14:52.665351",
     "data_quality": {
       "hrv_data_points": 4,
-      "rhr_data_points": 5,
+      "rhr_data_points": 6,
       "activities_7d": 5,
       "activities_28d": 15,
       "planned_workouts_7d": 8,
@@ -1569,7 +1569,7 @@
     {
       "date": "2026-11-10",
       "weight_kg": null,
-      "resting_hr": null,
+      "resting_hr": 56,
       "hrv_rmssd": null,
       "hrv_sdnn": null,
       "sleep_hours": null,
@@ -1578,7 +1578,7 @@
       "sleep_score": null,
       "mental_energy": null,
       "avg_sleeping_hr": null,
-      "vo2max": null,
+      "vo2max": 50.0,
       "fatigue": null,
       "soreness": null,
       "stress": null,
@@ -1595,7 +1595,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": null,
+      "steps": 22376,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -1613,16 +1613,16 @@
       "name": "Easy run 8km - HR 137-155",
       "type": "WORKOUT",
       "sport_type": "Run",
-      "planned_tss": 34,
-      "duration_hours": 0.76,
-      "duration_formatted": "45m48s",
+      "planned_tss": 42,
+      "duration_hours": 0.83,
+      "duration_formatted": "50m",
       "workout_summary": null,
       "has_terrain": false,
       "start_time": "17:30",
       "description": "- 8km 75-85% LTHR\n\nTuesday is no longer the long run day: an easy medium run, about 5:55 to 6:15 per km\nHeart rate is the limit, not the pace. Cold symptoms back: rest and tell the coach"
     },
     {
-      "id": 152909299,
+      "id": 154364719,
       "date": "2026-11-11",
       "name": "Tempo ride 75min - 3x10min + surges",
       "type": "WORKOUT",
@@ -1636,60 +1636,60 @@
       "description": "- 10m ramp 50-70%\n\nTempo 3x\n- 9m 85-90%\n- 30s 125%\n- 30s 85%\n- 4m 60%\n\n- 20m 65-72%\n- 3m 50%\n\nRacing is holding a steady pace and then answering a surge: the surge comes late in each block"
     },
     {
-      "id": 152820296,
+      "id": 154368581,
       "date": "2026-11-12",
-      "name": "NSRC - CAPPED 4:30-4:35/km, max 3 reps",
+      "name": "NSRC 5x2 loops at threshold",
       "type": "WORKOUT",
       "sport_type": "Run",
-      "planned_tss": 70,
-      "duration_hours": 1.17,
-      "duration_formatted": "1h10m",
+      "planned_tss": 90,
+      "duration_hours": 1.25,
+      "duration_formatted": "1h15m",
       "workout_summary": null,
       "has_terrain": false,
       "start_time": "18:00",
-      "description": "- Warm up easy, heart rate under 150, then four relaxed strides\n- At most three reps, whatever the club runs beyond that. First reps since the middle of October\n- Every rep at 4:30 to 4:35 per km, not faster\n- Heart rate under 180 until the last lap of a rep. Ease off as soon as it passes 180\n- Total run under twelve km including the warm-up: Sunday is the long run now\n- Calves tight or sore in the warm-up: run it easy with the group and skip the reps\n- Jog the recoveries and the cool-down. Eat carbs afterwards"
+      "description": "- Warm-up: the run from the office or two easy loops, then four relaxed strides\n- Main set: five times two loops at threshold, about 4:35 to 4:45 per km for you, with a 90-second easy jog between\n- Everyone else runs the same set at their own threshold pace: comfortably hard, controlled, never a race\n- Cool-down: two easy loops. Carbs afterwards"
     },
     {
-      "id": 152916285,
+      "id": 154368582,
       "date": "2026-11-13",
       "name": "Easy run 6km - HR 137-155",
       "type": "WORKOUT",
       "sport_type": "Run",
-      "planned_tss": 26,
+      "planned_tss": 25,
       "duration_hours": 0.57,
       "duration_formatted": "34m21s",
       "workout_summary": null,
       "has_terrain": false,
       "start_time": "18:00",
-      "description": "- 6km 75-85% LTHR\n\nFlat route, conversational. A dog walk-run with Harry is fine\nCalves sore from Thursday or heart rate will not settle under 155: swap for an easy spin, or rest"
+      "description": "- 6km 75-85% LTHR\n\nShort and easy: tomorrow is the long run. Harry can come"
     },
     {
-      "id": 152909301,
+      "id": 154368584,
       "date": "2026-11-14",
+      "name": "LONG RUN 16km - HR 137-155",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": 66,
+      "duration_hours": 1.53,
+      "duration_formatted": "1h31m37s",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "09:30",
+      "description": "- 16km 75-85% LTHR\n\nAbout 5:55 to 6:15 per km on the flat. Walk the hills if that keeps heart rate under 155\nHeart rate may drift to 160 in the last third, no higher. Water and a gel after an hour"
+    },
+    {
+      "id": 154368585,
+      "date": "2026-11-15",
       "name": "Race prep 90min - attacks, crests, sprints",
       "type": "WORKOUT",
       "sport_type": "VirtualRide",
-      "planned_tss": 95,
+      "planned_tss": 106,
       "duration_hours": 1.5,
       "duration_formatted": "1h30m",
       "workout_summary": "15m @170W | 25m @202W | 3\u00d715s @546W / 2m45s rec | 7m @136W",
       "has_terrain": false,
       "start_time": "10:00",
-      "description": "- 15m ramp 50-75%\n\nAttack and hold 4x\n- 1m 125%\n- 4m 95%\n- 30s 150%\n- 3m 55%\n\n- 25m 70-78%\n\nSprints 3x\n- 15s 200%\n- 2m45s 55%\n\n- 7m 50%\n\nEach block is an SRC move: go with the attack, hold the group, sprint over the crest. Fuel 60 g/h"
-    },
-    {
-      "id": 152916286,
-      "date": "2026-11-15",
-      "name": "LONG RUN 16km - HR 137-155",
-      "type": "WORKOUT",
-      "sport_type": "Run",
-      "planned_tss": 69,
-      "duration_hours": 1.53,
-      "duration_formatted": "1h31m37s",
-      "workout_summary": null,
-      "has_terrain": false,
-      "start_time": "10:00",
-      "description": "- 16km 75-85% LTHR\n\nAbout 5:55 to 6:15 per km on the flat. Walk the hills if that keeps heart rate under 155\nHeart rate may drift to 160 in the last third, no higher. Water and a gel after an hour"
+      "description": "- 15m ramp 50-75%\n\nAttack and hold 4x\n- 1m 125%\n- 4m 95%\n- 30s 150%\n- 3m 55%\n\n- 25m 70-78%\n\nSprints 3x\n- 15s 200%\n- 2m45s 55%\n\n- 7m 50%\n\nEach block is an SRC move: go with the attack, hold the group, sprint over the crest. Fuel 60 g/h\nOr race SRC instead, if you feel like it"
     },
     {
       "id": 152047211,
@@ -1720,7 +1720,7 @@
     "total_tss": 402,
     "activities_count": 5,
     "avg_hrv": 52.5,
-    "avg_resting_hr": 52.4
+    "avg_resting_hr": 53.0
   },
   "race_calendar": {
     "next_race": {
