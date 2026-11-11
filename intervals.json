@@ -1,58 +1,10 @@
 {
-  "generated_at": "2026-11-10T23:14:52.666727",
+  "generated_at": "2026-11-11T02:47:24.966577",
   "version": "3.95",
   "script_hash": "ec09283a7a09",
   "scan_hours": 72,
   "retention_days": 8,
   "activities": [
-    {
-      "activity_id": "i204951599",
-      "date": "2026-11-02",
-      "type": "VirtualRide",
-      "name": "MyWhoosh - Aerobic 12's #1",
-      "interval_summary": [
-        "1x 2m57s 249w"
-      ],
-      "intervals": [
-        {
-          "type": "RECOVERY",
-          "duration_secs": 724,
-          "avg_power": 174,
-          "max_power": 259,
-          "avg_hr": 134,
-          "max_hr": 155,
-          "avg_cadence": 76.42956,
-          "zone": 1,
-          "training_load": 8.451927,
-          "decoupling": 2.3562305
-        },
-        {
-          "type": "WORK",
-          "label": "177s@249w83rpm",
-          "duration_secs": 177,
-          "avg_power": 249,
-          "max_power": 256,
-          "avg_hr": 155,
-          "max_hr": 172,
-          "avg_cadence": 82.54237,
-          "zone": 3,
-          "training_load": 3.4521315,
-          "decoupling": 12.150868
-        },
-        {
-          "type": "RECOVERY",
-          "duration_secs": 2899,
-          "avg_power": 193,
-          "max_power": 238,
-          "avg_hr": 154,
-          "max_hr": 173,
-          "avg_cadence": 82.79269,
-          "zone": 1,
-          "training_load": 37.91891,
-          "decoupling": 6.7545805
-        }
-      ]
-    },
     {
       "activity_id": "i205241348",
       "date": "2026-11-03",
