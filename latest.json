@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-11-14T02:21:32.423966",
+    "last_updated": "2026-11-14T09:10:41.036652",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.95"
@@ -567,9 +567,9 @@
           "planned_tss_delta": 2.16,
           "hard_sessions_planned": 1,
           "race_proximity": 28,
-          "next_week_load": null,
+          "next_week_load": 1.76,
           "plan_coverage_current_week": 0.4,
-          "plan_coverage_next_week": 0.0
+          "plan_coverage_next_week": 1.4
         },
         "data_quality": "good",
         "stream_agreement": null
@@ -602,7 +602,7 @@
     "p_max": 1162,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-11-14T02:21:32.422896",
+    "calculation_timestamp": "2026-11-14T09:10:41.034935",
     "data_quality": {
       "hrv_data_points": 3,
       "rhr_data_points": 5,
@@ -1631,6 +1631,103 @@
       "description": "- 15m ramp 50-75%\n\nAttack and hold 4x\n- 1m 125%\n- 4m 95%\n- 30s 150%\n- 3m 55%\n\n- 25m 70-78%\n\nSprints 3x\n- 15s 200%\n- 2m45s 55%\n\n- 7m 50%\n\nEach block is an SRC move: go with the attack, hold the group, sprint over the crest. Fuel 60 g/h\nOr race SRC instead, if you feel like it"
     },
     {
+      "id": 155656863,
+      "date": "2026-11-16",
+      "name": "Easy run 5km - HR 137-155",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": 21,
+      "duration_hours": 0.48,
+      "duration_formatted": "28m38s",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "18:00",
+      "description": "- 5km 75-85% LTHR\n\nBased on RUN-EASY. First of five runs this week. Short on purpose after the weekend: the legs carry the long run and the hard ride\nResting heart rate was 56 on two mornings last week against a baseline near 50. Wear the watch at night so the coach can see whether it settles\nAchilles or calf stiffness that has not eased after the first ten minutes: stop and tell the coach"
+    },
+    {
+      "id": 155656864,
+      "date": "2026-11-17",
+      "name": "Run home 16km - HR 137-155",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": 66,
+      "duration_hours": 1.53,
+      "duration_formatted": "1h31m37s",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "16:30",
+      "description": "- 16km 75-85% LTHR\n\nBased on RUN-LONG. Run home from the office, or the same distance from home if you are not in\nLast Tuesday averaged heart rate 155, the very top of the range: start slower, around six minutes per km, and keep the average nearer 150\nStop at the planned distance. The extra belongs to Saturday. Water and a gel after an hour"
+    },
+    {
+      "id": 155656865,
+      "date": "2026-11-18",
+      "name": "Tempo ride 75min - 3x11min + surges",
+      "type": "WORKOUT",
+      "sport_type": "VirtualRide",
+      "planned_tss": 77,
+      "duration_hours": 1.25,
+      "duration_formatted": "1h15m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "19:15",
+      "description": "- 10m ramp 50-70%\n\nTempo 3x\n- 10m 85-90%\n- 30s 125%\n- 30s 85%\n- 4m 60%\n\n- 17m 65-72%\n- 3m 50%\n\nOne minute more tempo per block than last week. Hold the pace, answer the surge late in each block, then settle back to tempo before the recovery\nClub session tomorrow: if the legs are heavy, ride the last steady part at the low end"
+    },
+    {
+      "id": 155656866,
+      "date": "2026-11-19",
+      "name": "NSRC - 4x2 loops at 4:30-4:35/km",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": 76,
+      "duration_hours": 1.07,
+      "duration_formatted": "1h4m2s",
+      "workout_summary": "11m27s @145bpm | 4\u00d720s / 40s rec | 4\u00d78m / 2m rec | 8m35s @136bpm",
+      "has_terrain": false,
+      "start_time": "18:00",
+      "description": "Warmup\n- 2km 75-85% LTHR\n\nStrides 4x\n- 20s 112-120% Pace\n- 40s 60-75% LTHR\n\nMain Set 4x\n- 1.76km 4:30/km-4:35/km Pace\n- 2m 60-70% LTHR\n\n- 1.5km 70-80% LTHR\n\nBased on RUN-10K. The club session, written for the whole group: four reps of two loops at current ten-k effort, a two minute jog between, everyone at their own pace\nEach rep step is two loops: press lap when you cross the line. Your cap is the range above, never faster. Friday's threshold reps averaged 4:39, so this is one small step quicker and shorter\nHeart rate under 180 until the last loop of a rep. Past 180 early: ease off, and stop at three reps\nDo the strides this time, they were skipped on Friday. Eat carbs afterwards, long run on Saturday"
+    },
+    {
+      "id": 155656867,
+      "date": "2026-11-20",
+      "name": "Easy run 5km - HR 137-150 (Harry)",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": 18,
+      "duration_hours": 0.48,
+      "duration_formatted": "28m38s",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "17:00",
+      "description": "- 5km 72-82% LTHR\n\nBased on RUN-EASY. Harry pace, the day between the club reps and the long run. Slower is better\nCalves stiff from Thursday and not easing: walk Harry instead and tell the coach"
+    },
+    {
+      "id": 155656868,
+      "date": "2026-11-21",
+      "name": "LONG RUN 18km - HR 137-155",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": 75,
+      "duration_hours": 1.72,
+      "duration_formatted": "1h43m4s",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "09:30",
+      "description": "- 18km 75-85% LTHR\n\nBased on RUN-LONG. About 5:55 to 6:15 per km on the flat. Walk the hills if that keeps heart rate under 155\nHeart rate may drift to 160 in the last third, no higher. Stop at the planned distance\nWater from the start, a gel at about forty five minutes and another at ninety. Proper meal after"
+    },
+    {
+      "id": 155656869,
+      "date": "2026-11-22",
+      "name": "Race prep 90min - attacks, crests, sprints",
+      "type": "WORKOUT",
+      "sport_type": "VirtualRide",
+      "planned_tss": 106,
+      "duration_hours": 1.5,
+      "duration_formatted": "1h30m",
+      "workout_summary": "15m @170W | 25m @202W | 3\u00d715s @546W / 2m45s rec | 7m @136W",
+      "has_terrain": false,
+      "start_time": "10:00"
+    },
+    {
       "id": 152047211,
       "date": "2026-12-12",
       "name": "10k time trial",
@@ -1646,12 +1743,12 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 2,
-    "success": 1,
-    "patternA": 1,
+    "attempted": 9,
+    "success": 3,
+    "patternA": 3,
     "patternB": 0,
     "bail_no_workout_doc": 0,
-    "bail_no_match": 1
+    "bail_no_match": 6
   },
   "weekly_summary": {
     "total_training_hours": 6.68,
