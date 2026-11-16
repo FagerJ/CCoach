@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-11-16T02:19:40.515136",
+    "last_updated": "2026-11-16T09:57:57.465309",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.95"
@@ -91,36 +91,36 @@
     "priority": 1,
     "signals": {
       "hrv": {
-        "status": "unavailable",
-        "value": null,
-        "baseline_7d": 64.0,
-        "delta_pct": null
+        "status": "green",
+        "value": 77.0,
+        "baseline_7d": 67.2,
+        "delta_pct": 14.6
       },
       "rhr": {
         "status": "green",
-        "value": 49,
-        "baseline_7d": 52.7,
-        "delta_bpm": -3.7
+        "value": 47,
+        "baseline_7d": 52.4,
+        "delta_bpm": -5.4
       },
       "sleep": {
-        "status": "unavailable",
-        "hours": null,
-        "quality": null
+        "status": "green",
+        "hours": 8.25,
+        "quality": 2
       },
       "acwr": {
         "status": "red",
         "value": 1.54
       },
       "ri": {
-        "status": "unavailable",
-        "value": null
+        "status": "green",
+        "value": 1.28
       }
     },
     "signal_summary": {
-      "green": 1,
+      "green": 4,
       "amber": 0,
       "red": 1,
-      "unavailable": 3
+      "unavailable": 0
     },
     "phase_context": {
       "phase": null,
@@ -162,10 +162,10 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 41.72,
-      "atl": 59.57,
-      "tsb": -17.85,
-      "ramp_rate": 5.95,
+      "ctl": 39.54,
+      "atl": 48.61,
+      "tsb": -9.07,
+      "ramp_rate": 3.77,
       "fitness_source": "Decayed from yesterday (today's planned workouts not yet completed)"
     },
     "thresholds": {
@@ -203,12 +203,12 @@
     },
     "current_metrics": {
       "weight_kg": 78.5,
-      "resting_hr": 49,
-      "hrv": null,
-      "sleep_quality": null,
-      "sleep_hours": null,
-      "sleep_formatted": null,
-      "sleep_score": null,
+      "resting_hr": 47,
+      "hrv": 77.0,
+      "sleep_quality": 2,
+      "sleep_hours": 8.25,
+      "sleep_formatted": "8h15m",
+      "sleep_score": 88.0,
       "fatigue": null,
       "soreness": null,
       "stress": null,
@@ -225,7 +225,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": null,
+      "steps": 236,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -237,13 +237,13 @@
     }
   },
   "derived_metrics": {
-    "recovery_index": null,
-    "hrv_baseline_7d": 64.0,
-    "rhr_baseline_7d": 52.7,
-    "hrv_baseline_28d": 67.5,
-    "rhr_baseline_28d": 50.8,
-    "latest_hrv": null,
-    "latest_rhr": 49,
+    "recovery_index": 1.28,
+    "hrv_baseline_7d": 67.2,
+    "rhr_baseline_7d": 52.4,
+    "hrv_baseline_28d": 68.1,
+    "rhr_baseline_28d": 50.7,
+    "latest_hrv": 77.0,
+    "latest_rhr": 47,
     "acwr": 1.54,
     "acwr_interpretation": "danger",
     "monotony": 1.0,
@@ -255,7 +255,7 @@
     "multi_sport_detected": true,
     "strain": 401.0,
     "stress_tolerance": 4.0,
-    "load_recovery_ratio": null,
+    "load_recovery_ratio": 3.1,
     "tss_7d_total": 401.0,
     "tss_28d_total": 1041.0,
     "zone_distribution_7d": {
@@ -565,7 +565,7 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 1.35,
+          "planned_tss_delta": 1.52,
           "hard_sessions_planned": 3,
           "race_proximity": 26,
           "next_week_load": null,
@@ -605,9 +605,9 @@
     "p_max": 1162,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-11-16T02:19:40.514128",
+    "calculation_timestamp": "2026-11-16T09:57:57.464349",
     "data_quality": {
-      "hrv_data_points": 3,
+      "hrv_data_points": 4,
       "rhr_data_points": 7,
       "activities_7d": 4,
       "activities_28d": 15,
@@ -1577,13 +1577,13 @@
     {
       "date": "2026-11-16",
       "weight_kg": null,
-      "resting_hr": 49,
-      "hrv_rmssd": null,
+      "resting_hr": 47,
+      "hrv_rmssd": 77.0,
       "hrv_sdnn": null,
-      "sleep_hours": null,
-      "sleep_formatted": null,
-      "sleep_quality": null,
-      "sleep_score": null,
+      "sleep_hours": 8.25,
+      "sleep_formatted": "8h15m",
+      "sleep_quality": 2,
+      "sleep_score": 88.0,
       "mental_energy": null,
       "avg_sleeping_hr": null,
       "vo2max": null,
@@ -1603,7 +1603,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": null,
+      "steps": 236,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -1616,18 +1616,18 @@
   ],
   "planned_workouts": [
     {
-      "id": 155656863,
+      "id": 156536759,
       "date": "2026-11-16",
-      "name": "Easy run 5km - HR 137-155",
+      "name": "Easy run 4km - HR under 150",
       "type": "WORKOUT",
       "sport_type": "Run",
-      "planned_tss": 21,
-      "duration_hours": 0.48,
-      "duration_formatted": "28m38s",
+      "planned_tss": 15,
+      "duration_hours": 0.38,
+      "duration_formatted": "22m54s",
       "workout_summary": null,
       "has_terrain": false,
       "start_time": "18:00",
-      "description": "- 5km 75-85% LTHR\n\nBased on RUN-EASY. First of five runs this week. Short on purpose after the weekend: the legs carry the long run and the hard ride\nResting heart rate was 56 on two mornings last week against a baseline near 50. Wear the watch at night so the coach can see whether it settles\nAchilles or calf stiffness that has not eased after the first ten minutes: stop and tell the coach"
+      "description": "- 4km 70-82% LTHR\n\nShortened this morning: Sunday's long run went to twenty-one km instead of the planned sixteen, so the acute load is well above the chronic. Keep it truly easy, slower than feels natural\nResting heart rate was 56 on two mornings last week against a baseline near 50. Wear the watch at night so the coach can see whether it settles\nAchilles or calf stiffness that has not eased after the first ten minutes: stop and tell the coach\nBased on RUN-EASY."
     },
     {
       "id": 155656864,
@@ -1635,9 +1635,9 @@
       "name": "Run home 16km - HR 137-155",
       "type": "WORKOUT",
       "sport_type": "Run",
-      "planned_tss": 66,
-      "duration_hours": 1.53,
-      "duration_formatted": "1h31m37s",
+      "planned_tss": 80,
+      "duration_hours": 1.6,
+      "duration_formatted": "1h36m",
       "workout_summary": null,
       "has_terrain": false,
       "start_time": "16:30",
@@ -1649,7 +1649,7 @@
       "name": "Tempo ride 75min - 3x11min + surges",
       "type": "WORKOUT",
       "sport_type": "VirtualRide",
-      "planned_tss": 77,
+      "planned_tss": 72,
       "duration_hours": 1.25,
       "duration_formatted": "1h15m",
       "workout_summary": null,
@@ -1663,9 +1663,9 @@
       "name": "NSRC - 4x2 loops at 4:30-4:35/km",
       "type": "WORKOUT",
       "sport_type": "Run",
-      "planned_tss": 76,
-      "duration_hours": 1.07,
-      "duration_formatted": "1h4m2s",
+      "planned_tss": 80,
+      "duration_hours": 1.08,
+      "duration_formatted": "1h5m",
       "workout_summary": "11m27s @145bpm | 4\u00d720s / 40s rec | 4\u00d78m / 2m rec | 8m35s @136bpm",
       "has_terrain": false,
       "start_time": "18:00",
@@ -1677,9 +1677,9 @@
       "name": "Easy run 5km - HR 137-150 (Harry)",
       "type": "WORKOUT",
       "sport_type": "Run",
-      "planned_tss": 18,
-      "duration_hours": 0.48,
-      "duration_formatted": "28m38s",
+      "planned_tss": 22,
+      "duration_hours": 0.53,
+      "duration_formatted": "32m",
       "workout_summary": null,
       "has_terrain": false,
       "start_time": "17:00",
@@ -1691,9 +1691,9 @@
       "name": "LONG RUN 18km - HR 137-155",
       "type": "WORKOUT",
       "sport_type": "Run",
-      "planned_tss": 75,
-      "duration_hours": 1.72,
-      "duration_formatted": "1h43m4s",
+      "planned_tss": 91,
+      "duration_hours": 1.8,
+      "duration_formatted": "1h48m",
       "workout_summary": null,
       "has_terrain": false,
       "start_time": "09:30",
@@ -1705,7 +1705,7 @@
       "name": "Race prep 90min - attacks, crests, sprints",
       "type": "WORKOUT",
       "sport_type": "VirtualRide",
-      "planned_tss": 106,
+      "planned_tss": 95,
       "duration_hours": 1.5,
       "duration_formatted": "1h30m",
       "workout_summary": "15m @170W | 25m @202W | 3\u00d715s @546W / 2m45s rec | 7m @136W",
@@ -1741,8 +1741,8 @@
     "total_training_formatted": "6h17m",
     "total_tss": 401,
     "activities_count": 4,
-    "avg_hrv": 64.0,
-    "avg_resting_hr": 52.7
+    "avg_hrv": 67.2,
+    "avg_resting_hr": 52.4
   },
   "race_calendar": {
     "next_race": {
