@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-11-21T16:33:56.668989",
+    "last_updated": "2026-11-21T21:52:48.541963",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.95"
@@ -160,7 +160,7 @@
       "atl": 37.12,
       "tsb": 1.66,
       "ramp_rate": 0.52,
-      "fitness_source": "Decayed from yesterday (today's planned workouts not yet completed)"
+      "fitness_source": "From Intervals.icu API (reflects completed workouts)"
     },
     "thresholds": {
       "eftp": 270.9,
@@ -219,7 +219,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 9144,
+      "steps": 10538,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -528,9 +528,9 @@
         }
       }
     },
-    "consistency_index": 0.17,
+    "consistency_index": 0.2,
     "consistency_details": {
-      "planned_days": 6,
+      "planned_days": 5,
       "completed_days": 1,
       "matched_days": 1,
       "planned_dates": [
@@ -538,8 +538,7 @@
         "2026-11-16",
         "2026-11-17",
         "2026-11-18",
-        "2026-11-20",
-        "2026-11-21"
+        "2026-11-20"
       ],
       "completed_dates": [
         "2026-11-18"
@@ -557,11 +556,11 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 1.42,
-          "hard_sessions_planned": 1,
+          "planned_tss_delta": 1.22,
+          "hard_sessions_planned": 0,
           "race_proximity": 21,
-          "next_week_load": 1.32,
-          "plan_coverage_current_week": 0.4,
+          "next_week_load": 1.44,
+          "plan_coverage_current_week": 0.2,
           "plan_coverage_next_week": 1.4
         },
         "data_quality": "good",
@@ -595,13 +594,13 @@
     "p_max": 1162,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-11-21T16:33:56.667660",
+    "calculation_timestamp": "2026-11-21T21:52:48.541009",
     "data_quality": {
       "hrv_data_points": 6,
       "rhr_data_points": 7,
       "activities_7d": 4,
       "activities_28d": 15,
-      "planned_workouts_7d": 7,
+      "planned_workouts_7d": 6,
       "ftp_history_days": {
         "indoor": 236,
         "outdoor": 0
@@ -1612,7 +1611,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 9144,
+      "steps": 10538,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -1625,32 +1624,18 @@
   ],
   "planned_workouts": [
     {
-      "id": 155656868,
-      "date": "2026-11-21",
+      "id": 158823396,
+      "date": "2026-11-22",
       "name": "LONG RUN 18km - HR 137-155",
       "type": "WORKOUT",
       "sport_type": "Run",
-      "planned_tss": 91,
-      "duration_hours": 1.8,
-      "duration_formatted": "1h48m",
+      "planned_tss": 78,
+      "duration_hours": 1.72,
+      "duration_formatted": "1h43m4s",
       "workout_summary": null,
       "has_terrain": false,
-      "start_time": "09:30",
-      "description": "- 18km 75-85% LTHR\n\nBased on RUN-LONG. About 5:55 to 6:15 per km on the flat. Walk the hills if that keeps heart rate under 155\nHeart rate may drift to 160 in the last third, no higher. Stop at the planned distance\nWater from the start, a gel at about forty five minutes and another at ninety. Proper meal after"
-    },
-    {
-      "id": 155656869,
-      "date": "2026-11-22",
-      "name": "Race prep 90min - attacks, crests, sprints",
-      "type": "WORKOUT",
-      "sport_type": "VirtualRide",
-      "planned_tss": 95,
-      "duration_hours": 1.5,
-      "duration_formatted": "1h30m",
-      "workout_summary": "15m @170W | 25m @202W | 3\u00d715s @546W / 2m45s rec | 7m @136W",
-      "has_terrain": false,
       "start_time": "10:00",
-      "description": "- 15m ramp 50-75%\n\nAttack and hold 4x\n- 1m 125%\n- 4m 95%\n- 30s 150%\n- 3m 55%\n\n- 25m 70-78%\n\nSprints 3x\n- 15s 200%\n- 2m45s 55%\n\n- 7m 50%\n\nEach block is an SRC move: go with the attack, hold the group, sprint over the crest. Fuel 60 g/h\nOr race SRC instead, if you feel like it"
+      "description": "- 18km 75-85% LTHR\n\nMoved from Saturday, and it replaces today's race prep ride: the long run is the session that matters most for Vienna, and a hard ride on top would stack two hard days. No ride and no SRC today\nAbout 5:55 to 6:15 per km on the flat. Walk the hills if that keeps heart rate under 155. Hold the lower half of the range for the first third\nHeart rate may drift to 160 in the last third, no higher. Stop at the planned distance\nWater from the start, a gel at about forty five minutes and another at ninety. Proper meal after\nAchilles or calf stiffness that has not eased after the first ten minutes, or feeling unwell: cut it short and tell the coach\nBased on RUN-LONG."
     },
     {
       "id": 158624725,
@@ -1664,7 +1649,7 @@
       "workout_summary": null,
       "has_terrain": false,
       "start_time": "18:00",
-      "description": "- 8km 75-85% LTHR\n\nBased on RUN-EASY. The day after the hard bike. About 5:55 to 6:15 per km on the flat, heart rate is the limit\nStop at the planned distance: last week's runs ran over twice and that is what cost Thursday's club session\nAchilles or calf stiffness that has not eased after the first ten minutes: stop and tell the coach"
+      "description": "- 8km 75-85% LTHR\n\nBased on RUN-EASY. The day after Sunday's long run, which moved from Saturday. Legs heavy from it: cut to six kilometres and keep it very easy. About 5:55 to 6:15 per km on the flat, heart rate is the limit\nStop at the planned distance: last week's runs ran over twice and that is what cost Thursday's club session\nAchilles or calf stiffness that has not eased after the first ten minutes: stop and tell the coach"
     },
     {
       "id": 158624726,
@@ -1672,9 +1657,9 @@
       "name": "Run home 16km - HR 137-155",
       "type": "WORKOUT",
       "sport_type": "Run",
-      "planned_tss": 70,
-      "duration_hours": 1.53,
-      "duration_formatted": "1h31m37s",
+      "planned_tss": 80,
+      "duration_hours": 1.6,
+      "duration_formatted": "1h36m",
       "workout_summary": null,
       "has_terrain": false,
       "start_time": "16:30",
@@ -1686,7 +1671,7 @@
       "name": "Tempo ride 75min - 4x10min + surges",
       "type": "WORKOUT",
       "sport_type": "VirtualRide",
-      "planned_tss": 75,
+      "planned_tss": 71,
       "duration_hours": 1.25,
       "duration_formatted": "1h15m",
       "workout_summary": null,
@@ -1714,9 +1699,9 @@
       "name": "Easy run 5km - HR 137-150 (Harry)",
       "type": "WORKOUT",
       "sport_type": "Run",
-      "planned_tss": 19,
-      "duration_hours": 0.48,
-      "duration_formatted": "28m38s",
+      "planned_tss": 22,
+      "duration_hours": 0.5,
+      "duration_formatted": "30m",
       "workout_summary": null,
       "has_terrain": false,
       "start_time": "17:00",
@@ -1728,9 +1713,9 @@
       "name": "LONG RUN 20km - HR 137-155",
       "type": "WORKOUT",
       "sport_type": "Run",
-      "planned_tss": 87,
-      "duration_hours": 1.91,
-      "duration_formatted": "1h54m31s",
+      "planned_tss": 101,
+      "duration_hours": 2.0,
+      "duration_formatted": "2h",
       "workout_summary": null,
       "has_terrain": false,
       "start_time": "09:30",
@@ -1742,7 +1727,7 @@
       "name": "Race prep 90min - attacks, crests, sprints",
       "type": "WORKOUT",
       "sport_type": "VirtualRide",
-      "planned_tss": 98,
+      "planned_tss": 85,
       "duration_hours": 1.5,
       "duration_formatted": "1h30m",
       "workout_summary": "15m @170W | 25m @194W | 3\u00d715s / 2m45s rec | 7m @136W",
@@ -1765,9 +1750,9 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 8,
-    "success": 2,
-    "patternA": 2,
+    "attempted": 7,
+    "success": 1,
+    "patternA": 1,
     "patternB": 0,
     "bail_no_workout_doc": 1,
     "bail_no_match": 6
