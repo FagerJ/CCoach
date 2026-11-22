@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-11-22T09:00:29.888348",
+    "last_updated": "2026-11-22T17:05:30.516453",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.95"
@@ -569,7 +569,7 @@
           "planned_tss_delta": 2.44,
           "hard_sessions_planned": 0,
           "race_proximity": 20,
-          "next_week_load": 1.44,
+          "next_week_load": 1.39,
           "plan_coverage_current_week": 0.2,
           "plan_coverage_next_week": 1.4
         },
@@ -604,7 +604,7 @@
     "p_max": 1161,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-11-22T09:00:29.886815",
+    "calculation_timestamp": "2026-11-22T17:05:30.515029",
     "data_quality": {
       "hrv_data_points": 6,
       "rhr_data_points": 7,
@@ -1650,16 +1650,16 @@
     {
       "id": 158624725,
       "date": "2026-11-23",
-      "name": "Easy run 8km - HR 137-155",
+      "name": "Easy run 6km - HR 137-150",
       "type": "WORKOUT",
       "sport_type": "Run",
-      "planned_tss": 35,
-      "duration_hours": 0.76,
-      "duration_formatted": "45m48s",
+      "planned_tss": 22,
+      "duration_hours": 0.57,
+      "duration_formatted": "34m21s",
       "workout_summary": null,
       "has_terrain": false,
       "start_time": "18:00",
-      "description": "- 8km 75-85% LTHR\n\nBased on RUN-EASY. The day after Sunday's long run, which moved from Saturday. Legs heavy from it: cut to six kilometres and keep it very easy. About 5:55 to 6:15 per km on the flat, heart rate is the limit\nStop at the planned distance: last week's runs ran over twice and that is what cost Thursday's club session\nAchilles or calf stiffness that has not eased after the first ten minutes: stop and tell the coach"
+      "description": "- 6km 72-82% LTHR\n\nShortened from eight at the weekly review: it is the day after Sunday's long run and the day before the sixteen km run home, three running days in a row. Keep it very easy, heart rate is the limit, slower than feels natural\nStop at the planned distance: last week's runs ran over twice early on and the load spike that followed cost Thursday's club session\nAchilles or calf stiffness that has not eased after the first ten minutes: stop and tell the coach\nBased on RUN-EASY."
     },
     {
       "id": 158624726,
@@ -1678,16 +1678,16 @@
     {
       "id": 158624727,
       "date": "2026-11-25",
-      "name": "Tempo ride 75min - 4x10min + surges",
+      "name": "Ramp test - one-minute steps",
       "type": "WORKOUT",
       "sport_type": "VirtualRide",
-      "planned_tss": 71,
-      "duration_hours": 1.25,
-      "duration_formatted": "1h15m",
+      "planned_tss": 50,
+      "duration_hours": 0.62,
+      "duration_formatted": "37m",
       "workout_summary": null,
       "has_terrain": false,
       "start_time": "19:15",
-      "description": "- 10m ramp 50-70%\n\nTempo 4x\n- 9m 82-87%\n- 30s 120%\n- 30s 82%\n- 4m 60%\n\n- 6m 62-68%\n- 3m 50%\n\nBased on SS-4. Targets a few percent lower than last week: the fourth block was a grind, and MyWhoosh puts your FTP nearer the eFTP than the calendar value\nHold the pace, answer the surge late in each block, then settle back before the recovery. Club session tomorrow"
+      "description": "Warmup\n- 8m ramp 40-55%\n- 2m 50%\n\nRamp\n- 1m 50% 85-95rpm\n- 1m 56% 85-95rpm\n- 1m 62% 85-95rpm\n- 1m 68% 85-95rpm\n- 1m 74% 85-95rpm\n- 1m 80% 85-95rpm\n- 1m 86% 85-95rpm\n- 1m 92% 85-95rpm\n- 1m 98% 85-95rpm\n- 1m 104% 85-95rpm\n- 1m 110% 85-95rpm\n- 1m 116% 85-95rpm\n- 1m 122% 85-95rpm\n- 1m 128% 85-95rpm\n- 1m 134% 85-95rpm\n- 1m 140% 85-95rpm\n- 1m 146% 85-95rpm\n\nCooldown\n- 10m ramp 50-40%\n\nReplaces this week's tempo ride and is the season plan's optional ramp test, moved from Saturday because Saturday is the long run. Calendar FTP is 290 from July, MyWhoosh says 276 and the eFTP is lower, and last week's tempo blocks were a grind: every bike target hangs on this number\nRide each step until you can no longer hold it or cadence collapses, then stop and spin easy. FTP is about three quarters of the best one-minute power. Tell the coach the result, set it in Intervals.icu and MyWhoosh, and Sunday's ride runs on the new value\nClub session tomorrow, so spin the cool-down and eat well tonight\nBased on BK-TEST-02."
     },
     {
       "id": 158624728,
@@ -1701,7 +1701,7 @@
       "workout_summary": null,
       "has_terrain": false,
       "start_time": "18:00",
-      "description": "- Warm up easy for two loops and a bit more, then four relaxed strides\n- Main set: four reps of two loops each at your own ten kilometre effort, one easy loop of jogging between reps\n- Cool down easy for two loops\n\nBased on RUN-10K. The club runs the same reps at their own paces\nYour cap: four thirty to four thirty five per km, no faster, with heart rate under about one eighty until the last loop of a rep\nThree weeks to the time trial: these are controlled, not a race. Legs heavy after two reps: stop at three"
+      "description": "- Warm up easy for two loops and a bit more, then four relaxed strides\n- Main set: four reps of two loops each at your own ten kilometre effort, one easy loop of jogging between reps\n- Cool down easy for two loops\n\nBased on RUN-10K. The club runs the same reps at their own paces\nYour cap: four thirty to four thirty five per km, no faster, with heart rate under about one eighty until the last loop of a rep\nLast club reps were on the thirteenth, so ease in. Just over two weeks to the time trial: these are controlled, not a race. Legs heavy after two reps: stop at three"
     },
     {
       "id": 158624729,
@@ -1737,13 +1737,13 @@
       "name": "Race prep 90min - attacks, crests, sprints",
       "type": "WORKOUT",
       "sport_type": "VirtualRide",
-      "planned_tss": 85,
+      "planned_tss": 98,
       "duration_hours": 1.5,
       "duration_formatted": "1h30m",
       "workout_summary": "15m @170W | 25m @194W | 3\u00d715s / 2m45s rec | 7m @136W",
       "has_terrain": false,
       "start_time": "10:00",
-      "description": "- 15m ramp 50-75%\n\nAttack and hold 4x\n- 1m 125%\n- 4m 92%\n- 30s 150%\n- 3m 55%\n\n- 25m 68-75%\n\nSprints 3x\n- 15s freeride\n- 2m45s 55%\n\n- 7m 50%\n\nBased on BK-RACE-01. Each block is an SRC move: go with the attack, hold the group, sprint over the crest. Sprints are free ride, all out, first time on MyWhoosh so check that ERG lets go. Fuel 60 g/h\nOr race SRC instead, if you feel like it"
+      "description": "- 15m ramp 50-75%\n\nAttack and hold 4x\n- 1m 125%\n- 4m 92%\n- 30s 150%\n- 3m 55%\n\n- 25m 68-75%\n\nSprints 3x\n- 15s freeride\n- 2m45s 55%\n\n- 7m 50%\n\nBased on BK-RACE-01. Each block is an SRC move: go with the attack, hold the group, sprint over the crest. Sprints are free ride, all out, first time on MyWhoosh so check that ERG lets go. Fuel sixty grams of carbs an hour\nTargets use the FTP from Wednesday's ramp test once it is set. The day after the twenty km long run: if the legs are flat after the first attack block, ride the rest as steady tempo and skip the sprints\nOr race SRC instead, if you feel like it"
     },
     {
       "id": 152047211,
