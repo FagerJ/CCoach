@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-11-27T13:18:11.842119",
+    "last_updated": "2026-11-27T22:10:29.701122",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.95"
@@ -157,7 +157,7 @@
       "atl": 15.75,
       "tsb": 17.87,
       "ramp_rate": -6.1,
-      "fitness_source": "Decayed from yesterday (today's planned workouts not yet completed)"
+      "fitness_source": "From Intervals.icu API (reflects completed workouts)"
     },
     "thresholds": {
       "eftp": 269.3,
@@ -216,7 +216,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 76,
+      "steps": 6562,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -505,14 +505,13 @@
     },
     "consistency_index": 0.0,
     "consistency_details": {
-      "planned_days": 4,
+      "planned_days": 3,
       "completed_days": 0,
       "matched_days": 0,
       "planned_dates": [
         "2026-11-22",
         "2026-11-23",
-        "2026-11-24",
-        "2026-11-27"
+        "2026-11-24"
       ],
       "completed_dates": []
     },
@@ -528,11 +527,11 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 1.92,
+          "planned_tss_delta": 1.6,
           "hard_sessions_planned": 1,
           "race_proximity": 15,
           "next_week_load": null,
-          "plan_coverage_current_week": 0.6,
+          "plan_coverage_current_week": 0.4,
           "plan_coverage_next_week": 0.0
         },
         "data_quality": "good",
@@ -566,13 +565,13 @@
     "p_max": 1155,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-11-27T13:18:11.841198",
+    "calculation_timestamp": "2026-11-27T22:10:29.700195",
     "data_quality": {
       "hrv_data_points": 6,
       "rhr_data_points": 7,
       "activities_7d": 0,
       "activities_28d": 14,
-      "planned_workouts_7d": 4,
+      "planned_workouts_7d": 3,
       "ftp_history_days": {
         "indoor": 242,
         "outdoor": 0
@@ -1529,7 +1528,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 76,
+      "steps": 6562,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -1542,32 +1541,18 @@
   ],
   "planned_workouts": [
     {
-      "id": 158624729,
-      "date": "2026-11-27",
-      "name": "Easy run 5km - HR 137-150 (Harry)",
-      "type": "WORKOUT",
-      "sport_type": "Run",
-      "planned_tss": 19,
-      "duration_hours": 0.48,
-      "duration_formatted": "28m38s",
-      "workout_summary": null,
-      "has_terrain": false,
-      "start_time": "17:00",
-      "description": "- 5km 72-82% LTHR\n\nThe first run back after more than a week with nothing logged, and the day before the long run. Harry pace, slower is better, stop at the planned distance\nIf you were ill or something hurt during the gap, tell the coach in the check-in. Calf or Achilles stiffness that has not eased after the first ten minutes: walk Harry instead and tell the coach\nBased on RUN-EASY."
-    },
-    {
       "id": 158624730,
       "date": "2026-11-28",
-      "name": "LONG RUN 14km - HR 137-155",
+      "name": "Easy long run 10km - HR 137-150",
       "type": "WORKOUT",
       "sport_type": "Run",
-      "planned_tss": 61,
-      "duration_hours": 1.34,
-      "duration_formatted": "1h20m10s",
+      "planned_tss": 39,
+      "duration_hours": 0.95,
+      "duration_formatted": "57m16s",
       "workout_summary": null,
       "has_terrain": false,
       "start_time": "09:30",
-      "description": "- 14km 75-85% LTHR\n\nCut from eighteen: nothing logged since the eighteenth and Thursday's club session was missed too, so this is only the second run in ten days. Fourteen matches the last long run you completed. Eighteen comes next Saturday if this one goes well\nAbout 5:55 to 6:15 per km on the flat, walk the hills if that keeps heart rate under 155. Hold the lower half of the range for the first third, no drift above 160. Stop at the planned distance\nCalf or Achilles stiffness that has not eased after the first ten minutes: cut it short, walk home and tell the coach\nWater from the start, a gel at about forty five minutes. Proper meal after\nBased on RUN-LONG."
+      "description": "- 10km 72-82% LTHR\n\nCut from fourteen: Friday's easy run was missed too, so this is the first run in eleven days. It reloads the calves and Achilles before next week builds again. Fourteen and then eighteen come back over the next two Saturdays if this goes well\nAbout six to six fifteen per km on the flat, walk the hills if that keeps heart rate under 150. Slower than feels natural, stop at the planned distance even if it feels easy\nIf you were ill or something hurt during the gap, tell the coach in the check-in. Calf or Achilles stiffness that has not eased after the first ten minutes: cut it short, walk home and tell the coach\nWater with you. Proper meal after\nBased on RUN-LONG."
     },
     {
       "id": 158624731,
@@ -1575,13 +1560,13 @@
       "name": "Race prep 90min - attacks, crests, sprints",
       "type": "WORKOUT",
       "sport_type": "VirtualRide",
-      "planned_tss": 85,
+      "planned_tss": 98,
       "duration_hours": 1.5,
       "duration_formatted": "1h30m",
       "workout_summary": "15m @170W | 25m @194W | 3\u00d715s / 2m45s rec | 7m @136W",
       "has_terrain": false,
       "start_time": "10:00",
-      "description": "- 15m ramp 50-75%\n\nAttack and hold 4x\n- 1m 125%\n- 4m 92%\n- 30s 150%\n- 3m 55%\n\n- 25m 68-75%\n\nSprints 3x\n- 15s freeride\n- 2m45s 55%\n\n- 7m 50%\n\nBased on BK-RACE-01. Each block is an SRC move: go with the attack, hold the group, sprint over the crest. Sprints are free ride, all out, first time on MyWhoosh so check that ERG lets go. Fuel sixty grams of carbs an hour\nWednesday's ramp test was missed and moves to early next week, so ride this on MyWhoosh's FTP of 276, not the calendar's 290. The day after the eighteen km long run: if the legs are flat after the first attack block, ride the rest as steady tempo and skip the sprints\nOr race SRC instead, if you feel like it"
+      "description": "- 15m ramp 50-75%\n\nAttack and hold 4x\n- 1m 125%\n- 4m 92%\n- 30s 150%\n- 3m 55%\n\n- 25m 68-75%\n\nSprints 3x\n- 15s freeride\n- 2m45s 55%\n\n- 7m 50%\n\nBased on BK-RACE-01. Each block is an SRC move: go with the attack, hold the group, sprint over the crest. Sprints are free ride, all out, first time on MyWhoosh so check that ERG lets go. Fuel sixty grams of carbs an hour\nWednesday's ramp test was missed and moves to early next week, so ride this on MyWhoosh's FTP of 276, not the calendar's 290. The day after the first run back in eleven days: if the legs are flat after the first attack block, ride the rest as steady tempo and skip the sprints\nOr race SRC instead, if you feel like it"
     },
     {
       "id": 152047211,
@@ -1599,12 +1584,12 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 3,
+    "attempted": 2,
     "success": 1,
     "patternA": 1,
     "patternB": 0,
     "bail_no_workout_doc": 0,
-    "bail_no_match": 2
+    "bail_no_match": 1
   },
   "weekly_summary": {
     "total_training_hours": 0.0,
