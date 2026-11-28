@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-11-28T03:52:38.865359",
+    "last_updated": "2026-11-28T12:33:07.875532",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.95"
@@ -91,29 +91,29 @@
     "priority": 2,
     "signals": {
       "hrv": {
-        "status": "unavailable",
-        "value": null,
-        "baseline_7d": 68.2,
-        "delta_pct": null
+        "status": "green",
+        "value": 84.0,
+        "baseline_7d": 70.8,
+        "delta_pct": 18.6
       },
       "rhr": {
-        "status": "unavailable",
-        "value": null,
-        "baseline_7d": 49.2,
-        "delta_bpm": null
+        "status": "green",
+        "value": 48,
+        "baseline_7d": 49,
+        "delta_bpm": -1
       },
       "sleep": {
-        "status": "unavailable",
-        "hours": null,
-        "quality": null
+        "status": "green",
+        "hours": 8.67,
+        "quality": 2
       },
       "acwr": {
         "status": "amber",
         "value": 0.0
       },
       "ri": {
-        "status": "unavailable",
-        "value": null
+        "status": "green",
+        "value": 1.21
       },
       "tsb": {
         "status": "green",
@@ -121,10 +121,10 @@
       }
     },
     "signal_summary": {
-      "green": 1,
+      "green": 5,
       "amber": 1,
       "red": 0,
-      "unavailable": 4
+      "unavailable": 0
     },
     "phase_context": {
       "phase": "Taper",
@@ -203,12 +203,12 @@
     },
     "current_metrics": {
       "weight_kg": 79.4,
-      "resting_hr": 49,
-      "hrv": null,
-      "sleep_quality": null,
-      "sleep_hours": null,
-      "sleep_formatted": null,
-      "sleep_score": null,
+      "resting_hr": 48,
+      "hrv": 84.0,
+      "sleep_quality": 2,
+      "sleep_hours": 8.67,
+      "sleep_formatted": "8h40m",
+      "sleep_score": 85.0,
       "fatigue": null,
       "soreness": null,
       "stress": null,
@@ -225,7 +225,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": null,
+      "steps": 582,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -237,13 +237,13 @@
     }
   },
   "derived_metrics": {
-    "recovery_index": null,
-    "hrv_baseline_7d": 68.2,
-    "rhr_baseline_7d": 49.2,
-    "hrv_baseline_28d": 64.2,
-    "rhr_baseline_28d": 50.9,
-    "latest_hrv": null,
-    "latest_rhr": null,
+    "recovery_index": 1.21,
+    "hrv_baseline_7d": 70.8,
+    "rhr_baseline_7d": 49,
+    "hrv_baseline_28d": 65.3,
+    "rhr_baseline_28d": 50.8,
+    "latest_hrv": 84.0,
+    "latest_rhr": 48,
     "acwr": 0.0,
     "acwr_interpretation": "undertraining",
     "monotony": null,
@@ -255,7 +255,7 @@
     "multi_sport_detected": false,
     "strain": null,
     "stress_tolerance": null,
-    "load_recovery_ratio": null,
+    "load_recovery_ratio": 0.0,
     "tss_7d_total": 0,
     "tss_28d_total": 988.0,
     "zone_distribution_7d": {
@@ -542,9 +542,9 @@
           "planned_tss_delta": 2.39,
           "hard_sessions_planned": 1,
           "race_proximity": 14,
-          "next_week_load": null,
+          "next_week_load": 1.87,
           "plan_coverage_current_week": 0.4,
-          "plan_coverage_next_week": 0.0
+          "plan_coverage_next_week": 1.4
         },
         "data_quality": "good",
         "stream_agreement": null
@@ -579,10 +579,10 @@
     "p_max": 1154,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-11-28T03:52:38.863867",
+    "calculation_timestamp": "2026-11-28T12:33:07.874659",
     "data_quality": {
-      "hrv_data_points": 5,
-      "rhr_data_points": 6,
+      "hrv_data_points": 6,
+      "rhr_data_points": 7,
       "activities_7d": 0,
       "activities_28d": 14,
       "planned_workouts_7d": 4,
@@ -1503,7 +1503,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 6562,
+      "steps": 7419,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -1516,13 +1516,13 @@
     {
       "date": "2026-11-28",
       "weight_kg": null,
-      "resting_hr": null,
-      "hrv_rmssd": null,
+      "resting_hr": 48,
+      "hrv_rmssd": 84.0,
       "hrv_sdnn": null,
-      "sleep_hours": null,
-      "sleep_formatted": null,
-      "sleep_quality": null,
-      "sleep_score": null,
+      "sleep_hours": 8.67,
+      "sleep_formatted": "8h40m",
+      "sleep_quality": 2,
+      "sleep_score": 85.0,
       "mental_energy": null,
       "avg_sleeping_hr": null,
       "vo2max": null,
@@ -1542,7 +1542,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": null,
+      "steps": 582,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -1583,6 +1583,103 @@
       "description": "- 15m ramp 50-75%\n\nAttack and hold 4x\n- 1m 125%\n- 4m 92%\n- 30s 150%\n- 3m 55%\n\n- 25m 68-75%\n\nSprints 3x\n- 15s freeride\n- 2m45s 55%\n\n- 7m 50%\n\nBased on BK-RACE-01. Each block is an SRC move: go with the attack, hold the group, sprint over the crest. Sprints are free ride, all out, first time on MyWhoosh so check that ERG lets go. Fuel sixty grams of carbs an hour\nWednesday's ramp test was missed and moves to early next week, so ride this on MyWhoosh's FTP of 276, not the calendar's 290. The day after the first run back in eleven days: if the legs are flat after the first attack block, ride the rest as steady tempo and skip the sprints\nOr race SRC instead, if you feel like it"
     },
     {
+      "id": 161541975,
+      "date": "2026-11-30",
+      "name": "Easy run 6km - HR 137-150",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": 23,
+      "duration_hours": 0.57,
+      "duration_formatted": "34m21s",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "18:00",
+      "description": "- 6km 72-82% LTHR\n\nRe-entry week: one run in the last eleven days before Saturday, so the calves and Achilles set the pace of the ramp this week, not the table. Very easy, heart rate is the limit, stop at the planned distance\nAchilles or calf stiffness that has not eased after the first ten minutes: stop and tell the coach\nBased on RUN-EASY."
+    },
+    {
+      "id": 161541977,
+      "date": "2026-12-01",
+      "name": "Run home 12km - HR 137-150",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": 47,
+      "duration_hours": 1.15,
+      "duration_formatted": "1h8m43s",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "16:30",
+      "description": "- 12km 72-82% LTHR\n\nTake the bus most of the way and run the last twelve home, or the same distance from home if you are not in. Start around six minutes per km, heart rate is the limit, stop at the planned distance. Headlamp, reflective gear, traction shoes if it is icy\nCalf or Achilles stiffness that has not eased after the first ten minutes: stop and tell the coach. Water along the way\nBased on RUN-EASY."
+    },
+    {
+      "id": 161541979,
+      "date": "2026-12-02",
+      "name": "Ramp test 37min - one-minute steps",
+      "type": "WORKOUT",
+      "sport_type": "VirtualRide",
+      "planned_tss": 51,
+      "duration_hours": 0.62,
+      "duration_formatted": "37m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "19:15",
+      "description": "Warmup\n- 5m ramp 40-50%\n- 5m 55-60%\n\nRamp\n- 1m 50% 85-95rpm\n- 1m 56% 85-95rpm\n- 1m 62% 85-95rpm\n- 1m 68% 85-95rpm\n- 1m 74% 85-95rpm\n- 1m 80% 85-95rpm\n- 1m 86% 85-95rpm\n- 1m 92% 85-95rpm\n- 1m 98% 85-95rpm\n- 1m 104% 85-95rpm\n- 1m 110% 85-95rpm\n- 1m 116% 85-95rpm\n- 1m 122% 85-95rpm\n- 1m 128% 85-95rpm\n- 1m 134% 85-95rpm\n- 1m 140% 85-95rpm\n- 1m 146% 85-95rpm\n\nCooldown\n- 10m ramp 55-40%\n\nCarried over from last week, and it replaces this week's tempo ride. The indoor FTP of 290 dates from July and MyWhoosh has you at 276: this sets the bike zones for the winter\nRide each step until you can no longer hold it or cadence collapses, then stop and spin easy. The late steps are a ceiling, not a goal. Fan on, bottle full, eat normally beforehand\nClub reps tomorrow: once the test is done, spin easy and get off\nBased on BK-TEST-02."
+    },
+    {
+      "id": 161541981,
+      "date": "2026-12-03",
+      "name": "NSRC 4x2 loops at 4:45-4:55/km",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": 75,
+      "duration_hours": 1.17,
+      "duration_formatted": "1h10m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "18:00",
+      "description": "- Warm up easy for two loops and a bit more, then four relaxed strides\n- Main set: four reps of two loops each at threshold effort, one easy loop of jogging between reps\n- Cool down easy for two loops\n\nThe club runs the same reps at their own threshold effort, comfortably hard, the pace you could hold for about an hour\nYour cap: four forty five to four fifty five per km, no faster, heart rate under about one seventy five until the last loop of a rep. Let the group go if they run faster\nFirst club reps since the thirteenth and nine days before the time trial: these reload the calves for speed, they are not a test. Calves tight after two reps: jog the rest\nCalf or Achilles stiffness that has not eased in the warm up: run it all easy and tell the coach\nBased on RUN-10K, eased towards RUN-TEMPO."
+    },
+    {
+      "id": 161541984,
+      "date": "2026-12-04",
+      "name": "Easy run 5km - HR 137-150 (Harry)",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": 19,
+      "duration_hours": 0.48,
+      "duration_formatted": "28m38s",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "17:00",
+      "description": "- 5km 70-82% LTHR\n\nHarry pace, the day between the club reps and the long run. Slower is better\nCalves stiff from Thursday and not easing: walk Harry instead and tell the coach\nBased on RUN-EASY."
+    },
+    {
+      "id": 161541986,
+      "date": "2026-12-05",
+      "name": "LONG RUN 14km - HR 137-155",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": 61,
+      "duration_hours": 1.34,
+      "duration_formatted": "1h20m10s",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "09:30",
+      "description": "- 14km 75-85% LTHR\n\nThe week's key run. Back up from this Saturday's ten, the second step of the way back after the gap. Eighteen follows after the time trial week if this goes well\nAbout five fifty five to six fifteen per km on the flat. Walk the hills if that keeps heart rate under 155. Hold the lower half of the range for the first third, it may drift to 160 in the last third, no higher. Stop at the planned distance\nWater from the start, a gel at about forty five minutes. Proper meal after\nAchilles or calf stiffness that has not eased after the first ten minutes, or feeling unwell: cut it short and tell the coach\nBased on RUN-LONG."
+    },
+    {
+      "id": 161541988,
+      "date": "2026-12-06",
+      "name": "Race prep 90min - attacks, crests, sprints",
+      "type": "WORKOUT",
+      "sport_type": "VirtualRide",
+      "planned_tss": 98,
+      "duration_hours": 1.5,
+      "duration_formatted": "1h30m",
+      "workout_summary": "15m @170W | 25m @194W | 3\u00d715s / 2m45s rec | 7m @136W",
+      "has_terrain": false,
+      "start_time": "10:00"
+    },
+    {
       "id": 152047211,
       "date": "2026-12-12",
       "name": "10k time trial",
@@ -1598,20 +1695,20 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 2,
-    "success": 1,
-    "patternA": 1,
+    "attempted": 8,
+    "success": 2,
+    "patternA": 2,
     "patternB": 0,
-    "bail_no_workout_doc": 0,
-    "bail_no_match": 1
+    "bail_no_workout_doc": 1,
+    "bail_no_match": 6
   },
   "weekly_summary": {
     "total_training_hours": 0.0,
     "total_training_formatted": "0s",
     "total_tss": 0,
     "activities_count": 0,
-    "avg_hrv": 68.2,
-    "avg_resting_hr": 49.2
+    "avg_hrv": 70.8,
+    "avg_resting_hr": 49.0
   },
   "race_calendar": {
     "next_race": {
